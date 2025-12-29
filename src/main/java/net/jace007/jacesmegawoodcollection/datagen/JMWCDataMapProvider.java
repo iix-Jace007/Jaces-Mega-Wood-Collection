@@ -14,7 +14,6 @@ public class JMWCDataMapProvider extends DataMapProvider {
 
     @Override
     protected void gather() {
-        this.builder(NeoForgeDataMaps.FURNACE_FUELS);
 
     }
 }
