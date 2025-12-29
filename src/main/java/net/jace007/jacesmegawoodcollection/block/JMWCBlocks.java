@@ -80,6 +80,9 @@ public class JMWCBlocks {
     public static final DeferredBlock<ButtonBlock> AGRABAH_CEDER_BUTTON = registerBlock("agrabah_ceder_button",
             () -> new ButtonBlock(BlockSetType.OAK, 15, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
 
+    public static final DeferredBlock<PressurePlateBlock> AGRABAH_CEDER_PRESSUREPLATE = registerBlock("agrabah_ceder_pressureplate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+
     public static final DeferredBlock<Block> AGRABAH_CEDER_LEAVES = registerBlock("agrabah_ceder_leaves",
             () -> new JMWCLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
 
