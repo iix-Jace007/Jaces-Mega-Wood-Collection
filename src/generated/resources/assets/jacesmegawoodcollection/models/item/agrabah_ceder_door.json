@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jacesmegawoodcollection:item/agrabah_ceder_door"
+  }
+}

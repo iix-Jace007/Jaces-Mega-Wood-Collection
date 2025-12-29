@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_agrabah_ceder_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jacesmegawoodcollection:stripped_agrabah_ceder_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jacesmegawoodcollection:stripped_agrabah_ceder_log_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stripped_agrabah_ceder_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jacesmegawoodcollection:stripped_agrabah_ceder_log_stairs"
+    ]
+  }
+}

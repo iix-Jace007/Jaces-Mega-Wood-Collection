@@ -56,7 +56,7 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
         trapdoorBuilder(JMWCBlocks.AGRABAH_CEDER_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.AGRABAH_CEDER_LOG.get())).group("agrabah_ceder")
                 .unlockedBy("has_agrabah_ceder_log", has(JMWCBlocks.AGRABAH_CEDER_LOG)).save(recipeOutput);
 
-        pressurePlate(recipeOutput, JMWCBlocks.AGRABAH_CEDER_SLAB.get(), JMWCBlocks.AGRABAH_CEDER_PLANKS);
+        pressurePlate(recipeOutput, JMWCBlocks.AGRABAH_CEDER_PRESSUREPLATE.get(), JMWCBlocks.AGRABAH_CEDER_PLANKS.get());
 
         buttonBuilder(JMWCBlocks.AGRABAH_CEDER_BUTTON.get(), Ingredient.of(JMWCBlocks.AGRABAH_CEDER_PLANKS.get())).group("agrabah_ceder")
                 .unlockedBy("has_agrabah_ceder_planks", has(JMWCBlocks.AGRABAH_CEDER_PLANKS)).save(recipeOutput);

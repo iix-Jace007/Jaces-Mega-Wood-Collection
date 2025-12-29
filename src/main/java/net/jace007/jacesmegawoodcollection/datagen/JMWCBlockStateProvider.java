@@ -6,13 +6,17 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
 import java.awt.*;
+import java.util.function.Function;
 
 public class JMWCBlockStateProvider extends BlockStateProvider {
     public JMWCBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -69,13 +73,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         pressurePlateBlock(JMWCBlocks.AGRABAH_CEDER_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.AGRABAH_CEDER_PLANKS.get()));
         blockItem(JMWCBlocks.AGRABAH_CEDER_PRESSUREPLATE);
 
-
-
-
-
-
-
-
     }
     private void saplingBlock(DeferredBlock<Block> blockRegistryObject) {
         simpleBlock(blockRegistryObject.get(),
@@ -91,12 +88,12 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
         simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
     }
+
     private void blockItem(DeferredBlock<?> deferredBlock) {
-        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" + deferredBlock.getId().getPath()));
+        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("jacesmegawoodcollection:block/" + deferredBlock.getId().getPath()));
     }
 
     private void blockItem(DeferredBlock<?> deferredBlock, String appendix) {
-        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" + deferredBlock.getId().getPath() + appendix));
+        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("jacesmegawoodcollection:block/" + deferredBlock.getId().getPath() + appendix));
     }
-
 }

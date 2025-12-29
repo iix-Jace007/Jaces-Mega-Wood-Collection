@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "textures": "jacesmegawoodcollection:block/agrabah_ceder_log"
+  }
+}

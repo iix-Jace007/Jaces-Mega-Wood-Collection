@@ -5,10 +5,13 @@ import net.jace007.jacesmegawoodcollection.block.JMWCBlocks;
 import net.jace007.jacesmegawoodcollection.item.JMWCItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.PackType;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.FenceBlock;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
+import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -36,15 +39,16 @@ public class JMWCItemModelProvider extends ItemModelProvider {
                 ResourceLocation.parse("item/generated")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,"block/" + item.getId().getPath()));
     }
+
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
-                .texture("texture",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
+                .texture("textures",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     public void fenceItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/fence_inventory"))
-                .texture("texture",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
+                .texture("textures",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 

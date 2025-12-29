@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "agrabah_ceder",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:agrabah_ceder_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "jacesmegawoodcollection:agrabah_ceder_door"
+  }
+}
