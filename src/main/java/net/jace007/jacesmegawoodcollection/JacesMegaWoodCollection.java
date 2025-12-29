@@ -1,5 +1,6 @@
 package net.jace007.jacesmegawoodcollection;
 
+import net.jace007.jacesmegawoodcollection.block.JMWCBlocks;
 import net.jace007.jacesmegawoodcollection.item.JMWCItems;
 import org.slf4j.Logger;
 
@@ -53,6 +54,7 @@ public class JacesMegaWoodCollection {
         NeoForge.EVENT_BUS.register(this);
 
         JMWCItems.register(modEventBus);
+        JMWCBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
