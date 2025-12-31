@@ -26,10 +26,10 @@ public class JMWCItemModelProvider extends ItemModelProvider {
 
         buttonItem(JMWCBlocks.AGRABAH_CEDER_BUTTON, JMWCBlocks.AGRABAH_CEDER_PLANKS);
 
+        basicItem(JMWCBlocks.AGRABAH_CEDER_DOOR.asItem());
+
         fenceItem(JMWCBlocks.AGRABAH_CEDER_FENCE, JMWCBlocks.AGRABAH_CEDER_PLANKS);
         fenceItem(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE, JMWCBlocks.AGRABAH_CEDER_LOG);
-
-        basicItem(JMWCBlocks.AGRABAH_CEDER_DOOR.asItem());
 
         saplingItem(JMWCBlocks.AGRABAH_CEDER_SAPLING);
 
