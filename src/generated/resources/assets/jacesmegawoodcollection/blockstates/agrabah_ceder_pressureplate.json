@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/agrabah_ceder_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/agrabah_ceder_pressureplate_down"
+    }
+  }
+}

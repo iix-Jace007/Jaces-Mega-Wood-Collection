@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/agrabah_ceder_door_bottom",
+    "top": "jacesmegawoodcollection:block/agrabah_ceder_door_top"
+  }
+}
