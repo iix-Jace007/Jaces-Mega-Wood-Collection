@@ -1,3 +1,6 @@
 {
-  "parent": "jacesmegawoodcollection:block/allmen_oak_button"
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "jacesmegawoodcollection:block/allmen_oak_planks"
+  }
 }

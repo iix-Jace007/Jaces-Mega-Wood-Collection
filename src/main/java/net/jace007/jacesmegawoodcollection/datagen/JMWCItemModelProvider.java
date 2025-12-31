@@ -42,13 +42,13 @@ public class JMWCItemModelProvider extends ItemModelProvider {
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
-                .texture("textures",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 
     public void fenceItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/fence_inventory"))
-                .texture("textures",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 

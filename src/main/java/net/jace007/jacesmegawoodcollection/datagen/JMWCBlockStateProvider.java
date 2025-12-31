@@ -115,11 +115,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.ALLMEN_OAK_LOG_SLAB);
         blockItem(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG_SLAB);
 
-        blockItem(JMWCBlocks.AGRABAH_CEDAR_FENCE);
-        blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE);
-        blockItem(JMWCBlocks.ALLMEN_OAK_FENCE);
-        blockItem(JMWCBlocks.ALLMEN_OAK_FENCE_GATE);
-
         blockItem(JMWCBlocks.AGRABAH_CEDAR_FENCE_GATE);
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE_GATE);
         blockItem(JMWCBlocks.ALLMEN_OAK_FENCE_GATE);
