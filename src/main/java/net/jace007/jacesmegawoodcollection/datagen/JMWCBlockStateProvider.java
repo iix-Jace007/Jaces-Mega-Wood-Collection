@@ -65,11 +65,18 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG_STAIRS);
 
         blockItem(JMWCBlocks.AGRABAH_CEDER_SLAB);
-        blockItem(JMWCBlocks.AGRABAH_CEDER_LOG_STAIRS);
+        blockItem(JMWCBlocks.AGRABAH_CEDER_LOG_SLAB);
         blockItem(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG_SLAB);
+
+        blockItem(JMWCBlocks.AGRABAH_CEDER_FENCE);
+        blockItem(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE);
 
         blockItem(JMWCBlocks.AGRABAH_CEDER_FENCE_GATE);
         blockItem(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE_GATE);
+
+        blockItem(JMWCBlocks.AGRABAH_CEDER_BUTTON);
+
+        blockItem(JMWCBlocks.AGRABAH_CEDER_PRESSUREPLATE);
 
         blockItem(JMWCBlocks.AGRABAH_CEDER_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.AGRABAH_CEDER_LOG_TRAPDOOR, "_bottom");

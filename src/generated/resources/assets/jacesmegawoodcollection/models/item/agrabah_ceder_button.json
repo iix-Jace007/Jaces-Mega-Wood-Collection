@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:block/button_inventory",
-  "textures": {
-    "textures": "jacesmegawoodcollection:block/agrabah_ceder_planks"
-  }
+  "parent": "jacesmegawoodcollection:block/agrabah_ceder_button"
 }
