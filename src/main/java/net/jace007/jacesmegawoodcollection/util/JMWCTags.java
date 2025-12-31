@@ -19,7 +19,6 @@ public class JMWCTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> STICKS = createTag("sticks");
 
         public static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID, name));

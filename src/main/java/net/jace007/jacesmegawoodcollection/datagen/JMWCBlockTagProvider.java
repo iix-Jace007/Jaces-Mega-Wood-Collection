@@ -54,6 +54,28 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.AGRABAH_CEDER_WOOD.get())
                 .add(JMWCBlocks.STRIPPED_AGRABAH_CEDER_WOOD.get());
 
+        tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(JMWCBlocks.AGRABAH_CEDER_LOG.get())
+                .add(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_WOOD.get())
+                .add(JMWCBlocks.STRIPPED_AGRABAH_CEDER_WOOD.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_PLANKS.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_STAIRS.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG_STAIRS.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_SLAB.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_LOG_SLAB.get())
+                .add(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG_SLAB.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_FENCE.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_FENCE_GATE.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE_GATE.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_DOOR.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_TRAPDOOR.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_BUTTON.get())
+                .add(JMWCBlocks.AGRABAH_CEDER_PRESSUREPLATE.get());
+
         tag(BlockTags.LOGS)
                 .add(JMWCBlocks.AGRABAH_CEDER_LOG.get())
                 .add(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG.get())

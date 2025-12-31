@@ -1,6 +1,7 @@
 package net.jace007.jacesmegawoodcollection.datagen;
 
 import net.jace007.jacesmegawoodcollection.JacesMegaWoodCollection;
+import net.jace007.jacesmegawoodcollection.block.JMWCBlocks;
 import net.jace007.jacesmegawoodcollection.item.JMWCItems;
 import net.jace007.jacesmegawoodcollection.util.JMWCTags;
 import net.minecraft.core.HolderLookup;
