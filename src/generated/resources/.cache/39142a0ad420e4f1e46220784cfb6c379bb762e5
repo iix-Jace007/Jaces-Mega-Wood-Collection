@@ -1,1 +1,24 @@
-// 1.21	2025-12-28T19:49:05.3769905	Tags for minecraft:block mod id jacesmegawoodcollection
+// 1.21	2025-12-30T19:39:59.8297416	Tags for minecraft:block mod id jacesmegawoodcollection
+56295d937e9999ceed636fc8c472b1aff6751de3 data/jacesmegawoodcollection/tags/block/agrabah_ceder.json
+7fcd14cf5d78a65c1afe58be0aff9f869421ecbd data/jacesmegawoodcollection/tags/block/agrabah_ceder_logs.json
+78404d9320aa4e085c968e5b8f33a7bd7a0bb76e data/minecraft/tags/block/buttons.json
+7cb0fbaae0b073fb4080ea473be2594793162a36 data/minecraft/tags/block/completes_find_tree_tutorial.json
+c09a33f23a410f2911a1ebd03220399439627719 data/minecraft/tags/block/doors.json
+345a12f3dc9d7190ed08a9b25b7dfa5a8472f743 data/minecraft/tags/block/fences.json
+18682bab8f2df22a8ac98f2abd5571873f9ff956 data/minecraft/tags/block/fence_gates.json
+d5bf6921a4b2d0a87d43571ff1079a82fab98142 data/minecraft/tags/block/leaves.json
+7fcd14cf5d78a65c1afe58be0aff9f869421ecbd data/minecraft/tags/block/logs.json
+7fcd14cf5d78a65c1afe58be0aff9f869421ecbd data/minecraft/tags/block/logs_that_burn.json
+95e3f5227b8d5ff5bdc0439cdc97306ccc8bf989 data/minecraft/tags/block/planks.json
+485a7fd68c5d29069a3d86b14b8a3263dc484847 data/minecraft/tags/block/pressure_plates.json
+4a6e334d20fda8a3917e693c96e251214b68efb1 data/minecraft/tags/block/saplings.json
+e18c10dc6df2e140364585d9c9343bf942a6985e data/minecraft/tags/block/slabs.json
+0f8f746950bcbfd73d49c5f99bae85bc62066ffe data/minecraft/tags/block/stairs.json
+86aa794589450e94ae2d66e44443785b5d719f78 data/minecraft/tags/block/trapdoors.json
+78404d9320aa4e085c968e5b8f33a7bd7a0bb76e data/minecraft/tags/block/wooden_buttons.json
+c09a33f23a410f2911a1ebd03220399439627719 data/minecraft/tags/block/wooden_doors.json
+345a12f3dc9d7190ed08a9b25b7dfa5a8472f743 data/minecraft/tags/block/wooden_fences.json
+485a7fd68c5d29069a3d86b14b8a3263dc484847 data/minecraft/tags/block/wooden_pressure_plates.json
+e18c10dc6df2e140364585d9c9343bf942a6985e data/minecraft/tags/block/wooden_slabs.json
+0f8f746950bcbfd73d49c5f99bae85bc62066ffe data/minecraft/tags/block/wooden_stairs.json
+86aa794589450e94ae2d66e44443785b5d719f78 data/minecraft/tags/block/wooden_trapdoors.json
