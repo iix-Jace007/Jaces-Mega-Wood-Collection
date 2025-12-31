@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/stripped_allmen_oak_log",
+    "side": "jacesmegawoodcollection:block/stripped_allmen_oak_log",
+    "top": "jacesmegawoodcollection:block/stripped_allmen_oak_log"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "allmen_oak",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:allmen_oak_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jacesmegawoodcollection:allmen_oak_button"
+  }
+}

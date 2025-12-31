@@ -1,20 +1,45 @@
 package net.jace007.jacesmegawoodcollection.worldgen;
 
 import net.jace007.jacesmegawoodcollection.JacesMegaWoodCollection;
+import net.jace007.jacesmegawoodcollection.block.JMWCBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 
 public class JMWCConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> AGRABAH_CEDAR_KEY = registerKey("agrabah_cedar");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> ALLMEN_OAK_KEY = registerKey("allmen_oak");
 
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
+        register(context, AGRABAH_CEDAR_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(JMWCBlocks.AGRABAH_CEDAR_LOG.get()),
+                new StraightTrunkPlacer(3, 4, 2),
 
+                BlockStateProvider.simple(JMWCBlocks.AGRABAH_CEDAR_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+
+                new TwoLayersFeatureSize(1, 0, 1)).build());
+
+        register(context, ALLMEN_OAK_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(JMWCBlocks.ALLMEN_OAK_LOG.get()),
+                new StraightTrunkPlacer(3, 4, 2),
+
+                BlockStateProvider.simple(JMWCBlocks.ALLMEN_OAK_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+
+                new TwoLayersFeatureSize(1, 0, 1)).build());
 
     }
 

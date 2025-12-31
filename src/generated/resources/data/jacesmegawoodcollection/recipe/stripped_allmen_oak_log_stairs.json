@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "allmen_oak",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:stripped_allmen_oak_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:stripped_allmen_oak_log_stairs"
+  }
+}

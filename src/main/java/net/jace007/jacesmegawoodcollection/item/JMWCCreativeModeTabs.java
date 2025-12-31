@@ -40,6 +40,31 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.AGRABAH_CEDAR_LOG_TRAPDOOR);
                         output.accept(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE);
                         output.accept(JMWCBlocks.AGRABAH_CEDAR_BUTTON);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_LEAVES);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_SAPLING);
+
+                        output.accept(JMWCBlocks.ALLMEN_OAK_LOG);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_ALLMEN_OAK_WOOD);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_PLANKS);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_STAIRS);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG_STAIRS);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_SLAB);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG_SLAB);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_FENCE);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_LOG_FENCE);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_FENCE_GATE);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_DOOR);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_TRAPDOOR);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_BUTTON);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_LEAVES);
+                        output.accept(JMWCBlocks.ALLMEN_OAK_SAPLING);
 
                     }).build());
 

@@ -12,6 +12,8 @@ public class JMWCTags {
     public static class Blocks {
         public static final TagKey<Block> AGRABAH_CEDAR = createTag("agrabah_cadar");
         public static final TagKey<Block> AGRABAH_CEDAR_LOGS = createTag("agrabah_cedar_logs");
+        public static final TagKey<Block> ALLMEN_OAK = createTag("allman_oak");
+        public static final TagKey<Block> ALLMEN_OAK_LOGS = createTag("allmen_oak_logs");
 
         public static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID, name));

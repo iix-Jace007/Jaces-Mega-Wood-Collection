@@ -39,5 +39,8 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new JMWCItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new JMWCBlockStateProvider(packOutput, existingFileHelper));
 
+        generator.addProvider(event.includeServer(), new JMWCDatapackProvider(packOutput, lookupProvider));
+
+
     }
 }

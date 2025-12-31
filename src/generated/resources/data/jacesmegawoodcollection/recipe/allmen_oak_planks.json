@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:allmen_oak_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:allmen_oak_planks"
+  }
+}

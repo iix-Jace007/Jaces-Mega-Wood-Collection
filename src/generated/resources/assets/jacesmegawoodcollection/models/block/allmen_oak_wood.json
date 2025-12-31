@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jacesmegawoodcollection:block/allmen_oak_log",
+    "side": "jacesmegawoodcollection:block/allmen_oak_log"
+  }
+}

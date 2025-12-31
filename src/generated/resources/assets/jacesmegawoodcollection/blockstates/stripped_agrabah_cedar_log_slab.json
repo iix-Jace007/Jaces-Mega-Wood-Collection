@@ -4,7 +4,7 @@
       "model": "jacesmegawoodcollection:block/stripped_agrabah_cedar_log_slab"
     },
     "type=double": {
-      "model": "jacesmegawoodcollection:block/stripped_agrabah_cedar_wood"
+      "model": "jacesmegawoodcollection:block/stripped_agrabah_cedar_log"
     },
     "type=top": {
       "model": "jacesmegawoodcollection:block/stripped_agrabah_cedar_log_slab_top"

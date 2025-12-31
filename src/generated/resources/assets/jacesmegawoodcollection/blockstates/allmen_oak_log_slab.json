@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jacesmegawoodcollection:block/allmen_oak_log_slab"
+    },
+    "type=double": {
+      "model": "jacesmegawoodcollection:block/allmen_oak_log"
+    },
+    "type=top": {
+      "model": "jacesmegawoodcollection:block/allmen_oak_log_slab_top"
+    }
+  }
+}
