@@ -10,7 +10,7 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 
 public class JMWCConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> AGRABAH_CEDER_KEY = registerKey("agrabah_ceder");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> AGRABAH_CEDAR_KEY = registerKey("agrabah_cedar");
 
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {

@@ -10,8 +10,8 @@ import net.minecraft.world.level.block.Block;
 
 public class JMWCTags {
     public static class Blocks {
-        public static final TagKey<Block> AGRABAH_CEDER = createTag("agrabah_ceder");
-        public static final TagKey<Block> AGRABAH_CEDER_LOGS = createTag("agrabah_ceder_logs");
+        public static final TagKey<Block> AGRABAH_CEDAR = createTag("agrabah_cadar");
+        public static final TagKey<Block> AGRABAH_CEDAR_LOGS = createTag("agrabah_cedar_logs");
 
         public static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID, name));

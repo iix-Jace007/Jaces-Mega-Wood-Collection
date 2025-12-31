@@ -2,16 +2,11 @@ package net.jace007.jacesmegawoodcollection.datagen;
 
 import net.jace007.jacesmegawoodcollection.JacesMegaWoodCollection;
 import net.jace007.jacesmegawoodcollection.block.JMWCBlocks;
-import net.jace007.jacesmegawoodcollection.item.JMWCItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.PackType;
-import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FenceBlock;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
-import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -24,14 +19,14 @@ public class JMWCItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
-        buttonItem(JMWCBlocks.AGRABAH_CEDER_BUTTON, JMWCBlocks.AGRABAH_CEDER_PLANKS);
+        buttonItem(JMWCBlocks.AGRABAH_CEDAR_BUTTON, JMWCBlocks.AGRABAH_CEDAR_PLANKS);
 
-        basicItem(JMWCBlocks.AGRABAH_CEDER_DOOR.asItem());
+        basicItem(JMWCBlocks.AGRABAH_CEDAR_DOOR.asItem());
 
-        fenceItem(JMWCBlocks.AGRABAH_CEDER_FENCE, JMWCBlocks.AGRABAH_CEDER_PLANKS);
-        fenceItem(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE, JMWCBlocks.AGRABAH_CEDER_LOG);
+        fenceItem(JMWCBlocks.AGRABAH_CEDAR_FENCE, JMWCBlocks.AGRABAH_CEDAR_PLANKS);
+        fenceItem(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE, JMWCBlocks.AGRABAH_CEDAR_LOG);
 
-        saplingItem(JMWCBlocks.AGRABAH_CEDER_SAPLING);
+        saplingItem(JMWCBlocks.AGRABAH_CEDAR_SAPLING);
 
     }
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

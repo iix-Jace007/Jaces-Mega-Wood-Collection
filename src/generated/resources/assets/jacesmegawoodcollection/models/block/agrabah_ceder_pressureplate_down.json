@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/pressure_plate_down",
-  "textures": {
-    "texture": "jacesmegawoodcollection:block/agrabah_ceder_planks"
-  }
-}

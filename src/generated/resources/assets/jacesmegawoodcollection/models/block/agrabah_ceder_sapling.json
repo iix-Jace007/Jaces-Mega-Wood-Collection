@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "cross": "jacesmegawoodcollection:block/agrabah_ceder_sapling"
-  }
-}

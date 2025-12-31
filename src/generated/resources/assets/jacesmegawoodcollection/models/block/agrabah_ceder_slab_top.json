@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "jacesmegawoodcollection:block/agrabah_ceder_planks",
-    "side": "jacesmegawoodcollection:block/agrabah_ceder_planks",
-    "top": "jacesmegawoodcollection:block/agrabah_ceder_planks"
-  }
-}

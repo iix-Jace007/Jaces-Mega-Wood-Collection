@@ -16,30 +16,30 @@ public class JMWCCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, JacesMegaWoodCollection.MOD_ID);
 
     public static final Supplier<CreativeModeTab> JACES_WOOD_COLLECTION = CREATIVE_MODE_TAB.register("jaces_wood_collection",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(JMWCBlocks.AGRABAH_CEDER_LOG.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(JMWCBlocks.AGRABAH_CEDAR_LOG.get()))
                     .title(Component.translatable("creativetab.jacesmegawoodcollection.jaces_wood_collection"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_LOG);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_WOOD);
-                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG);
-                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDER_WOOD);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_PLANKS);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_STAIRS);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_LOG_STAIRS);
-                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG_STAIRS);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_SLAB);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_LOG_SLAB);
-                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG_SLAB);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_FENCE);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_FENCE_GATE);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_LOG_FENCE_GATE);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_DOOR);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_TRAPDOOR);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_LOG_TRAPDOOR);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_PRESSUREPLATE);
-                        output.accept(JMWCBlocks.AGRABAH_CEDER_BUTTON);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_LOG);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_WOOD);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_PLANKS);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_STAIRS);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG_STAIRS);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_SLAB);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG_SLAB);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_FENCE);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_FENCE_GATE);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_DOOR);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_TRAPDOOR);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.AGRABAH_CEDAR_BUTTON);
 
                     }).build());
 

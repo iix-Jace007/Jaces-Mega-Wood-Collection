@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "agrabah_cedar",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:agrabah_cedar_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:agrabah_cedar_stairs"
+  }
+}

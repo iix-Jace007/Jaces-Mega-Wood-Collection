@@ -34,11 +34,11 @@ public class JMWCFlammableRotatedPillarBlock extends RotatedPillarBlock {
     public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context,
                                                      ItemAbility itemAbility, boolean simulate) {
         if(context.getItemInHand().getItem() instanceof AxeItem) {
-            if(state.is(JMWCBlocks.AGRABAH_CEDER_LOG)){
-                return JMWCBlocks.STRIPPED_AGRABAH_CEDER_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            if(state.is(JMWCBlocks.AGRABAH_CEDAR_LOG)){
+                return JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
-            if(state.is(JMWCBlocks.AGRABAH_CEDER_WOOD)){
-                return JMWCBlocks.STRIPPED_AGRABAH_CEDER_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            if(state.is(JMWCBlocks.AGRABAH_CEDAR_WOOD)){
+                return JMWCBlocks.STRIPPED_AGRABAH_CEDAR_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
         }
 
