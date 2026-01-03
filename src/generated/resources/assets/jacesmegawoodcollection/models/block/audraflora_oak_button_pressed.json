@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "jacesmegawoodcollection:block/audraflora_oak_planks"
+  }
+}

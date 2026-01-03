@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:stripped_audraflora_oak_wood"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "jacesmegawoodcollection:stripped_audraflora_oak_log_slab"
+  }
+}

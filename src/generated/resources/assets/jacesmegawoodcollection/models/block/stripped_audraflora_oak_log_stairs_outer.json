@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/stripped_audraflora_oak_log",
+    "side": "jacesmegawoodcollection:block/stripped_audraflora_oak_log",
+    "top": "jacesmegawoodcollection:block/stripped_audraflora_oak_log"
+  }
+}

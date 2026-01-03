@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jacesmegawoodcollection:block/audraflora_oak_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "jacesmegawoodcollection:block/audraflora_oak_planks"
+  }
+}

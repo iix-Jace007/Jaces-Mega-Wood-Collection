@@ -66,6 +66,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.ALLMEN_OAK_LEAVES);
                         output.accept(JMWCBlocks.ALLMEN_OAK_SAPLING);
 
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_WOOD);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_PLANKS);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_STAIRS);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_STAIRS);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_SLAB);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_SLAB);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_FENCE);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_FENCE_GATE);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_DOOR);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_TRAPDOOR);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_BUTTON);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_LEAVES);
+                        output.accept(JMWCBlocks.AUDRAFLORA_OAK_SAPLING);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

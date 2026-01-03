@@ -45,6 +45,29 @@
   "block.jacesmegawoodcollection.allmen_oak_pressureplate": "Allmen Oak Pressureplate",
   "block.jacesmegawoodcollection.allmen_oak_button": "Allmen Oak Button",
   "block.jacesmegawoodcollection.allmen_oak_leaves": "Allmen Oak Leaves",
-  "block.jacesmegawoodcollection.allmen_oak_sapling": "Allmen Oak Cedar Sapling"
+  "block.jacesmegawoodcollection.allmen_oak_sapling": "Allmen Oak Cedar Sapling",
+
+  "block.jacesmegawoodcollection.audraflora_oak_log": "Audraflora Oak Log",
+  "block.jacesmegawoodcollection.audraflora_oak_wood": "Audraflora Oak Wood",
+  "block.jacesmegawoodcollection.stripped_audraflora_oak_log": "Stripped Audraflora Oak Log",
+  "block.jacesmegawoodcollection.stripped_audraflora_oak_wood": "Stripped Audraflora Oak Wood",
+  "block.jacesmegawoodcollection.audraflora_oak_planks": "Audraflora Oak Planks",
+  "block.jacesmegawoodcollection.audraflora_oak_stairs": "Audraflora Oak Stairs",
+  "block.jacesmegawoodcollection.audraflora_oak_log_stairs": "Audraflora Oak Log Stairs",
+  "block.jacesmegawoodcollection.stripped_audraflora_oak_log_stairs": "Stripped Audraflora Oak Log Stairs",
+  "block.jacesmegawoodcollection.audraflora_oak_slab": "Audraflora Oak Slab",
+  "block.jacesmegawoodcollection.audraflora_oak_log_slab": "Audraflora Oak Log Slab",
+  "block.jacesmegawoodcollection.stripped_audraflora_oak_log_slab": "Stripped Audraflora Oak Log Slab",
+  "block.jacesmegawoodcollection.audraflora_oak_fence": "Audraflora Oak Fence",
+  "block.jacesmegawoodcollection.audraflora_oak_log_fence": "Audraflora Oak Log Fence",
+  "block.jacesmegawoodcollection.audraflora_oak_fence_gate": "Audraflora Oak Fence Gate",
+  "block.jacesmegawoodcollection.audraflora_oak_log_fence_gate": "Audraflora Oak Log Fence Gate",
+  "block.jacesmegawoodcollection.audraflora_oak_door": "Audraflora Oak Door",
+  "block.jacesmegawoodcollection.audraflora_oak_trapdoor": "Audraflora Oak Trapdoor",
+  "block.jacesmegawoodcollection.audraflora_oak_log_trapdoor": "Audraflora Oak Log Trapdoor",
+  "block.jacesmegawoodcollection.audraflora_oak_pressureplate": "Audraflora Oak Pressureplate",
+  "block.jacesmegawoodcollection.audraflora_oak_button": "Audraflora Oak Button",
+  "block.jacesmegawoodcollection.audraflora_oak_leaves": "Audraflora Oak Leaves",
+  "block.jacesmegawoodcollection.audraflora_oak_sapling": "Audraflora Oak Cedar Sapling"
 
 }

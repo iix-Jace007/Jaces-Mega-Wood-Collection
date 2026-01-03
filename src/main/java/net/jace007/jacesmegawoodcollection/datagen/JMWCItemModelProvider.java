@@ -21,17 +21,22 @@ public class JMWCItemModelProvider extends ItemModelProvider {
 
         buttonItem(JMWCBlocks.AGRABAH_CEDAR_BUTTON, JMWCBlocks.AGRABAH_CEDAR_PLANKS);
         buttonItem(JMWCBlocks.ALLMEN_OAK_BUTTON, JMWCBlocks.ALLMEN_OAK_PLANKS);
+        buttonItem(JMWCBlocks.AUDRAFLORA_OAK_BUTTON, JMWCBlocks.AUDRAFLORA_OAK_PLANKS);
 
         basicItem(JMWCBlocks.AGRABAH_CEDAR_DOOR.asItem());
         basicItem(JMWCBlocks.ALLMEN_OAK_DOOR.asItem());
+        basicItem(JMWCBlocks.AUDRAFLORA_OAK_DOOR.asItem());
 
         fenceItem(JMWCBlocks.AGRABAH_CEDAR_FENCE, JMWCBlocks.AGRABAH_CEDAR_PLANKS);
         fenceItem(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE, JMWCBlocks.AGRABAH_CEDAR_LOG);
         fenceItem(JMWCBlocks.ALLMEN_OAK_FENCE, JMWCBlocks.ALLMEN_OAK_PLANKS);
         fenceItem(JMWCBlocks.ALLMEN_OAK_LOG_FENCE, JMWCBlocks.ALLMEN_OAK_LOG);
+        fenceItem(JMWCBlocks.AUDRAFLORA_OAK_FENCE, JMWCBlocks.AUDRAFLORA_OAK_PLANKS);
+        fenceItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE, JMWCBlocks.AUDRAFLORA_OAK_LOG);
 
         saplingItem(JMWCBlocks.AGRABAH_CEDAR_SAPLING);
         saplingItem(JMWCBlocks.ALLMEN_OAK_SAPLING);
+        saplingItem(JMWCBlocks.AUDRAFLORA_OAK_SAPLING);
 
     }
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

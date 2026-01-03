@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/audraflora_oak_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/audraflora_oak_pressureplate_down"
+    }
+  }
+}

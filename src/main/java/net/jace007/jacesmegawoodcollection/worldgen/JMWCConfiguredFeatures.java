@@ -20,6 +20,7 @@ import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlac
 public class JMWCConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> AGRABAH_CEDAR_KEY = registerKey("agrabah_cedar");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ALLMEN_OAK_KEY = registerKey("allmen_oak");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> AUDRAFLORA_OAK_KEY = registerKey("audraflora_oak");
 
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
@@ -37,6 +38,15 @@ public class JMWCConfiguredFeatures {
                 new StraightTrunkPlacer(3, 4, 2),
 
                 BlockStateProvider.simple(JMWCBlocks.ALLMEN_OAK_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+
+                new TwoLayersFeatureSize(1, 0, 1)).build());
+
+        register(context, AUDRAFLORA_OAK_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()),
+                new StraightTrunkPlacer(3, 4, 2),
+
+                BlockStateProvider.simple(JMWCBlocks.AUDRAFLORA_OAK_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
 
                 new TwoLayersFeatureSize(1, 0, 1)).build());

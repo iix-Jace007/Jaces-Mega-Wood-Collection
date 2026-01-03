@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jacesmegawoodcollection:block/audraflora_oak_log_top",
+    "side": "jacesmegawoodcollection:block/audraflora_oak_log"
+  }
+}
