@@ -18,6 +18,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
+// Test
+
 public class JMWCBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(JacesMegaWoodCollection.MOD_ID);
