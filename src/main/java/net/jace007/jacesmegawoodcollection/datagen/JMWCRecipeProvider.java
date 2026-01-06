@@ -24,7 +24,7 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy("has_allmen_oak_log", has(JMWCBlocks.ALLMEN_OAK_LOG)).save(recipeOutput);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get(),4)
                 .requires(JMWCBlocks.AUDRAFLORA_OAK_LOG)
-                .unlockedBy("has_audraflora_oak_log", has(JMWCBlocks.AUDRAFLORA_OAK_BUTTON)).save(recipeOutput);
+                .unlockedBy("has_audraflora_oak_log", has(JMWCBlocks.AUDRAFLORA_OAK_LOG)).save(recipeOutput);
 
         stairBuilder(JMWCBlocks.AGRABAH_CEDAR_STAIRS.get(), Ingredient.of(JMWCBlocks.AGRABAH_CEDAR_PLANKS)).group("agrabah_cedar")
                 .unlockedBy("has_agrabah_cedar_planks", has(JMWCBlocks.AGRABAH_CEDAR_PLANKS)).save(recipeOutput);
@@ -97,6 +97,10 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy("has_allmen_oak_planks", has(JMWCBlocks.ALLMEN_OAK_PLANKS)).save(recipeOutput);
         trapdoorBuilder(JMWCBlocks.ALLMEN_OAK_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.ALLMEN_OAK_LOG.get())).group("allmen_oak")
                 .unlockedBy("has_allmen_oak_log", has(JMWCBlocks.ALLMEN_OAK_LOG)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.AUDRAFLORA_OAK_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get())).group("audraflora_oak")
+                .unlockedBy("has_allmen_oak_planks", has(JMWCBlocks.AUDRAFLORA_OAK_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.AUDRAFLORA_OAK_LOG.get())).group("audraflora_oak")
+                .unlockedBy("has_allmen_oak_log", has(JMWCBlocks.AUDRAFLORA_OAK_LOG)).save(recipeOutput);
 
         pressurePlate(recipeOutput, JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE.get(), JMWCBlocks.AGRABAH_CEDAR_PLANKS.get());
         pressurePlate(recipeOutput, JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE.get(), JMWCBlocks.ALLMEN_OAK_PLANKS.get());

@@ -46,6 +46,12 @@ public class JMWCFlammableRotatedPillarBlock extends RotatedPillarBlock {
             if(state.is(JMWCBlocks.ALLMEN_OAK_WOOD)){
                 return JMWCBlocks.STRIPPED_ALLMEN_OAK_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+            if(state.is(JMWCBlocks.AUDRAFLORA_OAK_LOG)){
+                return JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(JMWCBlocks.AUDRAFLORA_OAK_WOOD)){
+                return JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
         }
 
         return super.getToolModifiedState(state, context, itemAbility, simulate);
