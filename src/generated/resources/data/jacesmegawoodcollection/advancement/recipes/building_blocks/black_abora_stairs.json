@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_black_abora_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jacesmegawoodcollection:black_abora_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jacesmegawoodcollection:black_abora_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_black_abora_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jacesmegawoodcollection:black_abora_stairs"
+    ]
+  }
+}

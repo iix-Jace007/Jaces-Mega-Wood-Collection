@@ -89,6 +89,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_LEAVES);
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_SAPLING);
 
+                        output.accept(JMWCBlocks.BLACK_ABORA_LOG);
+                        output.accept(JMWCBlocks.BLACK_ABORA_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_BLACK_ABORA_WOOD);
+                        output.accept(JMWCBlocks.BLACK_ABORA_PLANKS);
+                        output.accept(JMWCBlocks.BLACK_ABORA_STAIRS);
+                        output.accept(JMWCBlocks.BLACK_ABORA_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_STAIRS);
+                        output.accept(JMWCBlocks.BLACK_ABORA_SLAB);
+                        output.accept(JMWCBlocks.BLACK_ABORA_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_SLAB);
+                        output.accept(JMWCBlocks.BLACK_ABORA_FENCE);
+                        output.accept(JMWCBlocks.BLACK_ABORA_LOG_FENCE);
+                        output.accept(JMWCBlocks.BLACK_ABORA_FENCE_GATE);
+                        output.accept(JMWCBlocks.BLACK_ABORA_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.BLACK_ABORA_DOOR);
+                        output.accept(JMWCBlocks.BLACK_ABORA_TRAPDOOR);
+                        output.accept(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.BLACK_ABORA_BUTTON);
+                        output.accept(JMWCBlocks.BLACK_ABORA_LEAVES);
+                        output.accept(JMWCBlocks.BLACK_ABORA_SAPLING);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

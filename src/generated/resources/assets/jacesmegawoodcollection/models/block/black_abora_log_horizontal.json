@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "jacesmegawoodcollection:block/black_abora_log_top",
+    "side": "jacesmegawoodcollection:block/black_abora_log"
+  }
+}

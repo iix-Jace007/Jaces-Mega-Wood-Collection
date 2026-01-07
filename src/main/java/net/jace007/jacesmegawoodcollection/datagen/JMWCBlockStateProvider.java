@@ -38,6 +38,12 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_WOOD.get()),
                 blockTexture(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.BLACK_ABORA_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.BLACK_ABORA_WOOD.get()),
+                blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()), blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_BLACK_ABORA_WOOD.get()),
+                blockTexture(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get()));
 
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG);
         blockItem(JMWCBlocks.AGRABAH_CEDAR_WOOD);
@@ -51,18 +57,25 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_WOOD);
         blockItem(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG);
         blockItem(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_WOOD);
+        blockItem(JMWCBlocks.BLACK_ABORA_LOG);
+        blockItem(JMWCBlocks.BLACK_ABORA_WOOD);
+        blockItem(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG);
+        blockItem(JMWCBlocks.STRIPPED_BLACK_ABORA_WOOD);
 
         blockWithItem(JMWCBlocks.AGRABAH_CEDAR_PLANKS);
         blockWithItem(JMWCBlocks.ALLMEN_OAK_PLANKS);
         blockWithItem(JMWCBlocks.AUDRAFLORA_OAK_PLANKS);
+        blockWithItem(JMWCBlocks.BLACK_ABORA_PLANKS);
 
         leavesBlock(JMWCBlocks.AGRABAH_CEDAR_LEAVES);
         leavesBlock(JMWCBlocks.ALLMEN_OAK_LEAVES);
         leavesBlock(JMWCBlocks.AUDRAFLORA_OAK_LEAVES);
+        leavesBlock(JMWCBlocks.BLACK_ABORA_LEAVES);
 
         saplingBlock(JMWCBlocks.AGRABAH_CEDAR_SAPLING);
         saplingBlock(JMWCBlocks.ALLMEN_OAK_SAPLING);
         saplingBlock(JMWCBlocks.AUDRAFLORA_OAK_SAPLING);
+        saplingBlock(JMWCBlocks.BLACK_ABORA_SAPLING);
 
         stairsBlock(JMWCBlocks.AGRABAH_CEDAR_STAIRS.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get()));
         stairsBlock(JMWCBlocks.AGRABAH_CEDAR_LOG_STAIRS.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_LOG.get()));
@@ -73,6 +86,9 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         stairsBlock(JMWCBlocks.AUDRAFLORA_OAK_STAIRS.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get()));
         stairsBlock(JMWCBlocks.AUDRAFLORA_OAK_LOG_STAIRS.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()));
         stairsBlock(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get()));
+        stairsBlock(JMWCBlocks.BLACK_ABORA_STAIRS.get(), blockTexture(JMWCBlocks.BLACK_ABORA_PLANKS.get()));
+        stairsBlock(JMWCBlocks.BLACK_ABORA_LOG_STAIRS.get(), blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()));
+        stairsBlock(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get()));
 
         slabBlock(JMWCBlocks.AGRABAH_CEDAR_SLAB.get(),
                 blockTexture(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get()), blockTexture(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get()));
@@ -92,14 +108,22 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
                 blockTexture(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()));
         slabBlock(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_SLAB.get(),
                 blockTexture(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get()));
+        slabBlock(JMWCBlocks.BLACK_ABORA_SLAB.get(),
+                blockTexture(JMWCBlocks.BLACK_ABORA_PLANKS.get()), blockTexture(JMWCBlocks.BLACK_ABORA_PLANKS.get()));
+        slabBlock(JMWCBlocks.BLACK_ABORA_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()), blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()));
+        slabBlock(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get()));
 
         buttonBlock(JMWCBlocks.AGRABAH_CEDAR_BUTTON.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get()));
         buttonBlock(JMWCBlocks.ALLMEN_OAK_BUTTON.get(), blockTexture(JMWCBlocks.ALLMEN_OAK_PLANKS.get()));
         buttonBlock(JMWCBlocks.AUDRAFLORA_OAK_BUTTON.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get()));
+        buttonBlock(JMWCBlocks.BLACK_ABORA_BUTTON.get(), blockTexture(JMWCBlocks.BLACK_ABORA_PLANKS.get()));
 
         pressurePlateBlock(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get()));
         pressurePlateBlock(JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.ALLMEN_OAK_PLANKS.get()));
         pressurePlateBlock(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get()));
+        pressurePlateBlock(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.BLACK_ABORA_PLANKS.get()));
 
         fenceBlock(JMWCBlocks.AGRABAH_CEDAR_FENCE.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get()));
         fenceBlock(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_LOG.get()));
@@ -107,6 +131,8 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         fenceBlock(JMWCBlocks.ALLMEN_OAK_LOG_FENCE.get(), blockTexture(JMWCBlocks.ALLMEN_OAK_LOG.get()));
         fenceBlock(JMWCBlocks.AUDRAFLORA_OAK_FENCE.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get()));
         fenceBlock(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()));
+        fenceBlock(JMWCBlocks.BLACK_ABORA_FENCE.get(), blockTexture(JMWCBlocks.BLACK_ABORA_PLANKS.get()));
+        fenceBlock(JMWCBlocks.BLACK_ABORA_LOG_FENCE.get(), blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()));
 
         fenceGateBlock(JMWCBlocks.AGRABAH_CEDAR_FENCE_GATE.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get()));
         fenceGateBlock(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.AGRABAH_CEDAR_LOG.get()));
@@ -114,6 +140,8 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         fenceGateBlock(JMWCBlocks.ALLMEN_OAK_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.ALLMEN_OAK_LOG.get()));
         fenceGateBlock(JMWCBlocks.AUDRAFLORA_OAK_FENCE_GATE.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get()));
         fenceGateBlock(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()));
+        fenceGateBlock(JMWCBlocks.BLACK_ABORA_FENCE_GATE.get(), blockTexture(JMWCBlocks.BLACK_ABORA_PLANKS.get()));
+        fenceGateBlock(JMWCBlocks.BLACK_ABORA_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()));
 
         doorBlockWithRenderType(JMWCBlocks.AGRABAH_CEDAR_DOOR.get(),
                 modLoc("block/agrabah_cedar_door_bottom"), modLoc("block/agrabah_cedar_door_top"), "cutout");
@@ -121,6 +149,8 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
                 modLoc("block/allmen_oak_door_bottom"), modLoc("block/allmen_oak_door_top"), "cutout");
         doorBlockWithRenderType(JMWCBlocks.AUDRAFLORA_OAK_DOOR.get(),
                 modLoc("block/audraflora_oak_door_bottom"), modLoc("block/audraflora_oak_door_top"), "cutout");
+        doorBlockWithRenderType(JMWCBlocks.BLACK_ABORA_DOOR.get(),
+                modLoc("block/black_abora_door_bottom"), modLoc("block/black_abora_door_top"), "cutout");
 
         trapdoorBlockWithRenderType(JMWCBlocks.AGRABAH_CEDAR_TRAPDOOR.get(),
                 modLoc("block/agrabah_cedar_trapdoor"), true, "cutout");
@@ -134,6 +164,10 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
                 modLoc("block/audraflora_oak_trapdoor"), true, "cutout");
         trapdoorBlockWithRenderType(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR.get(),
                 modLoc("block/audraflora_oak_log_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.BLACK_ABORA_TRAPDOOR.get(),
+                modLoc("block/black_abora_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR.get(),
+                modLoc("block/black_abora_log_trapdoor"), true, "cutout");
 
         blockItem(JMWCBlocks.AGRABAH_CEDAR_STAIRS);
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_STAIRS);
@@ -144,6 +178,9 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_STAIRS);
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_STAIRS);
         blockItem(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_STAIRS);
+        blockItem(JMWCBlocks.BLACK_ABORA_STAIRS);
+        blockItem(JMWCBlocks.BLACK_ABORA_LOG_STAIRS);
+        blockItem(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_STAIRS);
 
         blockItem(JMWCBlocks.AGRABAH_CEDAR_SLAB);
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_SLAB);
@@ -154,6 +191,9 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_SLAB);
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_SLAB);
         blockItem(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_SLAB);
+        blockItem(JMWCBlocks.BLACK_ABORA_SLAB);
+        blockItem(JMWCBlocks.BLACK_ABORA_LOG_SLAB);
+        blockItem(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_SLAB);
 
         blockItem(JMWCBlocks.AGRABAH_CEDAR_FENCE_GATE);
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE_GATE);
@@ -161,14 +201,18 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.ALLMEN_OAK_LOG_FENCE_GATE);
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_FENCE_GATE);
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE_GATE);
+        blockItem(JMWCBlocks.BLACK_ABORA_FENCE_GATE);
+        blockItem(JMWCBlocks.BLACK_ABORA_LOG_FENCE_GATE);
 
         blockItem(JMWCBlocks.AGRABAH_CEDAR_BUTTON);
         blockItem(JMWCBlocks.ALLMEN_OAK_BUTTON);
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_BUTTON);
+        blockItem(JMWCBlocks.BLACK_ABORA_BUTTON);
 
         blockItem(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE);
         blockItem(JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE);
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE);
+        blockItem(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE);
 
         blockItem(JMWCBlocks.AGRABAH_CEDAR_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_TRAPDOOR, "_bottom");
@@ -176,6 +220,8 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.ALLMEN_OAK_LOG_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.BLACK_ABORA_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR, "_bottom");
 
     }
 

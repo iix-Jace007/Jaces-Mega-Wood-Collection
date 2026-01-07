@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "jacesmegawoodcollection:black_abora_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "jacesmegawoodcollection:black_abora_door"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "jacesmegawoodcollection:blocks/black_abora_door"
+}

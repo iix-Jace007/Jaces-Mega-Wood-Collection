@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stripped_agrabah_cedar_wood": {
+    "has_stripped_agrabah_cedar_log": {
       "conditions": {
         "items": [
           {
-            "items": "jacesmegawoodcollection:stripped_agrabah_cedar_wood"
+            "items": "jacesmegawoodcollection:stripped_agrabah_cedar_log"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stripped_agrabah_cedar_wood"
+      "has_stripped_agrabah_cedar_log"
     ]
   ],
   "rewards": {

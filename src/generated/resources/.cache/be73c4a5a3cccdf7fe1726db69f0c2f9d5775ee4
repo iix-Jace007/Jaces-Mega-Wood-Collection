@@ -1,4 +1,4 @@
-// 1.21	2026-01-02T23:22:47.5026404	Item Models: jacesmegawoodcollection
+// 1.21	2026-01-06T23:03:27.9967811	Item Models: jacesmegawoodcollection
 026eb712289cb795ee08ab6c514f0f5357a66140 assets/jacesmegawoodcollection/models/item/agrabah_cedar_button.json
 663f33a52f3abc7df3e01ccc31a4c130544411b1 assets/jacesmegawoodcollection/models/item/agrabah_cedar_door.json
 42162aa6ec535e9d4249db23a4367b836a8b122e assets/jacesmegawoodcollection/models/item/agrabah_cedar_fence.json
@@ -14,3 +14,8 @@ ccf112984330a8780418104da8f165ac76a194f8 assets/jacesmegawoodcollection/models/i
 92602790ca380cb6778748627d172a68c110b794 assets/jacesmegawoodcollection/models/item/audraflora_oak_fence.json
 6dfa56882ee7d19b6c7ba80f1f3d04c93167c288 assets/jacesmegawoodcollection/models/item/audraflora_oak_log_fence.json
 cff05d4a70e3d4a3b68e560830c0fff1873e667a assets/jacesmegawoodcollection/models/item/audraflora_oak_sapling.json
+f0bd2a9ee573758118730a4344991d1ee6ffab0e assets/jacesmegawoodcollection/models/item/black_abora_button.json
+fb368bcc5170247eb993fbaec12c5d5e98fb3445 assets/jacesmegawoodcollection/models/item/black_abora_door.json
+aac2f39d4ed6d5f88cb5f91b85abbf1984b16e32 assets/jacesmegawoodcollection/models/item/black_abora_fence.json
+24773130911268b6a3bc8fef23d5ba0e7f71dfe7 assets/jacesmegawoodcollection/models/item/black_abora_log_fence.json
+dbea3362823f5b1cb84e828e57c91d67deb62288 assets/jacesmegawoodcollection/models/item/black_abora_sapling.json

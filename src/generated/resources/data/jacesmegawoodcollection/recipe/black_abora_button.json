@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "black_abora",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:black_abora_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jacesmegawoodcollection:black_abora_button"
+  }
+}

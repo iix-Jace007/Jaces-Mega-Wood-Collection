@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stripped_audraflora_oak_wood": {
+    "has_stripped_audraflora_oak_log": {
       "conditions": {
         "items": [
           {
-            "items": "jacesmegawoodcollection:stripped_audraflora_oak_wood"
+            "items": "jacesmegawoodcollection:stripped_audraflora_oak_log"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stripped_audraflora_oak_wood"
+      "has_stripped_audraflora_oak_log"
     ]
   ],
   "rewards": {

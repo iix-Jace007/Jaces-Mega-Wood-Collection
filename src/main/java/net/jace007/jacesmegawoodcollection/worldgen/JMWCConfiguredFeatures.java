@@ -21,35 +21,35 @@ public class JMWCConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> AGRABAH_CEDAR_KEY = registerKey("agrabah_cedar");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ALLMEN_OAK_KEY = registerKey("allmen_oak");
     public static final ResourceKey<ConfiguredFeature<?, ?>> AUDRAFLORA_OAK_KEY = registerKey("audraflora_oak");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BLACK_ABORA_KEY = registerKey("black_abora");
 
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         register(context, AGRABAH_CEDAR_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(JMWCBlocks.AGRABAH_CEDAR_LOG.get()),
-                new StraightTrunkPlacer(3, 4, 2),
-
+                    new StraightTrunkPlacer(3, 4, 2),
                 BlockStateProvider.simple(JMWCBlocks.AGRABAH_CEDAR_LEAVES.get()),
-                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
-
-                new TwoLayersFeatureSize(1, 0, 1)).build());
-
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
         register(context, ALLMEN_OAK_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(JMWCBlocks.ALLMEN_OAK_LOG.get()),
-                new StraightTrunkPlacer(3, 4, 2),
-
+                    new StraightTrunkPlacer(3, 4, 2),
                 BlockStateProvider.simple(JMWCBlocks.ALLMEN_OAK_LEAVES.get()),
-                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
-
-                new TwoLayersFeatureSize(1, 0, 1)).build());
-
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
         register(context, AUDRAFLORA_OAK_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()),
-                new StraightTrunkPlacer(3, 4, 2),
-
+                    new StraightTrunkPlacer(3, 4, 2),
                 BlockStateProvider.simple(JMWCBlocks.AUDRAFLORA_OAK_LEAVES.get()),
-                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
 
-                new TwoLayersFeatureSize(1, 0, 1)).build());
+        register(context, BLACK_ABORA_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(JMWCBlocks.BLACK_ABORA_LOG.get()),
+                    new StraightTrunkPlacer(3, 4, 2),
+                BlockStateProvider.simple(JMWCBlocks.BLACK_ABORA_LEAVES.get()),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
 
     }
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "black_abora",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:black_abora_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:black_abora_log_stairs"
+  }
+}

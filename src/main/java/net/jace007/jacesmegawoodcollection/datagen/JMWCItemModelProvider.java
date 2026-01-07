@@ -22,10 +22,12 @@ public class JMWCItemModelProvider extends ItemModelProvider {
         buttonItem(JMWCBlocks.AGRABAH_CEDAR_BUTTON, JMWCBlocks.AGRABAH_CEDAR_PLANKS);
         buttonItem(JMWCBlocks.ALLMEN_OAK_BUTTON, JMWCBlocks.ALLMEN_OAK_PLANKS);
         buttonItem(JMWCBlocks.AUDRAFLORA_OAK_BUTTON, JMWCBlocks.AUDRAFLORA_OAK_PLANKS);
+        buttonItem(JMWCBlocks.BLACK_ABORA_BUTTON, JMWCBlocks.BLACK_ABORA_PLANKS);
 
         basicItem(JMWCBlocks.AGRABAH_CEDAR_DOOR.asItem());
         basicItem(JMWCBlocks.ALLMEN_OAK_DOOR.asItem());
         basicItem(JMWCBlocks.AUDRAFLORA_OAK_DOOR.asItem());
+        basicItem(JMWCBlocks.BLACK_ABORA_DOOR.asItem());
 
         fenceItem(JMWCBlocks.AGRABAH_CEDAR_FENCE, JMWCBlocks.AGRABAH_CEDAR_PLANKS);
         fenceItem(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE, JMWCBlocks.AGRABAH_CEDAR_LOG);
@@ -33,10 +35,13 @@ public class JMWCItemModelProvider extends ItemModelProvider {
         fenceItem(JMWCBlocks.ALLMEN_OAK_LOG_FENCE, JMWCBlocks.ALLMEN_OAK_LOG);
         fenceItem(JMWCBlocks.AUDRAFLORA_OAK_FENCE, JMWCBlocks.AUDRAFLORA_OAK_PLANKS);
         fenceItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE, JMWCBlocks.AUDRAFLORA_OAK_LOG);
+        fenceItem(JMWCBlocks.BLACK_ABORA_FENCE, JMWCBlocks.BLACK_ABORA_PLANKS);
+        fenceItem(JMWCBlocks.BLACK_ABORA_LOG_FENCE, JMWCBlocks.BLACK_ABORA_LOG);
 
         saplingItem(JMWCBlocks.AGRABAH_CEDAR_SAPLING);
         saplingItem(JMWCBlocks.ALLMEN_OAK_SAPLING);
         saplingItem(JMWCBlocks.AUDRAFLORA_OAK_SAPLING);
+        saplingItem(JMWCBlocks.BLACK_ABORA_SAPLING);
 
     }
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

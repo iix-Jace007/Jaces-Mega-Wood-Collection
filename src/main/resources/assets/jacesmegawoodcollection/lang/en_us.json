@@ -45,7 +45,7 @@
   "block.jacesmegawoodcollection.allmen_oak_pressureplate": "Allmen Oak Pressureplate",
   "block.jacesmegawoodcollection.allmen_oak_button": "Allmen Oak Button",
   "block.jacesmegawoodcollection.allmen_oak_leaves": "Allmen Oak Leaves",
-  "block.jacesmegawoodcollection.allmen_oak_sapling": "Allmen Oak Cedar Sapling",
+  "block.jacesmegawoodcollection.allmen_oak_sapling": "Allmen Oak Sapling",
 
   "block.jacesmegawoodcollection.audraflora_oak_log": "Audraflora Oak Log",
   "block.jacesmegawoodcollection.audraflora_oak_wood": "Audraflora Oak Wood",
@@ -68,6 +68,29 @@
   "block.jacesmegawoodcollection.audraflora_oak_pressureplate": "Audraflora Oak Pressureplate",
   "block.jacesmegawoodcollection.audraflora_oak_button": "Audraflora Oak Button",
   "block.jacesmegawoodcollection.audraflora_oak_leaves": "Audraflora Oak Leaves",
-  "block.jacesmegawoodcollection.audraflora_oak_sapling": "Audraflora Oak Cedar Sapling"
+  "block.jacesmegawoodcollection.audraflora_oak_sapling": "Audraflora Oak Sapling",
+
+  "block.jacesmegawoodcollection.black_abora_log": "Black Abora Log",
+  "block.jacesmegawoodcollection.black_abora_wood": "Black Abora Wood",
+  "block.jacesmegawoodcollection.stripped_black_abora_log": "Stripped Black Abora Log",
+  "block.jacesmegawoodcollection.stripped_black_abora_wood": "Stripped Black Abora Wood",
+  "block.jacesmegawoodcollection.black_abora_planks": "Black Abora Planks",
+  "block.jacesmegawoodcollection.black_abora_stairs": "Black Abora Stairs",
+  "block.jacesmegawoodcollection.black_abora_log_stairs": "Black Abora Log Stairs",
+  "block.jacesmegawoodcollection.stripped_black_abora_log_stairs": "Stripped Black Abora Log Stairs",
+  "block.jacesmegawoodcollection.black_abora_slab": "Black Abora Slab",
+  "block.jacesmegawoodcollection.black_abora_log_slab": "Black Abora Log Slab",
+  "block.jacesmegawoodcollection.stripped_black_abora_log_slab": "Stripped Black Abora Log Slab",
+  "block.jacesmegawoodcollection.black_abora_fence": "Black Abora Fence",
+  "block.jacesmegawoodcollection.black_abora_log_fence": "Black Abora Log Fence",
+  "block.jacesmegawoodcollection.black_abora_fence_gate": "Black Abora Fence Gate",
+  "block.jacesmegawoodcollection.black_abora_log_fence_gate": "Black Abora Log Fence Gate",
+  "block.jacesmegawoodcollection.black_abora_door": "Black Abora Door",
+  "block.jacesmegawoodcollection.black_abora_trapdoor": "Black Abora Trapdoor",
+  "block.jacesmegawoodcollection.black_abora_log_trapdoor": "Black Abora Log Trapdoor",
+  "block.jacesmegawoodcollection.black_abora_pressureplate": "Black Abora Pressureplate",
+  "block.jacesmegawoodcollection.black_abora_button": "Black Abora Button",
+  "block.jacesmegawoodcollection.black_abora_leaves": "Black Abora Leaves",
+  "block.jacesmegawoodcollection.black_abora_sapling": "Black Abora Sapling"
 
 }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/black_abora_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/black_abora_pressureplate_down"
+    }
+  }
+}

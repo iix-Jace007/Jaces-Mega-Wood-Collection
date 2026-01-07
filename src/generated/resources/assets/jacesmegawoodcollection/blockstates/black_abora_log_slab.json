@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jacesmegawoodcollection:block/black_abora_log_slab"
+    },
+    "type=double": {
+      "model": "jacesmegawoodcollection:block/black_abora_log"
+    },
+    "type=top": {
+      "model": "jacesmegawoodcollection:block/black_abora_log_slab_top"
+    }
+  }
+}

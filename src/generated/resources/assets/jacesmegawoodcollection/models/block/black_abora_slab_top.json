@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/black_abora_planks",
+    "side": "jacesmegawoodcollection:block/black_abora_planks",
+    "top": "jacesmegawoodcollection:block/black_abora_planks"
+  }
+}
