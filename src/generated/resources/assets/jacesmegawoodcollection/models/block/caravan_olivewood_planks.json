@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jacesmegawoodcollection:block/caravan_olivewood_planks"
+  }
+}

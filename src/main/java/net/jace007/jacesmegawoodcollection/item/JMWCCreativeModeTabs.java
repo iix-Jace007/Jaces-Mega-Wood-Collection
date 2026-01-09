@@ -112,6 +112,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.BLACK_ABORA_LEAVES);
                         output.accept(JMWCBlocks.BLACK_ABORA_SAPLING);
 
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_WOOD);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_PLANKS);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_STAIRS);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_STAIRS);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_SLAB);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_SLAB);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_FENCE);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_FENCE_GATE);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_DOOR);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_TRAPDOOR);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_BUTTON);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LEAVES);
+                        output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_SAPLING);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

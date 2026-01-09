@@ -15,5 +15,7 @@ public class JMWCTreeGrowers {
             Optional.empty(), Optional.of(JMWCConfiguredFeatures.AUDRAFLORA_OAK_KEY), Optional.empty());
     public static final TreeGrower BLACK_ABORA = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":black_abora",
             Optional.empty(), Optional.of(JMWCConfiguredFeatures.BLACK_ABORA_KEY), Optional.empty());
+    public static final TreeGrower CARAVAN_OLIVEWOOD = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":caravan_olivewood",
+            Optional.empty(), Optional.of(JMWCConfiguredFeatures.CARAVAN_OLIVEWOOD_KEY), Optional.empty());
 
 }

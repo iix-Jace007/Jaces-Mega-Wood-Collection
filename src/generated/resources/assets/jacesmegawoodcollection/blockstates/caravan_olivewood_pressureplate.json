@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/caravan_olivewood_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/caravan_olivewood_pressureplate_down"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:caravan_olivewood_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:caravan_olivewood_planks"
+  }
+}

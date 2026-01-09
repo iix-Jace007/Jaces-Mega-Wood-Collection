@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/caravan_olivewood_planks",
+    "side": "jacesmegawoodcollection:block/caravan_olivewood_planks",
+    "top": "jacesmegawoodcollection:block/caravan_olivewood_planks"
+  }
+}

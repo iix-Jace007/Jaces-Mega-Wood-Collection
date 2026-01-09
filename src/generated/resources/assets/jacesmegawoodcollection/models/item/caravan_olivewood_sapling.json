@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jacesmegawoodcollection:block/caravan_olivewood_sapling"
+  }
+}

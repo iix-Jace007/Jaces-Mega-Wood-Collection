@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "caravan_olivewood",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:stripped_caravan_olivewood_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:stripped_caravan_olivewood_log_stairs"
+  }
+}
