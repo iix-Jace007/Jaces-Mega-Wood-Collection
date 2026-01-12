@@ -99,6 +99,26 @@
     "jacesmegawoodcollection:caravan_olivewood_trapdoor",
     "jacesmegawoodcollection:caravan_olivewood_log_trapdoor",
     "jacesmegawoodcollection:caravan_olivewood_button",
-    "jacesmegawoodcollection:caravan_olivewood_pressureplate"
+    "jacesmegawoodcollection:caravan_olivewood_pressureplate",
+    "jacesmegawoodcollection:copeland_cedar_log",
+    "jacesmegawoodcollection:stripped_copeland_cedar_log",
+    "jacesmegawoodcollection:copeland_cedar_wood",
+    "jacesmegawoodcollection:stripped_copeland_cedar_wood",
+    "jacesmegawoodcollection:copeland_cedar_planks",
+    "jacesmegawoodcollection:copeland_cedar_stairs",
+    "jacesmegawoodcollection:copeland_cedar_log_stairs",
+    "jacesmegawoodcollection:stripped_copeland_cedar_log_stairs",
+    "jacesmegawoodcollection:copeland_cedar_slab",
+    "jacesmegawoodcollection:copeland_cedar_log_slab",
+    "jacesmegawoodcollection:stripped_copeland_cedar_log_slab",
+    "jacesmegawoodcollection:copeland_cedar_fence",
+    "jacesmegawoodcollection:copeland_cedar_log_fence",
+    "jacesmegawoodcollection:copeland_cedar_fence_gate",
+    "jacesmegawoodcollection:copeland_cedar_log_fence_gate",
+    "jacesmegawoodcollection:copeland_cedar_door",
+    "jacesmegawoodcollection:copeland_cedar_trapdoor",
+    "jacesmegawoodcollection:copeland_cedar_log_trapdoor",
+    "jacesmegawoodcollection:copeland_cedar_button",
+    "jacesmegawoodcollection:copeland_cedar_pressureplate"
   ]
 }

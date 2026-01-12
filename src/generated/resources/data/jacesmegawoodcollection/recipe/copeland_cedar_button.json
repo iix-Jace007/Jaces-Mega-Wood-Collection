@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "copeland_cedar",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:copeland_cedar_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jacesmegawoodcollection:copeland_cedar_button"
+  }
+}

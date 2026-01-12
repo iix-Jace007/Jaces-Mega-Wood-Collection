@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jacesmegawoodcollection:block/copeland_cedar_log",
+    "side": "jacesmegawoodcollection:block/copeland_cedar_log"
+  }
+}

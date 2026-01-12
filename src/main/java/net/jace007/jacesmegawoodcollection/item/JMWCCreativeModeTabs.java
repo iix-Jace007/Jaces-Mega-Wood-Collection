@@ -135,6 +135,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_LEAVES);
                         output.accept(JMWCBlocks.CARAVAN_OLIVEWOOD_SAPLING);
 
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_LOG);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_COPELAND_CEDAR_WOOD);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_PLANKS);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_STAIRS);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_STAIRS);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_SLAB);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_SLAB);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_FENCE);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_FENCE_GATE);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_DOOR);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_TRAPDOOR);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_BUTTON);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_LEAVES);
+                        output.accept(JMWCBlocks.COPELAND_CEDAR_SAPLING);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

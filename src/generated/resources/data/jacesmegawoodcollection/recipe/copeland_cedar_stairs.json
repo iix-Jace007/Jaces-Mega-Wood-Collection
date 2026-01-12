@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "copeland_cedar",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:copeland_cedar_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:copeland_cedar_stairs"
+  }
+}

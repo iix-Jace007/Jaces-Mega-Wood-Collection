@@ -20,6 +20,8 @@ public class JMWCTags {
         public static final TagKey<Block> BLACK_ABORA_LOGS = createTag("black_abora_logs");
         public static final TagKey<Block> CARAVAN_OLIVEWOOD = createTag("caravan_olivewood");
         public static final TagKey<Block> CARAVAN_OLIVEWOOD_LOGS = createTag("caravan_olivewood_logs");
+        public static final TagKey<Block> COPELAND_CEDAR = createTag("copeland_cedar");
+        public static final TagKey<Block> COPELAND_CEDAR_LOGS = createTag("copeland_cedar_logs");
 
         public static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(JacesMegaWoodCollection.MOD_ID, name));

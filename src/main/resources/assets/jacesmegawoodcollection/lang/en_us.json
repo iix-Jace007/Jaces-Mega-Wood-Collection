@@ -114,6 +114,29 @@
   "block.jacesmegawoodcollection.caravan_olivewood_pressureplate": "Caravan Olivewood Pressureplate",
   "block.jacesmegawoodcollection.caravan_olivewood_button": "Caravan Olivewood Button",
   "block.jacesmegawoodcollection.caravan_olivewood_leaves": "Caravan Olivewood Leaves",
-  "block.jacesmegawoodcollection.caravan_olivewood_sapling": "Caravan Olivewood Sapling"
+  "block.jacesmegawoodcollection.caravan_olivewood_sapling": "Caravan Olivewood Sapling",
+
+  "block.jacesmegawoodcollection.copeland_cedar_log": "Copeland Cedar Log",
+  "block.jacesmegawoodcollection.copeland_cedar_wood": "Copeland Cedar Wood",
+  "block.jacesmegawoodcollection.stripped_copeland_cedar_log": "Stripped Copeland Cedar Log",
+  "block.jacesmegawoodcollection.stripped_copeland_cedar_wood": "Stripped Copeland Cedar Wood",
+  "block.jacesmegawoodcollection.copeland_cedar_planks": "Copeland Cedar Planks",
+  "block.jacesmegawoodcollection.copeland_cedar_stairs": "Copeland Cedar Stairs",
+  "block.jacesmegawoodcollection.copeland_cedar_log_stairs": "Copeland Cedar Log Stairs",
+  "block.jacesmegawoodcollection.stripped_copeland_cedar_log_stairs": "Stripped Copeland Cedar Log Stairs",
+  "block.jacesmegawoodcollection.copeland_cedar_slab": "Copeland Cedar Slab",
+  "block.jacesmegawoodcollection.copeland_cedar_log_slab": "Copeland Cedar Log Slab",
+  "block.jacesmegawoodcollection.stripped_copeland_cedar_log_slab": "Stripped Copeland Cedar Log Slab",
+  "block.jacesmegawoodcollection.copeland_cedar_fence": "Copeland Cedar Fence",
+  "block.jacesmegawoodcollection.copeland_cedar_log_fence": "Copeland Cedar Log Fence",
+  "block.jacesmegawoodcollection.copeland_cedar_fence_gate": "Copeland Cedar Fence Gate",
+  "block.jacesmegawoodcollection.copeland_cedar_log_fence_gate": "Copeland Cedar Log Fence Gate",
+  "block.jacesmegawoodcollection.copeland_cedar_door": "Copeland Cedar Door",
+  "block.jacesmegawoodcollection.copeland_cedar_trapdoor": "Copeland Cedar Trapdoor",
+  "block.jacesmegawoodcollection.copeland_cedar_log_trapdoor": "Copeland Cedar Log Trapdoor",
+  "block.jacesmegawoodcollection.copeland_cedar_pressureplate": "Copeland Cedar Pressureplate",
+  "block.jacesmegawoodcollection.copeland_cedar_button": "Copeland Cedar Button",
+  "block.jacesmegawoodcollection.copeland_cedar_leaves": "Copeland Cedar Leaves",
+  "block.jacesmegawoodcollection.copeland_cedar_sapling": "Copeland Cedar Sapling"
 
 }

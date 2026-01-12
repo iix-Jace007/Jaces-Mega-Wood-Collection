@@ -139,6 +139,30 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LEAVES.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_SAPLING.get());
 
+        tag(JMWCTags.Blocks.COPELAND_CEDAR)
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_WOOD.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_WOOD.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_PLANKS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_SLAB.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_FENCE_GATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE_GATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_DOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_BUTTON.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LEAVES.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_SAPLING.get());
+
         tag(JMWCTags.Blocks.AGRABAH_CEDAR_LOGS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_LOG.get())
                 .add(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG.get())
@@ -169,6 +193,12 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD.get())
                 .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_WOOD.get());
 
+        tag(JMWCTags.Blocks.COPELAND_CEDAR_LOGS)
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_WOOD.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_WOOD.get());
+
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(JMWCBlocks.AGRABAH_CEDAR_LOG.get())
                 .add(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG.get())
@@ -189,7 +219,11 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get())
                 .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD.get())
-                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_WOOD.get());
+                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_WOOD.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_WOOD.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_WOOD.get());
 
         tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(JMWCBlocks.AGRABAH_CEDAR_LOG.get())
@@ -291,7 +325,27 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_TRAPDOOR.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_TRAPDOOR.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_BUTTON.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_WOOD.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_WOOD.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_PLANKS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_SLAB.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_FENCE_GATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE_GATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_DOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_BUTTON.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE.get());
 
         tag(BlockTags.LOGS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_LOG.get())
@@ -313,28 +367,51 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get())
                 .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD.get())
-                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_WOOD.get());
-
-        tag(BlockTags.BUTTONS)
-                .add(JMWCBlocks.AGRABAH_CEDAR_BUTTON.get())
-                .add(JMWCBlocks.ALLMEN_OAK_BUTTON.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_BUTTON.get())
-                .add(JMWCBlocks.BLACK_ABORA_BUTTON.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_BUTTON.get());
+                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_WOOD.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_WOOD.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_WOOD.get());
 
         tag(BlockTags.COMPLETES_FIND_TREE_TUTORIAL)
                 .add(JMWCBlocks.AGRABAH_CEDAR_LOG.get())
                 .add(JMWCBlocks.ALLMEN_OAK_LOG.get())
                 .add(JMWCBlocks.AUDRAFLORA_OAK_LOG.get())
                 .add(JMWCBlocks.BLACK_ABORA_LOG.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG.get());
+
+        tag(BlockTags.BUTTONS)
+                .add(JMWCBlocks.AGRABAH_CEDAR_BUTTON.get())
+                .add(JMWCBlocks.ALLMEN_OAK_BUTTON.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_BUTTON.get())
+                .add(JMWCBlocks.BLACK_ABORA_BUTTON.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_BUTTON.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_BUTTON.get());
+
+        tag(BlockTags.WOODEN_BUTTONS)
+                .add(JMWCBlocks.AGRABAH_CEDAR_BUTTON.get())
+                .add(JMWCBlocks.ALLMEN_OAK_BUTTON.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_BUTTON.get())
+                .add(JMWCBlocks.BLACK_ABORA_BUTTON.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_BUTTON.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_BUTTON.get());
 
         tag(BlockTags.DOORS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_DOOR.get())
                 .add(JMWCBlocks.ALLMEN_OAK_DOOR.get())
                 .add(JMWCBlocks.AUDRAFLORA_OAK_DOOR.get())
                 .add(JMWCBlocks.BLACK_ABORA_DOOR.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_DOOR.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_DOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_DOOR.get());
+
+        tag(BlockTags.WOODEN_DOORS)
+                .add(JMWCBlocks.AGRABAH_CEDAR_DOOR.get())
+                .add(JMWCBlocks.ALLMEN_OAK_DOOR.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_DOOR.get())
+                .add(JMWCBlocks.BLACK_ABORA_DOOR.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_DOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_DOOR.get());
 
         tag(BlockTags.FENCE_GATES)
                 .add(JMWCBlocks.AGRABAH_CEDAR_FENCE_GATE.get())
@@ -346,7 +423,9 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.BLACK_ABORA_FENCE_GATE.get())
                 .add(JMWCBlocks.BLACK_ABORA_LOG_FENCE_GATE.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_FENCE_GATE.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE_GATE.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE_GATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_FENCE_GATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE_GATE.get());
 
         tag(BlockTags.FENCES)
                 .add(JMWCBlocks.AGRABAH_CEDAR_FENCE.get())
@@ -358,7 +437,23 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.BLACK_ABORA_FENCE.get())
                 .add(JMWCBlocks.BLACK_ABORA_LOG_FENCE.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_FENCE.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE.get());
+
+        tag(BlockTags.WOODEN_FENCES)
+                .add(JMWCBlocks.AGRABAH_CEDAR_FENCE.get())
+                .add(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE.get())
+                .add(JMWCBlocks.ALLMEN_OAK_FENCE.get())
+                .add(JMWCBlocks.ALLMEN_OAK_LOG_FENCE.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_FENCE.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE.get())
+                .add(JMWCBlocks.BLACK_ABORA_FENCE.get())
+                .add(JMWCBlocks.BLACK_ABORA_LOG_FENCE.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_FENCE.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_FENCE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE.get());
 
         tag(BlockTags.LEAVES)
                 .add(JMWCBlocks.AGRABAH_CEDAR_LEAVES.get())
@@ -379,14 +474,24 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE.get())
                 .add(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE.get())
                 .add(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE.get());
+
+        tag(BlockTags.WOODEN_PRESSURE_PLATES)
+                .add(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE.get())
+                .add(JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE.get())
+                .add(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE.get());
 
         tag(BlockTags.SAPLINGS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_SAPLING.get())
                 .add(JMWCBlocks.ALLMEN_OAK_SAPLING.get())
                 .add(JMWCBlocks.AUDRAFLORA_OAK_SAPLING.get())
                 .add(JMWCBlocks.BLACK_ABORA_SAPLING.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_SAPLING.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_SAPLING.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_SAPLING.get());
 
         tag(BlockTags.SLABS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_SLAB.get())
@@ -403,62 +508,10 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_SLAB.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_SLAB.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_SLAB.get())
-                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_SLAB.get());
-
-        tag(BlockTags.STAIRS)
-                .add(JMWCBlocks.AGRABAH_CEDAR_STAIRS.get())
-                .add(JMWCBlocks.AGRABAH_CEDAR_LOG_STAIRS.get())
-                .add(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG_STAIRS.get())
-                .add(JMWCBlocks.ALLMEN_OAK_STAIRS.get())
-                .add(JMWCBlocks.ALLMEN_OAK_LOG_STAIRS.get())
-                .add(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG_STAIRS.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_STAIRS.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_LOG_STAIRS.get())
-                .add(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_STAIRS.get())
-                .add(JMWCBlocks.BLACK_ABORA_STAIRS.get())
-                .add(JMWCBlocks.BLACK_ABORA_LOG_STAIRS.get())
-                .add(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_STAIRS.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_STAIRS.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_STAIRS.get())
-                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_STAIRS.get());
-
-        tag(BlockTags.TRAPDOORS)
-                .add(JMWCBlocks.AGRABAH_CEDAR_TRAPDOOR.get())
-                .add(JMWCBlocks.AGRABAH_CEDAR_LOG_TRAPDOOR.get())
-                .add(JMWCBlocks.ALLMEN_OAK_TRAPDOOR.get())
-                .add(JMWCBlocks.ALLMEN_OAK_LOG_TRAPDOOR.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_TRAPDOOR.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR.get())
-                .add(JMWCBlocks.BLACK_ABORA_TRAPDOOR.get())
-                .add(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_TRAPDOOR.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_TRAPDOOR.get());
-
-        tag(BlockTags.WOODEN_BUTTONS)
-                .add(JMWCBlocks.AGRABAH_CEDAR_BUTTON.get())
-                .add(JMWCBlocks.ALLMEN_OAK_BUTTON.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_BUTTON.get())
-                .add(JMWCBlocks.BLACK_ABORA_BUTTON.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_BUTTON.get());
-
-        tag(BlockTags.WOODEN_DOORS)
-                .add(JMWCBlocks.AGRABAH_CEDAR_DOOR.get())
-                .add(JMWCBlocks.ALLMEN_OAK_DOOR.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_DOOR.get())
-                .add(JMWCBlocks.BLACK_ABORA_DOOR.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_DOOR.get());
-
-        tag(BlockTags.WOODEN_FENCES)
-                .add(JMWCBlocks.AGRABAH_CEDAR_FENCE.get())
-                .add(JMWCBlocks.AGRABAH_CEDAR_LOG_FENCE.get())
-                .add(JMWCBlocks.ALLMEN_OAK_FENCE.get())
-                .add(JMWCBlocks.ALLMEN_OAK_LOG_FENCE.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_FENCE.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_LOG_FENCE.get())
-                .add(JMWCBlocks.BLACK_ABORA_FENCE.get())
-                .add(JMWCBlocks.BLACK_ABORA_LOG_FENCE.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_FENCE.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE.get());
+                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_SLAB.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_SLAB.get());
 
         tag(BlockTags.WOODEN_SLABS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_SLAB.get())
@@ -475,7 +528,30 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_SLAB.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_SLAB.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_SLAB.get())
-                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_SLAB.get());
+                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_SLAB.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_SLAB.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_SLAB.get());
+
+        tag(BlockTags.STAIRS)
+                .add(JMWCBlocks.AGRABAH_CEDAR_STAIRS.get())
+                .add(JMWCBlocks.AGRABAH_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.ALLMEN_OAK_STAIRS.get())
+                .add(JMWCBlocks.ALLMEN_OAK_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG_STAIRS.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_STAIRS.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG_STAIRS.get())
+                .add(JMWCBlocks.BLACK_ABORA_STAIRS.get())
+                .add(JMWCBlocks.BLACK_ABORA_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_STAIRS.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_STAIRS.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_STAIRS.get());
 
         tag(BlockTags.WOODEN_STAIRS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_STAIRS.get())
@@ -492,14 +568,24 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG_STAIRS.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_STAIRS.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_STAIRS.get())
-                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_STAIRS.get());
+                .add(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_STAIRS.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_STAIRS.get())
+                .add(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG_STAIRS.get());
 
-        tag(BlockTags.WOODEN_PRESSURE_PLATES)
-                .add(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE.get())
-                .add(JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE.get())
-                .add(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE.get())
-                .add(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE.get());
+        tag(BlockTags.TRAPDOORS)
+                .add(JMWCBlocks.AGRABAH_CEDAR_TRAPDOOR.get())
+                .add(JMWCBlocks.AGRABAH_CEDAR_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.ALLMEN_OAK_TRAPDOOR.get())
+                .add(JMWCBlocks.ALLMEN_OAK_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_TRAPDOOR.get())
+                .add(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.BLACK_ABORA_TRAPDOOR.get())
+                .add(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_TRAPDOOR.get())
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_TRAPDOOR.get());
 
         tag(BlockTags.WOODEN_TRAPDOORS)
                 .add(JMWCBlocks.AGRABAH_CEDAR_TRAPDOOR.get())
@@ -511,7 +597,9 @@ public class JMWCBlockTagProvider extends BlockTagsProvider {
                 .add(JMWCBlocks.BLACK_ABORA_TRAPDOOR.get())
                 .add(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR.get())
                 .add(JMWCBlocks.CARAVAN_OLIVEWOOD_TRAPDOOR.get())
-                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_TRAPDOOR.get());
+                .add(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_TRAPDOOR.get())
+                .add(JMWCBlocks.COPELAND_CEDAR_LOG_TRAPDOOR.get());
 
     }
 }

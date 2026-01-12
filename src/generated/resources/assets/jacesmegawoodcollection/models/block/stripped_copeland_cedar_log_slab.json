@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/stripped_copeland_cedar_log",
+    "side": "jacesmegawoodcollection:block/stripped_copeland_cedar_log",
+    "top": "jacesmegawoodcollection:block/stripped_copeland_cedar_log"
+  }
+}
