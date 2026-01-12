@@ -55,11 +55,11 @@ public class JMWCItemModelProvider extends ItemModelProvider {
         saplingItem(JMWCBlocks.CARAVAN_OLIVEWOOD_SAPLING);
 
         // COPELAND CEDAR
-        buttonItem(JMWCBlocks.CARAVAN_OLIVEWOOD_BUTTON, JMWCBlocks.CARAVAN_OLIVEWOOD_PLANKS);
-        basicItem(JMWCBlocks.CARAVAN_OLIVEWOOD_DOOR.asItem());
-        fenceItem(JMWCBlocks.CARAVAN_OLIVEWOOD_FENCE, JMWCBlocks.CARAVAN_OLIVEWOOD_PLANKS);
-        fenceItem(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_FENCE, JMWCBlocks.CARAVAN_OLIVEWOOD_LOG);
-        saplingItem(JMWCBlocks.CARAVAN_OLIVEWOOD_SAPLING);
+        buttonItem(JMWCBlocks.COPELAND_CEDAR_BUTTON, JMWCBlocks.COPELAND_CEDAR_PLANKS);
+        basicItem(JMWCBlocks.COPELAND_CEDAR_DOOR.asItem());
+        fenceItem(JMWCBlocks.COPELAND_CEDAR_FENCE, JMWCBlocks.COPELAND_CEDAR_PLANKS);
+        fenceItem(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE, JMWCBlocks.COPELAND_CEDAR_LOG);
+        saplingItem(JMWCBlocks.COPELAND_CEDAR_SAPLING);
     }
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {
         return withExistingParent(item.getId().getPath(),
