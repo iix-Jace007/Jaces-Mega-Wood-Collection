@@ -12,6 +12,8 @@ public class AllmenOakLeaveParticles extends TextureSheetParticle {
 
         this.setSprite(spriteSet.get(this.random.nextInt(12), 12));
         this.lifetime = 200;
+        this.xd *= 0.05;
+        this.zd *= 0.05;
         this.gravity = 0.01F;
         this.yd = -0.02 - random.nextDouble() * 0.02;
         float f = this.random.nextBoolean() ? 0.05F : 0.075F;
