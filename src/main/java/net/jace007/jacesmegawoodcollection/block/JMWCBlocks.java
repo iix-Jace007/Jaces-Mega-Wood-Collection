@@ -23,10 +23,23 @@ public class JMWCBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(JacesMegaWoodCollection.MOD_ID);
 
-    // Next Wood Types Copeland Cedar, Cursed Petal, Diamondfall Elm, Dollhouse Hickory, Dreamspire Alder, Empress Ash, Flashfire Walnut, Flashflux Maple,
-    // Fracture Birch, Glowgrain Aspen, Goldflash Oak, Huntress Pine, Lone Wolf Walnut, Lyrelm, Marinth Oak, Moonclaw, Moonveil Aspen, Oracle Elm,
-    // Overdrive Ash, Panama City Pine, Pheneombark, Prismwood Ash, Redline Maple, Starstruck Spruce, Sugarthorn, techsprout Timber, Thicket Elm Treetop Maple,
-    // Tulgeywood, Venomwood, and Vioak
+    // Next Wood Types Alanth, Aspenthine, Aubryn, Ballwyn, Burrenbark, Cursed Petal, Diamondfall Elm, Dollhouse Hickory, Dreamspire Alder, Empress Ash, Flashfire Walnut,
+    // Flashflux Maple, Fracture Birch, Glowgrain Aspen, Goldflash Oak, Huntress Pine, Lone Wolf Walnut, Lyrelm, Marinth Oak, Moonclaw Ash, Moonveil Aspen, Oracle Elm,
+    // Overdrive Ash, Panama City Pine, Pheneombark, Prismwood Ash, Redline Maple, Starstruck Spruce, Sugarthorn, Techsprout Timber, Thicket Elm, Treetop Maple, Tulgeywood,
+    // Venomwood, and Vioak
+
+    // input textures,
+    // Make Leaves Class,
+    // do JSON files for particals,
+    // register particals in Mod Class,
+    // register Blocks
+    // add to creative mode tab,
+    // register in flammible
+    // do datagen
+    // do worldgen
+    // run datagen
+    // playtest
+    // fix mistakes
 
     public static final DeferredBlock<Block> AGRABAH_CEDAR_LOG = registerBlock("agrabah_cedar_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
