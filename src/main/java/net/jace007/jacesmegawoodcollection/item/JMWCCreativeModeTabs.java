@@ -43,6 +43,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.AGRABAH_CEDAR_LEAVES);
                         output.accept(JMWCBlocks.AGRABAH_CEDAR_SAPLING);
 
+                        output.accept(JMWCBlocks.ALANTH_LOG);
+                        output.accept(JMWCBlocks.ALANTH_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_ALANTH_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_ALANTH_WOOD);
+                        output.accept(JMWCBlocks.ALANTH_PLANKS);
+                        output.accept(JMWCBlocks.ALANTH_STAIRS);
+                        output.accept(JMWCBlocks.ALANTH_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_ALANTH_LOG_STAIRS);
+                        output.accept(JMWCBlocks.ALANTH_SLAB);
+                        output.accept(JMWCBlocks.ALANTH_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_ALANTH_LOG_SLAB);
+                        output.accept(JMWCBlocks.ALANTH_FENCE);
+                        output.accept(JMWCBlocks.ALANTH_LOG_FENCE);
+                        output.accept(JMWCBlocks.ALANTH_FENCE_GATE);
+                        output.accept(JMWCBlocks.ALANTH_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.ALANTH_DOOR);
+                        output.accept(JMWCBlocks.ALANTH_TRAPDOOR);
+                        output.accept(JMWCBlocks.ALANTH_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.ALANTH_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.ALANTH_BUTTON);
+                        output.accept(JMWCBlocks.ALANTH_LEAVES);
+                        output.accept(JMWCBlocks.ALANTH_SAPLING);
+
                         output.accept(JMWCBlocks.ALLMEN_OAK_LOG);
                         output.accept(JMWCBlocks.ALLMEN_OAK_WOOD);
                         output.accept(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG);

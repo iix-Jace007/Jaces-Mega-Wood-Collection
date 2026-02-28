@@ -19,6 +19,7 @@ import static net.minecraft.data.worldgen.placement.PlacementUtils.register;
 
 public class JMWCPlacedFeatures {
     public static final ResourceKey<PlacedFeature> AGRABAH_CEDAR_PLACED_KEY = registerKey("agrabah_cedar_placed");
+    public static final ResourceKey<PlacedFeature> ALANTH_PLACED_KEY = registerKey("alanth_placed");
     public static final ResourceKey<PlacedFeature> ALLMEN_OAK_PLACED_KEY = registerKey("allmen_oak_placed");
     public static final ResourceKey<PlacedFeature> AUDRAFLORA_OAK_PLACED_KEY = registerKey("audraflora_oak_placed");
     public static final ResourceKey<PlacedFeature> BLACK_ABORA_PLACED_KEY = registerKey("black_abora_placed");
@@ -31,6 +32,9 @@ public class JMWCPlacedFeatures {
         register(context, AGRABAH_CEDAR_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.AGRABAH_CEDAR_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         JMWCBlocks.AGRABAH_CEDAR_SAPLING.get()));
+        register(context, ALANTH_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.ALANTH_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        JMWCBlocks.ALANTH_SAPLING.get()));
         register(context, ALLMEN_OAK_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.ALLMEN_OAK_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         JMWCBlocks.ALLMEN_OAK_SAPLING.get()));

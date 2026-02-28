@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "alanth",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:alanth_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:alanth_stairs"
+  }
+}

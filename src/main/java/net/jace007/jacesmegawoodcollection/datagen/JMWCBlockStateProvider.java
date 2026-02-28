@@ -69,6 +69,55 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.AGRABAH_CEDAR_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_TRAPDOOR, "_bottom");
 
+        // ALANTH
+
+        logBlock(((RotatedPillarBlock) JMWCBlocks.ALANTH_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.ALANTH_WOOD.get()),
+                blockTexture(JMWCBlocks.ALANTH_LOG.get()), blockTexture(JMWCBlocks.ALANTH_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_ALANTH_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_ALANTH_WOOD.get()),
+                blockTexture(JMWCBlocks.STRIPPED_ALANTH_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_ALANTH_LOG.get()));
+        blockItem(JMWCBlocks.ALANTH_LOG);
+        blockItem(JMWCBlocks.ALANTH_WOOD);
+        blockItem(JMWCBlocks.STRIPPED_ALANTH_LOG);
+        blockItem(JMWCBlocks.STRIPPED_ALANTH_WOOD);
+        blockWithItem(JMWCBlocks.ALANTH_PLANKS);
+        leavesBlock(JMWCBlocks.ALANTH_LEAVES);
+        saplingBlock(JMWCBlocks.ALANTH_SAPLING);
+        stairsBlock(JMWCBlocks.ALANTH_STAIRS.get(), blockTexture(JMWCBlocks.ALANTH_PLANKS.get()));
+        stairsBlock(JMWCBlocks.ALANTH_LOG_STAIRS.get(), blockTexture(JMWCBlocks.ALANTH_LOG.get()));
+        stairsBlock(JMWCBlocks.STRIPPED_ALANTH_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_ALANTH_LOG.get()));
+        slabBlock(JMWCBlocks.ALANTH_SLAB.get(),
+                blockTexture(JMWCBlocks.ALANTH_PLANKS.get()), blockTexture(JMWCBlocks.ALANTH_PLANKS.get()));
+        slabBlock(JMWCBlocks.ALANTH_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.ALANTH_LOG.get()), blockTexture(JMWCBlocks.ALANTH_LOG.get()));
+        slabBlock(JMWCBlocks.STRIPPED_ALANTH_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.STRIPPED_ALANTH_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_ALANTH_LOG.get()));
+        buttonBlock(JMWCBlocks.ALANTH_BUTTON.get(), blockTexture(JMWCBlocks.ALANTH_PLANKS.get()));
+        pressurePlateBlock(JMWCBlocks.ALANTH_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.ALANTH_PLANKS.get()));
+        fenceBlock(JMWCBlocks.ALANTH_FENCE.get(), blockTexture(JMWCBlocks.ALANTH_PLANKS.get()));
+        fenceBlock(JMWCBlocks.ALANTH_LOG_FENCE.get(), blockTexture(JMWCBlocks.ALANTH_LOG.get()));
+        fenceGateBlock(JMWCBlocks.ALANTH_FENCE_GATE.get(), blockTexture(JMWCBlocks.ALANTH_PLANKS.get()));
+        fenceGateBlock(JMWCBlocks.ALANTH_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.ALANTH_LOG.get()));
+        doorBlockWithRenderType(JMWCBlocks.ALANTH_DOOR.get(),
+                modLoc("block/alanth_door_bottom"), modLoc("block/alanth_door_top"), "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.ALANTH_TRAPDOOR.get(),
+                modLoc("block/alanth_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.ALANTH_LOG_TRAPDOOR.get(),
+                modLoc("block/alanth_log_trapdoor"), true, "cutout");
+        blockItem(JMWCBlocks.ALANTH_STAIRS);
+        blockItem(JMWCBlocks.ALANTH_LOG_STAIRS);
+        blockItem(JMWCBlocks.STRIPPED_ALANTH_LOG_STAIRS);
+        blockItem(JMWCBlocks.ALANTH_SLAB);
+        blockItem(JMWCBlocks.ALANTH_LOG_SLAB);
+        blockItem(JMWCBlocks.STRIPPED_ALANTH_LOG_SLAB);
+        blockItem(JMWCBlocks.ALANTH_FENCE_GATE);
+        blockItem(JMWCBlocks.ALANTH_LOG_FENCE_GATE);
+        blockItem(JMWCBlocks.ALANTH_BUTTON);
+        blockItem(JMWCBlocks.ALANTH_PRESSUREPLATE);
+        blockItem(JMWCBlocks.ALANTH_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.ALANTH_LOG_TRAPDOOR, "_bottom");
+
         // ALLMEN OAK
 
         logBlock(((RotatedPillarBlock) JMWCBlocks.ALLMEN_OAK_LOG.get()));

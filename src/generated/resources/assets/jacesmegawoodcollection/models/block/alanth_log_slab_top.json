@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/alanth_log",
+    "side": "jacesmegawoodcollection:block/alanth_log",
+    "top": "jacesmegawoodcollection:block/alanth_log"
+  }
+}

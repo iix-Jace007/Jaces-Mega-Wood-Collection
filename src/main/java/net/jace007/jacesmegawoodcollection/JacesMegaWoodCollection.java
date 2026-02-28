@@ -75,12 +75,13 @@ public class JacesMegaWoodCollection {
 
         @SubscribeEvent
         public static void registerParticleFactories(RegisterParticleProvidersEvent event ) {
-            event.registerSpriteSet(JMWCParticles.AGRABAH_CEDAR_LEAVES.get(), AgrabahCedarLeaveParticles.Provider::new);
-            event.registerSpriteSet(JMWCParticles.ALLMEN_OAK_LEAVES.get(), AllmenOakLeaveParticles.Provider::new);
-            event.registerSpriteSet(JMWCParticles.AUDRAFLORA_OAK_LEAVES.get(), AudrafloraOakLeaveParticles.Provider::new);
-            event.registerSpriteSet(JMWCParticles.BLACK_ABORA_LEAVES.get(), BlackAboraLeaveParticles.Provider::new);
-            event.registerSpriteSet(JMWCParticles.CARAVAN_OLIVEWOOD_LEAVES.get(), CaravanOlivewoodLeaveParticles.Provider::new);
-            event.registerSpriteSet(JMWCParticles.COPELAND_CEDAR_LEAVES.get(), CopelandCedarLeaveParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.AGRABAH_CEDAR_LEAVES.get(), AgrabahCedarLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.ALANTH_LEAVES.get(), AgrabahCedarLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.ALLMEN_OAK_LEAVES.get(), AllmenOakLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.AUDRAFLORA_OAK_LEAVES.get(), AudrafloraOakLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.BLACK_ABORA_LEAVES.get(), BlackAboraLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.CARAVAN_OLIVEWOOD_LEAVES.get(), CaravanOlivewoodLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.COPELAND_CEDAR_LEAVES.get(), CopelandCedarLeafParticles.Provider::new);
         }
     }
 }

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "jacesmegawoodcollection:block/stripped_alanth_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "jacesmegawoodcollection:block/stripped_alanth_wood"
+    },
+    "axis=z": {
+      "model": "jacesmegawoodcollection:block/stripped_alanth_wood_horizontal",
+      "x": 90
+    }
+  }
+}

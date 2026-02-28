@@ -48,6 +48,37 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
         buttonBuilder(JMWCBlocks.AGRABAH_CEDAR_BUTTON.get(), Ingredient.of(JMWCBlocks.AGRABAH_CEDAR_PLANKS.get())).group("agrabah_cedar")
                 .unlockedBy("has_agrabah_cedar_planks", has(JMWCBlocks.AGRABAH_CEDAR_PLANKS)).save(recipeOutput);
 
+        // Alanth
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.ALANTH_PLANKS.get(),4)
+                .requires(JMWCBlocks.ALANTH_LOG)
+                .unlockedBy("has_alanth_log", has(JMWCBlocks.ALANTH_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.ALANTH_STAIRS.get(), Ingredient.of(JMWCBlocks.ALANTH_PLANKS)).group("alanth")
+                .unlockedBy("has_alanth_planks", has(JMWCBlocks.ALANTH_PLANKS)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.ALANTH_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.ALANTH_LOG)).group("alanth")
+                .unlockedBy("has_alanth_log", has(JMWCBlocks.ALANTH_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.STRIPPED_ALANTH_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.STRIPPED_ALANTH_LOG)).group("alanth")
+                .unlockedBy("has_stripped_alanth_log", has(JMWCBlocks.STRIPPED_ALANTH_LOG)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.ALANTH_SLAB.get(), JMWCBlocks.ALANTH_PLANKS);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.ALANTH_LOG_SLAB.get(), JMWCBlocks.ALANTH_LOG);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.STRIPPED_ALANTH_LOG_SLAB.get(), JMWCBlocks.STRIPPED_ALANTH_LOG);
+        fenceBuilder(JMWCBlocks.ALANTH_FENCE.get(), Ingredient.of(JMWCBlocks.ALANTH_PLANKS.get())).group("alanth")
+                .unlockedBy("has_alanth_planks", has(JMWCBlocks.ALANTH_PLANKS)).save(recipeOutput);
+        fenceBuilder(JMWCBlocks.ALANTH_LOG_FENCE.get(), Ingredient.of(JMWCBlocks.ALANTH_LOG.get())).group("alanth")
+                .unlockedBy("has_alanth_log", has(JMWCBlocks.ALANTH_LOG)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.ALANTH_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.ALANTH_PLANKS.get())).group("alanth")
+                .unlockedBy("has_alanth_planks", has(JMWCBlocks.ALANTH_PLANKS)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.ALANTH_LOG_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.ALANTH_LOG.get())).group("alanth")
+                .unlockedBy("has_alanth_log", has(JMWCBlocks.ALANTH_LOG)).save(recipeOutput);
+        doorBuilder(JMWCBlocks.ALANTH_DOOR.get(), Ingredient.of(JMWCBlocks.ALANTH_PLANKS.get())).group("alanth")
+                .unlockedBy("has_alanth_planks", has(JMWCBlocks.ALANTH_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.ALANTH_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.ALANTH_PLANKS.get())).group("alanth")
+                .unlockedBy("has_alanth_planks", has(JMWCBlocks.ALANTH_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.ALANTH_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.ALANTH_LOG.get())).group("alanth")
+                .unlockedBy("has_alanth_log", has(JMWCBlocks.ALANTH_LOG)).save(recipeOutput);
+        pressurePlate(recipeOutput, JMWCBlocks.ALANTH_PRESSUREPLATE.get(), JMWCBlocks.ALANTH_PLANKS.get());
+        buttonBuilder(JMWCBlocks.ALANTH_BUTTON.get(), Ingredient.of(JMWCBlocks.ALANTH_PLANKS.get())).group("alanth")
+                .unlockedBy("has_alanth_planks", has(JMWCBlocks.ALANTH_PLANKS)).save(recipeOutput);
+
         // ALLMEN OAK
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.ALLMEN_OAK_PLANKS.get(),4)
                 .requires(JMWCBlocks.ALLMEN_OAK_LOG)

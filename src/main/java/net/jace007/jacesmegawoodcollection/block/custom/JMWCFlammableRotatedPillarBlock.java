@@ -34,36 +34,55 @@ public class JMWCFlammableRotatedPillarBlock extends RotatedPillarBlock {
     public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context,
                                                      ItemAbility itemAbility, boolean simulate) {
         if(context.getItemInHand().getItem() instanceof AxeItem) {
+            // AGRABAH CEDAR
             if(state.is(JMWCBlocks.AGRABAH_CEDAR_LOG)){
                 return JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
             if(state.is(JMWCBlocks.AGRABAH_CEDAR_WOOD)){
                 return JMWCBlocks.STRIPPED_AGRABAH_CEDAR_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+
+            // ALANTH
+            if(state.is(JMWCBlocks.ALANTH_LOG)){
+                return JMWCBlocks.STRIPPED_ALANTH_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(JMWCBlocks.ALANTH_WOOD)){
+                return JMWCBlocks.STRIPPED_ALANTH_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+
+            // ALLEN OAK
             if(state.is(JMWCBlocks.ALLMEN_OAK_LOG)){
                 return JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
             if(state.is(JMWCBlocks.ALLMEN_OAK_WOOD)){
                 return JMWCBlocks.STRIPPED_ALLMEN_OAK_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+
+            // AURAFLORA OAK
             if(state.is(JMWCBlocks.AUDRAFLORA_OAK_LOG)){
                 return JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
             if(state.is(JMWCBlocks.AUDRAFLORA_OAK_WOOD)){
                 return JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+
+            // BLACK ABORA
             if(state.is(JMWCBlocks.BLACK_ABORA_LOG)){
                 return JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
             if(state.is(JMWCBlocks.BLACK_ABORA_WOOD)){
                 return JMWCBlocks.STRIPPED_BLACK_ABORA_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+
+            // CARAVAN OLIVEWOOD
             if(state.is(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG)){
                 return JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
             if(state.is(JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD)){
                 return JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+
+            // COPELAND CEDAR
             if(state.is(JMWCBlocks.COPELAND_CEDAR_LOG)){
                 return JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }

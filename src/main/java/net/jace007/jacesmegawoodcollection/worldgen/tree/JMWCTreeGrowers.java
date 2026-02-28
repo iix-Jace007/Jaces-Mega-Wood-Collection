@@ -9,6 +9,8 @@ import java.util.Optional;
 public class JMWCTreeGrowers {
     public static final TreeGrower AGRABAH_CEDAR = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":agrabah_cedar",
             Optional.empty(), Optional.of(JMWCConfiguredFeatures.AGRABAH_CEDAR_KEY), Optional.empty());
+    public static final TreeGrower ALANTH = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":alanth",
+            Optional.empty(), Optional.of(JMWCConfiguredFeatures.ALANTH_KEY), Optional.empty());
     public static final TreeGrower ALLMEN_OAK = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":allmen_oak",
             Optional.empty(), Optional.of(JMWCConfiguredFeatures.ALLMEN_OAK_KEY), Optional.empty());
     public static final TreeGrower AUDRAFLORA_OAK = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":audraflora_oak",

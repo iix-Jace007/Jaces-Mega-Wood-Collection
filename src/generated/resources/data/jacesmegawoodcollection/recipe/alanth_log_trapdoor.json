@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "alanth",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:alanth_log"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "jacesmegawoodcollection:alanth_log_trapdoor"
+  }
+}

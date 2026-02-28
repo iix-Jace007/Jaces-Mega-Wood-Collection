@@ -41,6 +41,7 @@ public class JMWCBlocks {
     // playtest
     // fix mistakes
 
+    // AGRABAH CEDAR
     public static final DeferredBlock<Block> AGRABAH_CEDAR_LOG = registerBlock("agrabah_cedar_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
     public static final DeferredBlock<Block> STRIPPED_AGRABAH_CEDAR_LOG = registerBlock("stripped_agrabah_cedar_log",
@@ -89,6 +90,56 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> AGRABAH_CEDAR_SAPLING = registerBlock("agrabah_cedar_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.AGRABAH_CEDAR, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // ALANTH
+    public static final DeferredBlock<Block> ALANTH_LOG = registerBlock("alanth_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_ALANTH_LOG = registerBlock("stripped_alanth_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> ALANTH_WOOD = registerBlock("alanth_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_ALANTH_WOOD = registerBlock("stripped_alanth_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> ALANTH_PLANKS = registerBlock("alanth_planks",
+            () -> new JMWCPlanks(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> ALANTH_STAIRS = registerBlock("alanth_stairs",
+            () -> new StairBlock(JMWCBlocks.ALANTH_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> ALANTH_LOG_STAIRS = registerBlock("alanth_log_stairs",
+            () -> new StairBlock(JMWCBlocks.ALANTH_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> STRIPPED_ALANTH_LOG_STAIRS = registerBlock("stripped_alanth_log_stairs",
+            () -> new StairBlock(JMWCBlocks.STRIPPED_ALANTH_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> ALANTH_SLAB = registerBlock("alanth_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> ALANTH_LOG_SLAB = registerBlock("alanth_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> STRIPPED_ALANTH_LOG_SLAB = registerBlock("stripped_alanth_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceBlock> ALANTH_FENCE = registerBlock("alanth_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceBlock> ALANTH_LOG_FENCE = registerBlock("alanth_log_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceGateBlock> ALANTH_FENCE_GATE = registerBlock("alanth_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceGateBlock> ALANTH_LOG_FENCE_GATE = registerBlock("alanth_log_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<DoorBlock> ALANTH_DOOR = registerBlock("alanth_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR)));
+    public static final DeferredBlock<TrapDoorBlock> ALANTH_TRAPDOOR = registerBlock("alanth_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<TrapDoorBlock> ALANTH_LOG_TRAPDOOR = registerBlock("alanth_log_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<ButtonBlock> ALANTH_BUTTON = registerBlock("alanth_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 15, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> ALANTH_PRESSUREPLATE = registerBlock("alanth_pressureplate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+    public static final DeferredBlock<Block> ALANTH_LEAVES = registerBlock("alanth_leaves",
+            () -> new AlanthLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> ALANTH_SAPLING = registerBlock("alanth_sapling",
+            () -> new SaplingBlock(JMWCTreeGrowers.ALANTH, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // ALLMEN OAK
     public static final DeferredBlock<Block> ALLMEN_OAK_LOG = registerBlock("allmen_oak_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
     public static final DeferredBlock<Block> STRIPPED_ALLMEN_OAK_LOG = registerBlock("stripped_allmen_oak_log",
@@ -137,6 +188,7 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> ALLMEN_OAK_SAPLING = registerBlock("allmen_oak_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.ALLMEN_OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // AUDRAFLORA OAK
     public static final DeferredBlock<Block> AUDRAFLORA_OAK_LOG = registerBlock("audraflora_oak_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
     public static final DeferredBlock<Block> STRIPPED_AUDRAFLORA_OAK_LOG = registerBlock("stripped_audraflora_oak_log",
@@ -185,6 +237,7 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> AUDRAFLORA_OAK_SAPLING = registerBlock("audraflora_oak_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.AUDRAFLORA_OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // BLACK ABORA
     public static final DeferredBlock<Block> BLACK_ABORA_LOG = registerBlock("black_abora_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
     public static final DeferredBlock<Block> STRIPPED_BLACK_ABORA_LOG = registerBlock("stripped_black_abora_log",
@@ -233,6 +286,7 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> BLACK_ABORA_SAPLING = registerBlock("black_abora_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.BLACK_ABORA, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // CARAVAN OLIVEWOOD
     public static final DeferredBlock<Block> CARAVAN_OLIVEWOOD_LOG = registerBlock("caravan_olivewood_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
     public static final DeferredBlock<Block> STRIPPED_CARAVAN_OLIVEWOOD_LOG = registerBlock("stripped_caravan_olivewood_log",
@@ -281,6 +335,7 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> CARAVAN_OLIVEWOOD_SAPLING = registerBlock("caravan_olivewood_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.CARAVAN_OLIVEWOOD, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // COPELAND CEDAR
     public static final DeferredBlock<Block> COPELAND_CEDAR_LOG = registerBlock("copeland_cedar_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
     public static final DeferredBlock<Block> STRIPPED_COPELAND_CEDAR_LOG = registerBlock("stripped_copeland_cedar_log",

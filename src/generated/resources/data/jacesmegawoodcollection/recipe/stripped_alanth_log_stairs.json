@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "alanth",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:stripped_alanth_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:stripped_alanth_log_stairs"
+  }
+}

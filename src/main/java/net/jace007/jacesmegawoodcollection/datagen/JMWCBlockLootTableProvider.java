@@ -47,6 +47,36 @@ import java.util.Set;
             dropSelf(JMWCBlocks.AGRABAH_CEDAR_BUTTON.get());
             dropSelf(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE.get());
 
+            // ALANTH
+
+            this.dropSelf(JMWCBlocks.ALANTH_LOG.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_ALANTH_LOG.get());
+            this.dropSelf(JMWCBlocks.ALANTH_WOOD.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_ALANTH_WOOD.get());
+            this.dropSelf(JMWCBlocks.ALANTH_PLANKS.get());
+            this.dropSelf(JMWCBlocks.ALANTH_SAPLING.get());
+            this.add(JMWCBlocks.ALANTH_LEAVES.get(), block ->
+                    createLeavesDrops(block, JMWCBlocks.ALANTH_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+            dropSelf(JMWCBlocks.ALANTH_STAIRS.get());
+            dropSelf(JMWCBlocks.ALANTH_LOG_STAIRS.get());
+            dropSelf(JMWCBlocks.STRIPPED_ALANTH_LOG_STAIRS.get());
+            add(JMWCBlocks.ALANTH_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.ALANTH_SLAB.get()));
+            add(JMWCBlocks.ALANTH_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.ALANTH_LOG_SLAB.get()));
+            add(JMWCBlocks.STRIPPED_ALANTH_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.STRIPPED_ALANTH_LOG_SLAB.get()));
+            dropSelf(JMWCBlocks.ALANTH_FENCE.get());
+            dropSelf(JMWCBlocks.ALANTH_LOG_FENCE.get());
+            dropSelf(JMWCBlocks.ALANTH_FENCE_GATE.get());
+            dropSelf(JMWCBlocks.ALANTH_LOG_FENCE_GATE.get());
+            add(JMWCBlocks.ALANTH_DOOR.get(),
+                    block -> createDoorTable(JMWCBlocks.ALANTH_DOOR.get()));
+            dropSelf(JMWCBlocks.ALANTH_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.ALANTH_LOG_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.ALANTH_BUTTON.get());
+            dropSelf(JMWCBlocks.ALANTH_PRESSUREPLATE.get());
+
             // ALLMEN OAK
 
             this.dropSelf(JMWCBlocks.ALLMEN_OAK_LOG.get());
