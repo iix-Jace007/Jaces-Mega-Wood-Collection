@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.state.properties.WoodType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.checkerframework.checker.units.qual.A;
 
 import java.util.function.Supplier;
 
@@ -23,7 +24,7 @@ public class JMWCBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(JacesMegaWoodCollection.MOD_ID);
 
-    // Next Wood Types Alanth, Aspenthine, Aubryn, Ballwyn, Burrenbark, Cursed Petal, Diamondfall Elm, Dollhouse Hickory, Dreamspire Alder, Empress Ash, Flashfire Walnut,
+    // Next Wood Types Aspenthine, Aubryn, Ballwyn, Burrenbark, Cursed Petal, Diamondfall Elm, Dollhouse Hickory, Dreamspire Alder, Empress Ash, Flashfire Walnut,
     // Flashflux Maple, Fracture Birch, Glowgrain Aspen, Goldflash Oak, Huntress Pine, Lone Wolf Walnut, Lyrelm, Marinth Oak, Moonclaw Ash, Moonveil Aspen, Oracle Elm,
     // Overdrive Ash, Panama City Pine, Pheneombark, Prismwood Ash, Redline Maple, Starstruck Spruce, Sugarthorn, Techsprout Timber, Thicket Elm, Treetop Maple, Tulgeywood,
     // Venomwood, and Vioak
@@ -187,6 +188,55 @@ public class JMWCBlocks {
             () -> new AllmenOakLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
     public static final DeferredBlock<Block> ALLMEN_OAK_SAPLING = registerBlock("allmen_oak_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.ALLMEN_OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // ASPENTHINE
+    public static final DeferredBlock<Block> ASPENTHINE_LOG = registerBlock("aspenthine_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_ASPENTHINE_LOG = registerBlock("stripped_aspenthine_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> ASPENTHINE_WOOD = registerBlock("aspenthine_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_ASPENTHINE_WOOD = registerBlock("stripped_aspenthine_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> ASPENTHINE_PLANKS = registerBlock("aspenthine_planks",
+            () -> new JMWCPlanks(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> ASPENTHINE_STAIRS = registerBlock("aspenthine_stairs",
+            () -> new StairBlock(JMWCBlocks.ASPENTHINE_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> ASPENTHINE_LOG_STAIRS = registerBlock("aspenthine_log_stairs",
+            () -> new StairBlock(JMWCBlocks.ASPENTHINE_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> STRIPPED_ASPENTHINE_LOG_STAIRS = registerBlock("stripped_aspenthine_log_stairs",
+            () -> new StairBlock(JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> ASPENTHINE_SLAB = registerBlock("aspenthine_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> ASPENTHINE_LOG_SLAB = registerBlock("aspenthine_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> STRIPPED_ASPENTHINE_LOG_SLAB = registerBlock("stripped_aspenthine_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceBlock> ASPENTHINE_FENCE = registerBlock("aspenthine_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceBlock> ASPENTHINE_LOG_FENCE = registerBlock("aspenthine_log_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceGateBlock> ASPENTHINE_FENCE_GATE = registerBlock("aspenthine_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceGateBlock> ASPENTHINE_LOG_FENCE_GATE = registerBlock("aspenthine_log_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<DoorBlock> ASPENTHINE_DOOR = registerBlock("aspenthine_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR)));
+    public static final DeferredBlock<TrapDoorBlock> ASPENTHINE_TRAPDOOR = registerBlock("aspenthine_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<TrapDoorBlock> ASPENTHINE_LOG_TRAPDOOR = registerBlock("aspenthine_log_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<ButtonBlock> ASPENTHINE_BUTTON = registerBlock("aspenthine_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 15, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> ASPENTHINE_PRESSUREPLATE = registerBlock("aspenthine_pressureplate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+    public static final DeferredBlock<Block> ASPENTHINE_LEAVES = registerBlock("aspenthine_leaves",
+            () -> new AspenthineLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> ASPENTHINE_SAPLING = registerBlock("aspenthine_sapling",
+            () -> new SaplingBlock(JMWCTreeGrowers.ASPENTHINE, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
     // AUDRAFLORA OAK
     public static final DeferredBlock<Block> AUDRAFLORA_OAK_LOG = registerBlock("audraflora_oak_log",

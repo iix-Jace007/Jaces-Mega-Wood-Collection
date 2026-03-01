@@ -21,7 +21,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
 
         // AGRABAH CEDAR
-
         logBlock(((RotatedPillarBlock) JMWCBlocks.AGRABAH_CEDAR_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.AGRABAH_CEDAR_WOOD.get()),
                 blockTexture(JMWCBlocks.AGRABAH_CEDAR_LOG.get()), blockTexture(JMWCBlocks.AGRABAH_CEDAR_LOG.get()));
@@ -70,7 +69,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.AGRABAH_CEDAR_LOG_TRAPDOOR, "_bottom");
 
         // ALANTH
-
         logBlock(((RotatedPillarBlock) JMWCBlocks.ALANTH_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.ALANTH_WOOD.get()),
                 blockTexture(JMWCBlocks.ALANTH_LOG.get()), blockTexture(JMWCBlocks.ALANTH_LOG.get()));
@@ -119,7 +117,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.ALANTH_LOG_TRAPDOOR, "_bottom");
 
         // ALLMEN OAK
-
         logBlock(((RotatedPillarBlock) JMWCBlocks.ALLMEN_OAK_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.ALLMEN_OAK_WOOD.get()),
                 blockTexture(JMWCBlocks.ALLMEN_OAK_LOG.get()), blockTexture(JMWCBlocks.ALLMEN_OAK_LOG.get()));
@@ -167,8 +164,55 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.ALLMEN_OAK_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.ALLMEN_OAK_LOG_TRAPDOOR, "_bottom");
 
-        // AUDRAFLORA OAK
+        // ASPENTHINE
+        logBlock(((RotatedPillarBlock) JMWCBlocks.ASPENTHINE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.ASPENTHINE_WOOD.get()),
+                blockTexture(JMWCBlocks.ASPENTHINE_LOG.get()), blockTexture(JMWCBlocks.ASPENTHINE_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_ASPENTHINE_WOOD.get()),
+                blockTexture(JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get()));
+        blockItem(JMWCBlocks.ASPENTHINE_LOG);
+        blockItem(JMWCBlocks.ASPENTHINE_WOOD);
+        blockItem(JMWCBlocks.STRIPPED_ASPENTHINE_LOG);
+        blockItem(JMWCBlocks.STRIPPED_ASPENTHINE_WOOD);
+        blockWithItem(JMWCBlocks.ASPENTHINE_PLANKS);
+        leavesBlock(JMWCBlocks.ASPENTHINE_LEAVES);
+        saplingBlock(JMWCBlocks.ASPENTHINE_SAPLING);
+        stairsBlock(JMWCBlocks.ASPENTHINE_STAIRS.get(), blockTexture(JMWCBlocks.ASPENTHINE_PLANKS.get()));
+        stairsBlock(JMWCBlocks.ASPENTHINE_LOG_STAIRS.get(), blockTexture(JMWCBlocks.ASPENTHINE_LOG.get()));
+        stairsBlock(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get()));
+        slabBlock(JMWCBlocks.ASPENTHINE_SLAB.get(),
+                blockTexture(JMWCBlocks.ASPENTHINE_PLANKS.get()), blockTexture(JMWCBlocks.ASPENTHINE_PLANKS.get()));
+        slabBlock(JMWCBlocks.ASPENTHINE_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.ASPENTHINE_LOG.get()), blockTexture(JMWCBlocks.ASPENTHINE_LOG.get()));
+        slabBlock(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get()));
+        buttonBlock(JMWCBlocks.ASPENTHINE_BUTTON.get(), blockTexture(JMWCBlocks.ASPENTHINE_PLANKS.get()));
+        pressurePlateBlock(JMWCBlocks.ASPENTHINE_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.ASPENTHINE_PLANKS.get()));
+        fenceBlock(JMWCBlocks.ASPENTHINE_FENCE.get(), blockTexture(JMWCBlocks.ASPENTHINE_PLANKS.get()));
+        fenceBlock(JMWCBlocks.ASPENTHINE_LOG_FENCE.get(), blockTexture(JMWCBlocks.ASPENTHINE_LOG.get()));
+        fenceGateBlock(JMWCBlocks.ASPENTHINE_FENCE_GATE.get(), blockTexture(JMWCBlocks.ASPENTHINE_PLANKS.get()));
+        fenceGateBlock(JMWCBlocks.ASPENTHINE_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.ASPENTHINE_LOG.get()));
+        doorBlockWithRenderType(JMWCBlocks.ASPENTHINE_DOOR.get(),
+                modLoc("block/aspenthine_door_bottom"), modLoc("block/aspenthine_door_top"), "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.ASPENTHINE_TRAPDOOR.get(),
+                modLoc("block/aspenthine_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.ASPENTHINE_LOG_TRAPDOOR.get(),
+                modLoc("block/aspenthine_log_trapdoor"), true, "cutout");
+        blockItem(JMWCBlocks.ASPENTHINE_STAIRS);
+        blockItem(JMWCBlocks.ASPENTHINE_LOG_STAIRS);
+        blockItem(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_STAIRS);
+        blockItem(JMWCBlocks.ASPENTHINE_SLAB);
+        blockItem(JMWCBlocks.ASPENTHINE_LOG_SLAB);
+        blockItem(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_SLAB);
+        blockItem(JMWCBlocks.ASPENTHINE_FENCE_GATE);
+        blockItem(JMWCBlocks.ASPENTHINE_LOG_FENCE_GATE);
+        blockItem(JMWCBlocks.ASPENTHINE_BUTTON);
+        blockItem(JMWCBlocks.ASPENTHINE_PRESSUREPLATE);
+        blockItem(JMWCBlocks.ASPENTHINE_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.ASPENTHINE_LOG_TRAPDOOR, "_bottom");
 
+        // AUDRAFLORA OAK
         logBlock(((RotatedPillarBlock) JMWCBlocks.AUDRAFLORA_OAK_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.AUDRAFLORA_OAK_WOOD.get()),
                 blockTexture(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()), blockTexture(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()));
@@ -217,7 +261,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR, "_bottom");
 
         // BLACK ABORA
-
         logBlock(((RotatedPillarBlock) JMWCBlocks.BLACK_ABORA_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.BLACK_ABORA_WOOD.get()),
                 blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()), blockTexture(JMWCBlocks.BLACK_ABORA_LOG.get()));
@@ -266,7 +309,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR, "_bottom");
 
         // CARAVAN OLIVEWOOD
-
         logBlock(((RotatedPillarBlock) JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD.get()),
                 blockTexture(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get()), blockTexture(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get()));
@@ -315,7 +357,6 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG_TRAPDOOR, "_bottom");
 
         // COPELAND CEDAR
-
         logBlock(((RotatedPillarBlock) JMWCBlocks.COPELAND_CEDAR_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.COPELAND_CEDAR_WOOD.get()),
                 blockTexture(JMWCBlocks.COPELAND_CEDAR_LOG.get()), blockTexture(JMWCBlocks.COPELAND_CEDAR_LOG.get()));

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jacesmegawoodcollection:block/aspenthine_log",
+    "side": "jacesmegawoodcollection:block/aspenthine_log"
+  }
+}

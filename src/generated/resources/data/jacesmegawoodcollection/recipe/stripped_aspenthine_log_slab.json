@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:stripped_aspenthine_log"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "jacesmegawoodcollection:stripped_aspenthine_log_slab"
+  }
+}

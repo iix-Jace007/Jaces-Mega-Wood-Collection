@@ -14,9 +14,11 @@ public class JMWCTags {
         public static final TagKey<Block> AGRABAH_CEDAR_LOGS = createTag("agrabah_cedar_logs");
         public static final TagKey<Block> ALANTH = createTag("alanth");
         public static final TagKey<Block> ALANTH_LOGS = createTag("alanth_logs");
-
         public static final TagKey<Block> ALLMEN_OAK = createTag("allman_oak");
         public static final TagKey<Block> ALLMEN_OAK_LOGS = createTag("allmen_oak_logs");
+        public static final TagKey<Block> ASPENTHINE = createTag("aspenthine");
+        public static final TagKey<Block> ASPENTHINE_LOGS = createTag("aspenthine_logs");
+
         public static final TagKey<Block> AUDRAFLORA_OAK = createTag("audraflora_oak");
         public static final TagKey<Block> AUDRAFLORA_OAK_LOGS = createTag("audraflora_oak_logs");
         public static final TagKey<Block> BLACK_ABORA = createTag("black_abora");

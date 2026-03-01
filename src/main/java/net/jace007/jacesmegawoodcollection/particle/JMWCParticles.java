@@ -19,6 +19,8 @@ public class JMWCParticles {
             PARTICLE_TYPES.register("alanth_leaves", () -> new SimpleParticleType(false));
     public static final Supplier<SimpleParticleType> ALLMEN_OAK_LEAVES =
             PARTICLE_TYPES.register("allmen_oak_leaves", () -> new SimpleParticleType(false));
+    public static final Supplier<SimpleParticleType> ASPENTHINE_LEAVES =
+            PARTICLE_TYPES.register("aspenthine_leaves", () -> new SimpleParticleType(false));
     public static final Supplier<SimpleParticleType> AUDRAFLORA_OAK_LEAVES =
             PARTICLE_TYPES.register("audraflora_oak_leaves", () -> new SimpleParticleType(false));
     public static final Supplier<SimpleParticleType> BLACK_ABORA_LEAVES =

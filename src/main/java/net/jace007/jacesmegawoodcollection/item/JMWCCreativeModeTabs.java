@@ -89,6 +89,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.ALLMEN_OAK_LEAVES);
                         output.accept(JMWCBlocks.ALLMEN_OAK_SAPLING);
 
+                        output.accept(JMWCBlocks.ASPENTHINE_LOG);
+                        output.accept(JMWCBlocks.ASPENTHINE_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_ASPENTHINE_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_ASPENTHINE_WOOD);
+                        output.accept(JMWCBlocks.ASPENTHINE_PLANKS);
+                        output.accept(JMWCBlocks.ASPENTHINE_STAIRS);
+                        output.accept(JMWCBlocks.ASPENTHINE_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_STAIRS);
+                        output.accept(JMWCBlocks.ASPENTHINE_SLAB);
+                        output.accept(JMWCBlocks.ASPENTHINE_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_SLAB);
+                        output.accept(JMWCBlocks.ASPENTHINE_FENCE);
+                        output.accept(JMWCBlocks.ASPENTHINE_LOG_FENCE);
+                        output.accept(JMWCBlocks.ASPENTHINE_FENCE_GATE);
+                        output.accept(JMWCBlocks.ASPENTHINE_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.ASPENTHINE_DOOR);
+                        output.accept(JMWCBlocks.ASPENTHINE_TRAPDOOR);
+                        output.accept(JMWCBlocks.ASPENTHINE_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.ASPENTHINE_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.ASPENTHINE_BUTTON);
+                        output.accept(JMWCBlocks.ASPENTHINE_LEAVES);
+                        output.accept(JMWCBlocks.ASPENTHINE_SAPLING);
+
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG);
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_WOOD);
                         output.accept(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG);

@@ -78,6 +78,7 @@ public class JacesMegaWoodCollection {
             event.registerSpriteSet(JMWCParticles.AGRABAH_CEDAR_LEAVES.get(), AgrabahCedarLeafParticles.Provider::new);
             event.registerSpriteSet(JMWCParticles.ALANTH_LEAVES.get(), AgrabahCedarLeafParticles.Provider::new);
             event.registerSpriteSet(JMWCParticles.ALLMEN_OAK_LEAVES.get(), AllmenOakLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.ASPENTHINE_LEAVES.get(), AllmenOakLeafParticles.Provider::new);
             event.registerSpriteSet(JMWCParticles.AUDRAFLORA_OAK_LEAVES.get(), AudrafloraOakLeafParticles.Provider::new);
             event.registerSpriteSet(JMWCParticles.BLACK_ABORA_LEAVES.get(), BlackAboraLeafParticles.Provider::new);
             event.registerSpriteSet(JMWCParticles.CARAVAN_OLIVEWOOD_LEAVES.get(), CaravanOlivewoodLeafParticles.Provider::new);

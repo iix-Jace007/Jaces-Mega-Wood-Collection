@@ -18,7 +18,6 @@ import java.util.Set;
         protected void generate() {
 
             // AGRABAH_CEDAR
-
             this.dropSelf(JMWCBlocks.AGRABAH_CEDAR_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_AGRABAH_CEDAR_LOG.get());
             this.dropSelf(JMWCBlocks.AGRABAH_CEDAR_WOOD.get());
@@ -48,7 +47,6 @@ import java.util.Set;
             dropSelf(JMWCBlocks.AGRABAH_CEDAR_PRESSUREPLATE.get());
 
             // ALANTH
-
             this.dropSelf(JMWCBlocks.ALANTH_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_ALANTH_LOG.get());
             this.dropSelf(JMWCBlocks.ALANTH_WOOD.get());
@@ -78,7 +76,6 @@ import java.util.Set;
             dropSelf(JMWCBlocks.ALANTH_PRESSUREPLATE.get());
 
             // ALLMEN OAK
-
             this.dropSelf(JMWCBlocks.ALLMEN_OAK_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_ALLMEN_OAK_LOG.get());
             this.dropSelf(JMWCBlocks.ALLMEN_OAK_WOOD.get());
@@ -107,8 +104,36 @@ import java.util.Set;
             dropSelf(JMWCBlocks.ALLMEN_OAK_BUTTON.get());
             dropSelf(JMWCBlocks.ALLMEN_OAK_PRESSUREPLATE.get());
 
-            // AUDRAFLORA OAK
+            // ASPENTHINE
+            this.dropSelf(JMWCBlocks.ASPENTHINE_LOG.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_ASPENTHINE_LOG.get());
+            this.dropSelf(JMWCBlocks.ASPENTHINE_WOOD.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_ASPENTHINE_WOOD.get());
+            this.dropSelf(JMWCBlocks.ASPENTHINE_PLANKS.get());
+            this.dropSelf(JMWCBlocks.ASPENTHINE_SAPLING.get());
+            this.add(JMWCBlocks.ASPENTHINE_LEAVES.get(), block ->
+                    createLeavesDrops(block, JMWCBlocks.ASPENTHINE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+            dropSelf(JMWCBlocks.ASPENTHINE_STAIRS.get());
+            dropSelf(JMWCBlocks.ASPENTHINE_LOG_STAIRS.get());
+            dropSelf(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_STAIRS.get());
+            add(JMWCBlocks.ASPENTHINE_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.ASPENTHINE_SLAB.get()));
+            add(JMWCBlocks.ASPENTHINE_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.ASPENTHINE_LOG_SLAB.get()));
+            add(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_SLAB.get()));
+            dropSelf(JMWCBlocks.ASPENTHINE_FENCE.get());
+            dropSelf(JMWCBlocks.ASPENTHINE_LOG_FENCE.get());
+            dropSelf(JMWCBlocks.ASPENTHINE_FENCE_GATE.get());
+            dropSelf(JMWCBlocks.ASPENTHINE_LOG_FENCE_GATE.get());
+            add(JMWCBlocks.ASPENTHINE_DOOR.get(),
+                    block -> createDoorTable(JMWCBlocks.ASPENTHINE_DOOR.get()));
+            dropSelf(JMWCBlocks.ASPENTHINE_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.ASPENTHINE_LOG_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.ASPENTHINE_BUTTON.get());
+            dropSelf(JMWCBlocks.ASPENTHINE_PRESSUREPLATE.get());
 
+            // AUDRAFLORA OAK
             this.dropSelf(JMWCBlocks.AUDRAFLORA_OAK_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get());
             this.dropSelf(JMWCBlocks.AUDRAFLORA_OAK_WOOD.get());
@@ -138,7 +163,6 @@ import java.util.Set;
             dropSelf(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE.get());
 
             // BLACK ABORA
-
             this.dropSelf(JMWCBlocks.BLACK_ABORA_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get());
             this.dropSelf(JMWCBlocks.BLACK_ABORA_WOOD.get());
@@ -168,7 +192,6 @@ import java.util.Set;
             dropSelf(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE.get());
 
             // CARAVAN OLIVEWOOD
-
             this.dropSelf(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG.get());
             this.dropSelf(JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD.get());
@@ -198,7 +221,6 @@ import java.util.Set;
             dropSelf(JMWCBlocks.CARAVAN_OLIVEWOOD_PRESSUREPLATE.get());
 
             // COPELAND CEDAR
-
             this.dropSelf(JMWCBlocks.COPELAND_CEDAR_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_COPELAND_CEDAR_LOG.get());
             this.dropSelf(JMWCBlocks.COPELAND_CEDAR_WOOD.get());

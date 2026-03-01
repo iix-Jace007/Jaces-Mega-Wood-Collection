@@ -1,0 +1,26 @@
+{
+  "values": [
+    "jacesmegawoodcollection:aspenthine_log",
+    "jacesmegawoodcollection:stripped_aspenthine_log",
+    "jacesmegawoodcollection:aspenthine_wood",
+    "jacesmegawoodcollection:stripped_aspenthine_wood",
+    "jacesmegawoodcollection:aspenthine_planks",
+    "jacesmegawoodcollection:aspenthine_stairs",
+    "jacesmegawoodcollection:aspenthine_log_stairs",
+    "jacesmegawoodcollection:stripped_aspenthine_log_stairs",
+    "jacesmegawoodcollection:aspenthine_slab",
+    "jacesmegawoodcollection:aspenthine_log_slab",
+    "jacesmegawoodcollection:stripped_aspenthine_log_slab",
+    "jacesmegawoodcollection:aspenthine_fence",
+    "jacesmegawoodcollection:aspenthine_log_fence",
+    "jacesmegawoodcollection:aspenthine_fence_gate",
+    "jacesmegawoodcollection:aspenthine_log_fence_gate",
+    "jacesmegawoodcollection:aspenthine_door",
+    "jacesmegawoodcollection:aspenthine_trapdoor",
+    "jacesmegawoodcollection:aspenthine_log_trapdoor",
+    "jacesmegawoodcollection:aspenthine_button",
+    "jacesmegawoodcollection:aspenthine_pressureplate",
+    "jacesmegawoodcollection:aspenthine_leaves",
+    "jacesmegawoodcollection:aspenthine_sapling"
+  ]
+}

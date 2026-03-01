@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "aspenthine",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:aspenthine_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:aspenthine_log_stairs"
+  }
+}

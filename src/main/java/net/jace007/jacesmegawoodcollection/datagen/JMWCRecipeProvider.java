@@ -110,6 +110,37 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
         buttonBuilder(JMWCBlocks.ALLMEN_OAK_BUTTON.get(), Ingredient.of(JMWCBlocks.ALLMEN_OAK_PLANKS.get())).group("allmen_oak")
                 .unlockedBy("has_allmen_oak_planks", has(JMWCBlocks.ALLMEN_OAK_PLANKS)).save(recipeOutput);
 
+        // ASPENTHINE
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.ASPENTHINE_PLANKS.get(),4)
+                .requires(JMWCBlocks.ASPENTHINE_LOG)
+                .unlockedBy("has_aspenthine_log", has(JMWCBlocks.ASPENTHINE_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.ASPENTHINE_STAIRS.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_PLANKS)).group("aspenthine")
+                .unlockedBy("has_aspenthine_planks", has(JMWCBlocks.ASPENTHINE_PLANKS)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.ASPENTHINE_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_LOG)).group("aspenthine")
+                .unlockedBy("has_aspenthine_log", has(JMWCBlocks.ASPENTHINE_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.STRIPPED_ASPENTHINE_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.STRIPPED_ASPENTHINE_LOG)).group("aspenthine")
+                .unlockedBy("has_stripped_aspenthine_log", has(JMWCBlocks.STRIPPED_ASPENTHINE_LOG)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.ASPENTHINE_SLAB.get(), JMWCBlocks.ASPENTHINE_PLANKS);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.ASPENTHINE_LOG_SLAB.get(), JMWCBlocks.ASPENTHINE_LOG);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.STRIPPED_ASPENTHINE_LOG_SLAB.get(), JMWCBlocks.STRIPPED_ASPENTHINE_LOG);
+        fenceBuilder(JMWCBlocks.ASPENTHINE_FENCE.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_PLANKS.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_planks", has(JMWCBlocks.ASPENTHINE_PLANKS)).save(recipeOutput);
+        fenceBuilder(JMWCBlocks.ASPENTHINE_LOG_FENCE.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_LOG.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_log", has(JMWCBlocks.ASPENTHINE_LOG)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.ASPENTHINE_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_PLANKS.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_planks", has(JMWCBlocks.ASPENTHINE_PLANKS)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.ASPENTHINE_LOG_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_LOG.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_log", has(JMWCBlocks.ASPENTHINE_LOG)).save(recipeOutput);
+        doorBuilder(JMWCBlocks.ASPENTHINE_DOOR.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_PLANKS.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_planks", has(JMWCBlocks.ASPENTHINE_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.ASPENTHINE_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_PLANKS.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_planks", has(JMWCBlocks.ASPENTHINE_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.ASPENTHINE_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_LOG.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_log", has(JMWCBlocks.ASPENTHINE_LOG)).save(recipeOutput);
+        pressurePlate(recipeOutput, JMWCBlocks.ASPENTHINE_PRESSUREPLATE.get(), JMWCBlocks.ASPENTHINE_PLANKS.get());
+        buttonBuilder(JMWCBlocks.ASPENTHINE_BUTTON.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_PLANKS.get())).group("aspenthine")
+                .unlockedBy("has_aspenthine_planks", has(JMWCBlocks.ASPENTHINE_PLANKS)).save(recipeOutput);
+
         // AUDRAFLORA OAK
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get(),4)
                 .requires(JMWCBlocks.AUDRAFLORA_OAK_LOG)

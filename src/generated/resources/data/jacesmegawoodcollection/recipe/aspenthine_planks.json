@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:aspenthine_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:aspenthine_planks"
+  }
+}

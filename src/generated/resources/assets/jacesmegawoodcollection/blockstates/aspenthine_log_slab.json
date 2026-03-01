@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jacesmegawoodcollection:block/aspenthine_log_slab"
+    },
+    "type=double": {
+      "model": "jacesmegawoodcollection:block/aspenthine_log"
+    },
+    "type=top": {
+      "model": "jacesmegawoodcollection:block/aspenthine_log_slab_top"
+    }
+  }
+}
