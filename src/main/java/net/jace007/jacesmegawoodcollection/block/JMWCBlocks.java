@@ -24,7 +24,7 @@ public class JMWCBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(JacesMegaWoodCollection.MOD_ID);
 
-    // Next Wood Types Aspenthine, Aubryn, Ballwyn, Burrenbark, Cursed Petal, Diamondfall Elm, Dollhouse Hickory, Dreamspire Alder, Empress Ash, Flashfire Walnut,
+    // Next Wood Types Aubryn Hollow, Ballwyn, Burrenbark, Cursed Petal, Diamondfall Elm, Dollhouse Hickory, Dreamspire Alder, Empress Ash, Flashfire Walnut,
     // Flashflux Maple, Fracture Birch, Glowgrain Aspen, Goldflash Oak, Huntress Pine, Lone Wolf Walnut, Lyrelm, Marinth Oak, Moonclaw Ash, Moonveil Aspen, Oracle Elm,
     // Overdrive Ash, Panama City Pine, Pheneombark, Prismwood Ash, Redline Maple, Starstruck Spruce, Sugarthorn, Techsprout Timber, Thicket Elm, Treetop Maple, Tulgeywood,
     // Venomwood, and Vioak
@@ -237,6 +237,55 @@ public class JMWCBlocks {
             () -> new AspenthineLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
     public static final DeferredBlock<Block> ASPENTHINE_SAPLING = registerBlock("aspenthine_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.ASPENTHINE, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // AUBRYN HOLLOW
+    public static final DeferredBlock<Block> AUBRYN_HOLLOW_LOG = registerBlock("aubryn_hollow_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_AUBRYN_HOLLOW_LOG = registerBlock("stripped_aubryn_hollow_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> AUBRYN_HOLLOW_WOOD = registerBlock("aubryn_hollow_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_AUBRYN_HOLLOW_WOOD = registerBlock("stripped_aubryn_hollow_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> AUBRYN_HOLLOW_PLANKS = registerBlock("aubryn_hollow_planks",
+            () -> new JMWCPlanks(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> AUBRYN_HOLLOW_STAIRS = registerBlock("aubryn_hollow_stairs",
+            () -> new StairBlock(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> AUBRYN_HOLLOW_LOG_STAIRS = registerBlock("aubryn_hollow_log_stairs",
+            () -> new StairBlock(JMWCBlocks.AUBRYN_HOLLOW_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> STRIPPED_AUBRYN_HOLLOW_LOG_STAIRS = registerBlock("stripped_aubryn_hollow_log_stairs",
+            () -> new StairBlock(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> AUBRYN_HOLLOW_SLAB = registerBlock("aubryn_hollow_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> AUBRYN_HOLLOW_LOG_SLAB = registerBlock("aubryn_hollow_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> STRIPPED_AUBRYN_HOLLOW_LOG_SLAB = registerBlock("stripped_aubryn_hollow_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceBlock> AUBRYN_HOLLOW_FENCE = registerBlock("aubryn_hollow_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceBlock> AUBRYN_HOLLOW_LOG_FENCE = registerBlock("aubryn_hollow_log_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceGateBlock> AUBRYN_HOLLOW_FENCE_GATE = registerBlock("aubryn_hollow_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceGateBlock> AUBRYN_HOLLOW_LOG_FENCE_GATE = registerBlock("aubryn_hollow_log_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<DoorBlock> AUBRYN_HOLLOW_DOOR = registerBlock("aubryn_hollow_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR)));
+    public static final DeferredBlock<TrapDoorBlock> AUBRYN_HOLLOW_TRAPDOOR = registerBlock("aubryn_hollow_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<TrapDoorBlock> AUBRYN_HOLLOW_LOG_TRAPDOOR = registerBlock("aubryn_hollow_log_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<ButtonBlock> AUBRYN_HOLLOW_BUTTON = registerBlock("aubryn_hollow_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 15, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> AUBRYN_HOLLOW_PRESSUREPLATE = registerBlock("aubryn_hollow_pressureplate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+    public static final DeferredBlock<Block> AUBRYN_HOLLOW_LEAVES = registerBlock("aubryn_hollow_leaves",
+            () -> new AubrynHollowLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> AUBRYN_HOLLOW_SAPLING = registerBlock("aubryn_hollow_sapling",
+            () -> new SaplingBlock(JMWCTreeGrowers.AUBRYN_HOLLOW, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
     // AUDRAFLORA OAK
     public static final DeferredBlock<Block> AUDRAFLORA_OAK_LOG = registerBlock("audraflora_oak_log",

@@ -47,6 +47,13 @@ public class JMWCItemModelProvider extends ItemModelProvider {
         fenceItem(JMWCBlocks.ASPENTHINE_LOG_FENCE, JMWCBlocks.ASPENTHINE_LOG);
         saplingItem(JMWCBlocks.ASPENTHINE_SAPLING);
 
+        // AUBRYN HOLLOW
+        buttonItem(JMWCBlocks.AUBRYN_HOLLOW_BUTTON, JMWCBlocks.AUBRYN_HOLLOW_PLANKS);
+        basicItem(JMWCBlocks.AUBRYN_HOLLOW_DOOR.asItem());
+        fenceItem(JMWCBlocks.AUBRYN_HOLLOW_FENCE, JMWCBlocks.AUBRYN_HOLLOW_PLANKS);
+        fenceItem(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE, JMWCBlocks.AUBRYN_HOLLOW_LOG);
+        saplingItem(JMWCBlocks.AUBRYN_HOLLOW_SAPLING);
+
         // AUDRAFLORA OAK
         buttonItem(JMWCBlocks.AUDRAFLORA_OAK_BUTTON, JMWCBlocks.AUDRAFLORA_OAK_PLANKS);
         basicItem(JMWCBlocks.AUDRAFLORA_OAK_DOOR.asItem());

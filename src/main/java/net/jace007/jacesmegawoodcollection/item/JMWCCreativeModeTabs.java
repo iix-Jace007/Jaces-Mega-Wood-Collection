@@ -112,6 +112,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.ASPENTHINE_LEAVES);
                         output.accept(JMWCBlocks.ASPENTHINE_SAPLING);
 
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_LOG);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_WOOD);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_PLANKS);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_STAIRS);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_STAIRS);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_SLAB);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_SLAB);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_FENCE);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_FENCE_GATE);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_DOOR);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_TRAPDOOR);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_BUTTON);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_LEAVES);
+                        output.accept(JMWCBlocks.AUBRYN_HOLLOW_SAPLING);
+
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_LOG);
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_WOOD);
                         output.accept(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG);

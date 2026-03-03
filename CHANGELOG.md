@@ -20,3 +20,5 @@ Change Log
 * Added Alanth Wood Type
 ### Version 0.0.8
 * Added Aspenthine Wood Type
+### Version 0.0.9
+* Added Aubryn Hollow Wood Type

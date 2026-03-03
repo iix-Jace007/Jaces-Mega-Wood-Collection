@@ -141,6 +141,37 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
         buttonBuilder(JMWCBlocks.ASPENTHINE_BUTTON.get(), Ingredient.of(JMWCBlocks.ASPENTHINE_PLANKS.get())).group("aspenthine")
                 .unlockedBy("has_aspenthine_planks", has(JMWCBlocks.ASPENTHINE_PLANKS)).save(recipeOutput);
 
+        // ASPENTHINE
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get(),4)
+                .requires(JMWCBlocks.AUBRYN_HOLLOW_LOG)
+                .unlockedBy("has_aubryn_hollow_log", has(JMWCBlocks.AUBRYN_HOLLOW_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.AUBRYN_HOLLOW_STAIRS.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_PLANKS)).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_planks", has(JMWCBlocks.AUBRYN_HOLLOW_PLANKS)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.AUBRYN_HOLLOW_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_LOG)).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_log", has(JMWCBlocks.AUBRYN_HOLLOW_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG)).group("aubryn_hollow")
+                .unlockedBy("has_stripped_aubryn_hollow_log", has(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.AUBRYN_HOLLOW_SLAB.get(), JMWCBlocks.AUBRYN_HOLLOW_PLANKS);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.AUBRYN_HOLLOW_LOG_SLAB.get(), JMWCBlocks.AUBRYN_HOLLOW_LOG);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_SLAB.get(), JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG);
+        fenceBuilder(JMWCBlocks.AUBRYN_HOLLOW_FENCE.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_planks", has(JMWCBlocks.AUBRYN_HOLLOW_PLANKS)).save(recipeOutput);
+        fenceBuilder(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_LOG.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_log", has(JMWCBlocks.AUBRYN_HOLLOW_LOG)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.AUBRYN_HOLLOW_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_planks", has(JMWCBlocks.AUBRYN_HOLLOW_PLANKS)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_LOG.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_log", has(JMWCBlocks.AUBRYN_HOLLOW_LOG)).save(recipeOutput);
+        doorBuilder(JMWCBlocks.AUBRYN_HOLLOW_DOOR.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_planks", has(JMWCBlocks.AUBRYN_HOLLOW_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.AUBRYN_HOLLOW_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_planks", has(JMWCBlocks.AUBRYN_HOLLOW_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.AUBRYN_HOLLOW_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_LOG.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_log", has(JMWCBlocks.AUBRYN_HOLLOW_LOG)).save(recipeOutput);
+        pressurePlate(recipeOutput, JMWCBlocks.AUBRYN_HOLLOW_PRESSUREPLATE.get(), JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get());
+        buttonBuilder(JMWCBlocks.AUBRYN_HOLLOW_BUTTON.get(), Ingredient.of(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get())).group("aubryn_hollow")
+                .unlockedBy("has_aubryn_hollow_planks", has(JMWCBlocks.AUBRYN_HOLLOW_PLANKS)).save(recipeOutput);
+
         // AUDRAFLORA OAK
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get(),4)
                 .requires(JMWCBlocks.AUDRAFLORA_OAK_LOG)

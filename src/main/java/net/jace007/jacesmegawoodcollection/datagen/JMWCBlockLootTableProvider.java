@@ -133,6 +133,35 @@ import java.util.Set;
             dropSelf(JMWCBlocks.ASPENTHINE_BUTTON.get());
             dropSelf(JMWCBlocks.ASPENTHINE_PRESSUREPLATE.get());
 
+            // AUBRYN HOLLOW
+            this.dropSelf(JMWCBlocks.AUBRYN_HOLLOW_LOG.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get());
+            this.dropSelf(JMWCBlocks.AUBRYN_HOLLOW_WOOD.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_WOOD.get());
+            this.dropSelf(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get());
+            this.dropSelf(JMWCBlocks.AUBRYN_HOLLOW_SAPLING.get());
+            this.add(JMWCBlocks.AUBRYN_HOLLOW_LEAVES.get(), block ->
+                    createLeavesDrops(block, JMWCBlocks.AUBRYN_HOLLOW_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_STAIRS.get());
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_LOG_STAIRS.get());
+            dropSelf(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_STAIRS.get());
+            add(JMWCBlocks.AUBRYN_HOLLOW_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.AUBRYN_HOLLOW_SLAB.get()));
+            add(JMWCBlocks.AUBRYN_HOLLOW_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.AUBRYN_HOLLOW_LOG_SLAB.get()));
+            add(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_SLAB.get()));
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_FENCE.get());
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE.get());
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_FENCE_GATE.get());
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE_GATE.get());
+            add(JMWCBlocks.AUBRYN_HOLLOW_DOOR.get(),
+                    block -> createDoorTable(JMWCBlocks.AUBRYN_HOLLOW_DOOR.get()));
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_LOG_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_BUTTON.get());
+            dropSelf(JMWCBlocks.AUBRYN_HOLLOW_PRESSUREPLATE.get());
+
             // AUDRAFLORA OAK
             this.dropSelf(JMWCBlocks.AUDRAFLORA_OAK_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_AUDRAFLORA_OAK_LOG.get());

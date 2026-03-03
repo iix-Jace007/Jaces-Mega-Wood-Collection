@@ -212,6 +212,54 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.ASPENTHINE_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.ASPENTHINE_LOG_TRAPDOOR, "_bottom");
 
+        // ASPENTHINE
+        logBlock(((RotatedPillarBlock) JMWCBlocks.AUBRYN_HOLLOW_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.AUBRYN_HOLLOW_WOOD.get()),
+                blockTexture(JMWCBlocks.AUBRYN_HOLLOW_LOG.get()), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_WOOD.get()),
+                blockTexture(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get()));
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_LOG);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_WOOD);
+        blockItem(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG);
+        blockItem(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_WOOD);
+        blockWithItem(JMWCBlocks.AUBRYN_HOLLOW_PLANKS);
+        leavesBlock(JMWCBlocks.AUBRYN_HOLLOW_LEAVES);
+        saplingBlock(JMWCBlocks.AUBRYN_HOLLOW_SAPLING);
+        stairsBlock(JMWCBlocks.AUBRYN_HOLLOW_STAIRS.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get()));
+        stairsBlock(JMWCBlocks.AUBRYN_HOLLOW_LOG_STAIRS.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_LOG.get()));
+        stairsBlock(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get()));
+        slabBlock(JMWCBlocks.AUBRYN_HOLLOW_SLAB.get(),
+                blockTexture(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get()), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get()));
+        slabBlock(JMWCBlocks.AUBRYN_HOLLOW_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.AUBRYN_HOLLOW_LOG.get()), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_LOG.get()));
+        slabBlock(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG.get()));
+        buttonBlock(JMWCBlocks.AUBRYN_HOLLOW_BUTTON.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get()));
+        pressurePlateBlock(JMWCBlocks.AUBRYN_HOLLOW_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get()));
+        fenceBlock(JMWCBlocks.AUBRYN_HOLLOW_FENCE.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get()));
+        fenceBlock(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_LOG.get()));
+        fenceGateBlock(JMWCBlocks.AUBRYN_HOLLOW_FENCE_GATE.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_PLANKS.get()));
+        fenceGateBlock(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.AUBRYN_HOLLOW_LOG.get()));
+        doorBlockWithRenderType(JMWCBlocks.AUBRYN_HOLLOW_DOOR.get(),
+                modLoc("block/aubryn_hollow_door_bottom"), modLoc("block/aubryn_hollow_door_top"), "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.AUBRYN_HOLLOW_TRAPDOOR.get(),
+                modLoc("block/aubryn_hollow_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.AUBRYN_HOLLOW_LOG_TRAPDOOR.get(),
+                modLoc("block/aubryn_hollow_log_trapdoor"), true, "cutout");
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_STAIRS);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_LOG_STAIRS);
+        blockItem(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_STAIRS);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_SLAB);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_LOG_SLAB);
+        blockItem(JMWCBlocks.STRIPPED_AUBRYN_HOLLOW_LOG_SLAB);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_FENCE_GATE);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_LOG_FENCE_GATE);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_BUTTON);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_PRESSUREPLATE);
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.AUBRYN_HOLLOW_LOG_TRAPDOOR, "_bottom");
+
         // AUDRAFLORA OAK
         logBlock(((RotatedPillarBlock) JMWCBlocks.AUDRAFLORA_OAK_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.AUDRAFLORA_OAK_WOOD.get()),
