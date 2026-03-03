@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jacesmegawoodcollection:block/stripped_aubryn_hollow_log_slab"
+    },
+    "type=double": {
+      "model": "jacesmegawoodcollection:block/stripped_aubryn_hollow_log"
+    },
+    "type=top": {
+      "model": "jacesmegawoodcollection:block/stripped_aubryn_hollow_log_slab_top"
+    }
+  }
+}

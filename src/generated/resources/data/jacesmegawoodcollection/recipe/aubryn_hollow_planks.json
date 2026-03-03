@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:aubryn_hollow_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:aubryn_hollow_planks"
+  }
+}

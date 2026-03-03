@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jacesmegawoodcollection:block/aubryn_hollow_slab"
+    },
+    "type=double": {
+      "model": "jacesmegawoodcollection:block/aubryn_hollow_planks"
+    },
+    "type=top": {
+      "model": "jacesmegawoodcollection:block/aubryn_hollow_slab_top"
+    }
+  }
+}

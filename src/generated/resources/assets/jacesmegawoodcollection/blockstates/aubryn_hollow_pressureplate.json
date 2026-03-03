@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/aubryn_hollow_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/aubryn_hollow_pressureplate_down"
+    }
+  }
+}

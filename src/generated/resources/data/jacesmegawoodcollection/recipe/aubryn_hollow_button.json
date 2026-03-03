@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "aubryn_hollow",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:aubryn_hollow_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jacesmegawoodcollection:aubryn_hollow_button"
+  }
+}

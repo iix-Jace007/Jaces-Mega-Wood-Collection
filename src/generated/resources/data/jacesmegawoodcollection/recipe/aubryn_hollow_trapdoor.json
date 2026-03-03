@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "aubryn_hollow",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:aubryn_hollow_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "jacesmegawoodcollection:aubryn_hollow_trapdoor"
+  }
+}

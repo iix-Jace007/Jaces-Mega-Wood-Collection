@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/aubryn_hollow_planks",
+    "side": "jacesmegawoodcollection:block/aubryn_hollow_planks",
+    "top": "jacesmegawoodcollection:block/aubryn_hollow_planks"
+  }
+}

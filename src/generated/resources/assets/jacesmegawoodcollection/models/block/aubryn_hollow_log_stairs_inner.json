@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/aubryn_hollow_log",
+    "side": "jacesmegawoodcollection:block/aubryn_hollow_log",
+    "top": "jacesmegawoodcollection:block/aubryn_hollow_log"
+  }
+}
