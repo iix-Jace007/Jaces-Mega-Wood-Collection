@@ -31,7 +31,7 @@ Change Log
 ### Version 0.0.9
 * Added Aubryn Hollow Wood Type
     * Inspired By Abigail, From Stardew Valley
-
+  
 Upcoming Versions
 =======
 
@@ -90,11 +90,44 @@ Upcoming Versions
 * Added Moonveil Aspen Wood Type
     * Inspired By Addison Wells, From Disney Channel's ZOMBIES
 ### Version 0.2.8
-* Added Oracle ElmWood Type
+* Added Oracle Elm Wood Type
     * Inspired By Barbara Gordon, From DC Comics
 ### Version 0.2.9
 * Added Overdrive Ash Wood Type
-    * Inspired By Austin Hill, A Motor Racing Driver 
-
-Panama City Pine, Pheneombark, Prismwood Ash, Redline Maple, Starstruck Spruce, Sugarthorn, Techsprout Timber, Thicket Elm, Treetop Maple, Tulgeywood,
-    // Venomwood, and Vioak
+    * Inspired By Austin Hill, A Motor Racing Driver
+### Version 0.3.0
+* Added Panama City Pine Wood Type
+  * Inspired By Adam Cole, an AEW Professional Wrester 
+### Version 0.3.1
+* Added Phenombark Wood Type
+  * Inspired By AJ Styles, A Retired WWE Professional Wrestler
+### Version 0.3.2
+* Added Prismwood Ash Wood Type
+  * Inspired By Bismuth, From Cartoon Network's Steven Universe
+### Version 0.3.3
+* Added Redline Maple Wood Type
+  * Inspired By Austin Dillon, A Motor Racing Driver
+### Version 0.3.4
+* Added Starstruck Spruce Wood Type
+  * Inspired By Austin Moon, From Disney Channel's Austin and Ally
+### Version 0.3.5
+* Added Sugarthorn Wood Type
+  * Inspired By Alice May, From Warner Bros' Scooby-Doo: Mystery Incorporated 
+### Version 0.3.6
+* Added Techsprout Timber Wood Type
+  * Inspired By Aviva, From PBS Kids' Wild Kratts
+### Version 0.3.7
+* Added Thicket Elm Wood Type
+  * Inspired By Bambi, From Disney's Bambi
+### Version 0.3.8
+* Added Treetop Maple Wood Type
+  * Inspired By Baloo, From Disney's Jungle Book
+### Version 0.3.9
+* Added Tulgeywood Wood Type
+  * Inspired By Anthony Bowens, An AEW Professional Wrestler
+### Version 0.4.0
+* Added Venomwood Wood Type
+  * Inspired By Bane, From DC Comics
+### Version 0.4.1
+* Added Vioak Wood Type
+  * Inspired By Amethyst, From Cartoon Network's Steven Universe 
