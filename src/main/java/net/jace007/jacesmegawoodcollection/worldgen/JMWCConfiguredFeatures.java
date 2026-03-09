@@ -24,6 +24,7 @@ public class JMWCConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> ASPENTHINE_KEY = registerKey("aspenthine");
     public static final ResourceKey<ConfiguredFeature<?, ?>> AUBRYN_HOLLOW_KEY = registerKey("aubryn_hollow");
     public static final ResourceKey<ConfiguredFeature<?, ?>> AUDRAFLORA_OAK_KEY = registerKey("audraflora_oak");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BALLWYN_KEY = registerKey("ballwyn");
     public static final ResourceKey<ConfiguredFeature<?, ?>> BLACK_ABORA_KEY = registerKey("black_abora");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CARAVAN_OLIVEWOOD_KEY = registerKey("caravan_olivewood");
     public static final ResourceKey<ConfiguredFeature<?, ?>> COPELAND_CEDAR_KEY = registerKey("copeland_cedar");
@@ -64,6 +65,12 @@ public class JMWCConfiguredFeatures {
                 BlockStateProvider.simple(JMWCBlocks.AUDRAFLORA_OAK_LOG.get()),
                     new StraightTrunkPlacer(3, 4, 2),
                 BlockStateProvider.simple(JMWCBlocks.AUDRAFLORA_OAK_LEAVES.get()),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
+        register(context, BALLWYN_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(JMWCBlocks.BALLWYN_LOG.get()),
+                    new StraightTrunkPlacer(3, 4, 2),
+                BlockStateProvider.simple(JMWCBlocks.BALLWYN_LEAVES.get()),
                     new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
                     new TwoLayersFeatureSize(1, 0, 1)).build());
         register(context, BLACK_ABORA_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(

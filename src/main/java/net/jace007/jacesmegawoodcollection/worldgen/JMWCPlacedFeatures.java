@@ -24,6 +24,7 @@ public class JMWCPlacedFeatures {
     public static final ResourceKey<PlacedFeature> ASPENTHINE_PLACED_KEY = registerKey("aspenthine_placed");
     public static final ResourceKey<PlacedFeature> AUBRYN_HOLLOW_PLACED_KEY = registerKey("aubryn_hollow_placed");
     public static final ResourceKey<PlacedFeature> AUDRAFLORA_OAK_PLACED_KEY = registerKey("audraflora_oak_placed");
+    public static final ResourceKey<PlacedFeature> BALLWYN_PLACED_KEY = registerKey("ballwyn_placed");
     public static final ResourceKey<PlacedFeature> BLACK_ABORA_PLACED_KEY = registerKey("black_abora_placed");
     public static final ResourceKey<PlacedFeature> CARAVAN_OLIVEWOOD_PLACED_KEY = registerKey("caravan_olivewood_placed");
     public static final ResourceKey<PlacedFeature> COPELAND_CEDAR_PLACED_KEY = registerKey("copeland_cedar_placed");
@@ -49,6 +50,9 @@ public class JMWCPlacedFeatures {
         register(context, AUDRAFLORA_OAK_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.AUDRAFLORA_OAK_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         JMWCBlocks.AUDRAFLORA_OAK_SAPLING.get()));
+        register(context, BALLWYN_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.BALLWYN_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        JMWCBlocks.BALLWYN_SAPLING.get()));
         register(context, BLACK_ABORA_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.BLACK_ABORA_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         JMWCBlocks.BLACK_ABORA_SAPLING.get()));

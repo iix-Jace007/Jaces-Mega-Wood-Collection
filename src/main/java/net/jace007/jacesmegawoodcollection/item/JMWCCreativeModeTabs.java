@@ -158,6 +158,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_LEAVES);
                         output.accept(JMWCBlocks.AUDRAFLORA_OAK_SAPLING);
 
+                        output.accept(JMWCBlocks.BALLWYN_LOG);
+                        output.accept(JMWCBlocks.BALLWYN_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_BALLWYN_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_BALLWYN_WOOD);
+                        output.accept(JMWCBlocks.BALLWYN_PLANKS);
+                        output.accept(JMWCBlocks.BALLWYN_STAIRS);
+                        output.accept(JMWCBlocks.BALLWYN_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_BALLWYN_LOG_STAIRS);
+                        output.accept(JMWCBlocks.BALLWYN_SLAB);
+                        output.accept(JMWCBlocks.BALLWYN_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_BALLWYN_LOG_SLAB);
+                        output.accept(JMWCBlocks.BALLWYN_FENCE);
+                        output.accept(JMWCBlocks.BALLWYN_LOG_FENCE);
+                        output.accept(JMWCBlocks.BALLWYN_FENCE_GATE);
+                        output.accept(JMWCBlocks.BALLWYN_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.BALLWYN_DOOR);
+                        output.accept(JMWCBlocks.BALLWYN_TRAPDOOR);
+                        output.accept(JMWCBlocks.BALLWYN_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.BALLWYN_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.BALLWYN_BUTTON);
+                        output.accept(JMWCBlocks.BALLWYN_LEAVES);
+                        output.accept(JMWCBlocks.BALLWYN_SAPLING);
+
                         output.accept(JMWCBlocks.BLACK_ABORA_LOG);
                         output.accept(JMWCBlocks.BLACK_ABORA_WOOD);
                         output.accept(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG);

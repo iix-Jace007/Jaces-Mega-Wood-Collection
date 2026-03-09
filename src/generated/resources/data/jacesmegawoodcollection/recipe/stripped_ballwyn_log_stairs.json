@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "ballwyn",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:stripped_ballwyn_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:stripped_ballwyn_log_stairs"
+  }
+}

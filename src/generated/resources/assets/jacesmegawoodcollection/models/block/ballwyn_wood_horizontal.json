@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "jacesmegawoodcollection:block/ballwyn_log",
+    "side": "jacesmegawoodcollection:block/ballwyn_log"
+  }
+}

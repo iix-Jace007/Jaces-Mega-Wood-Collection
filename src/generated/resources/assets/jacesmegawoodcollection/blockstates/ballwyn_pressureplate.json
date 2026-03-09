@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/ballwyn_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/ballwyn_pressureplate_down"
+    }
+  }
+}

@@ -336,6 +336,55 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> AUDRAFLORA_OAK_SAPLING = registerBlock("audraflora_oak_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.AUDRAFLORA_OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // BALLWYN
+    public static final DeferredBlock<Block> BALLWYN_LOG = registerBlock("ballwyn_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_BALLWYN_LOG = registerBlock("stripped_ballwyn_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> BALLWYN_WOOD = registerBlock("ballwyn_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_BALLWYN_WOOD = registerBlock("stripped_ballwyn_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> BALLWYN_PLANKS = registerBlock("ballwyn_planks",
+            () -> new JMWCPlanks(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> BALLWYN_STAIRS = registerBlock("ballwyn_stairs",
+            () -> new StairBlock(JMWCBlocks.BALLWYN_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> BALLWYN_LOG_STAIRS = registerBlock("ballwyn_log_stairs",
+            () -> new StairBlock(JMWCBlocks.BALLWYN_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> STRIPPED_BALLWYN_LOG_STAIRS = registerBlock("stripped_ballwyn_log_stairs",
+            () -> new StairBlock(JMWCBlocks.STRIPPED_BALLWYN_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> BALLWYN_SLAB = registerBlock("ballwyn_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> BALLWYN_LOG_SLAB = registerBlock("ballwyn_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> STRIPPED_BALLWYN_LOG_SLAB = registerBlock("stripped_ballwyn_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceGateBlock> BALLWYN_FENCE_GATE = registerBlock("ballwyn_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceGateBlock> BALLWYN_LOG_FENCE_GATE = registerBlock("ballwyn_log_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<DoorBlock> BALLWYN_DOOR = registerBlock("ballwyn_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR)));
+    public static final DeferredBlock<TrapDoorBlock> BALLWYN_TRAPDOOR = registerBlock("ballwyn_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<TrapDoorBlock> BALLWYN_LOG_TRAPDOOR = registerBlock("ballwyn_log_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<FenceBlock> BALLWYN_FENCE = registerBlock("ballwyn_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceBlock> BALLWYN_LOG_FENCE = registerBlock("ballwyn_log_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<ButtonBlock> BALLWYN_BUTTON = registerBlock("ballwyn_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 15, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> BALLWYN_PRESSUREPLATE = registerBlock("ballwyn_pressureplate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+    public static final DeferredBlock<Block> BALLWYN_LEAVES = registerBlock("ballwyn_leaves",
+            () -> new BallwynLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> BALLWYN_SAPLING = registerBlock("ballwyn_sapling",
+            () -> new SaplingBlock(JMWCTreeGrowers.BALLWYN, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
     // BLACK ABORA
     public static final DeferredBlock<Block> BLACK_ABORA_LOG = registerBlock("black_abora_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));

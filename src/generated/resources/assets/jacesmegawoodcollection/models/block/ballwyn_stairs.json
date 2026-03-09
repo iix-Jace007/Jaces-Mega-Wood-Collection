@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/ballwyn_planks",
+    "side": "jacesmegawoodcollection:block/ballwyn_planks",
+    "top": "jacesmegawoodcollection:block/ballwyn_planks"
+  }
+}

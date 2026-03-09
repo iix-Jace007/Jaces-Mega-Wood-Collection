@@ -203,6 +203,37 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
         buttonBuilder(JMWCBlocks.AUDRAFLORA_OAK_BUTTON.get(), Ingredient.of(JMWCBlocks.AUDRAFLORA_OAK_PLANKS.get())).group("audraflora_oak")
                 .unlockedBy("has_audraflora_oak_planks", has(JMWCBlocks.AUDRAFLORA_OAK_PLANKS)).save(recipeOutput);
 
+        // BALLWYN
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.BALLWYN_PLANKS.get(),4)
+                .requires(JMWCBlocks.BALLWYN_LOG)
+                .unlockedBy("has_ballwyn_log", has(JMWCBlocks.BALLWYN_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.BALLWYN_STAIRS.get(), Ingredient.of(JMWCBlocks.BALLWYN_PLANKS)).group("ballwyn")
+                .unlockedBy("has_ballwyn_planks", has(JMWCBlocks.BALLWYN_PLANKS)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.BALLWYN_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.BALLWYN_LOG)).group("ballwyn")
+                .unlockedBy("has_ballwyn_log", has(JMWCBlocks.BALLWYN_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.STRIPPED_BALLWYN_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.STRIPPED_BALLWYN_LOG)).group("ballwyn")
+                .unlockedBy("has_stripped_ballwyn_log", has(JMWCBlocks.STRIPPED_BALLWYN_LOG)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.BALLWYN_SLAB.get(), JMWCBlocks.BALLWYN_PLANKS);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.BALLWYN_LOG_SLAB.get(), JMWCBlocks.BALLWYN_LOG);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.STRIPPED_BALLWYN_LOG_SLAB.get(), JMWCBlocks.STRIPPED_BALLWYN_LOG);
+        fenceBuilder(JMWCBlocks.BALLWYN_FENCE.get(), Ingredient.of(JMWCBlocks.BALLWYN_PLANKS.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_planks", has(JMWCBlocks.BALLWYN_PLANKS)).save(recipeOutput);
+        fenceBuilder(JMWCBlocks.BALLWYN_LOG_FENCE.get(), Ingredient.of(JMWCBlocks.BALLWYN_LOG.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_log", has(JMWCBlocks.BALLWYN_LOG)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.BALLWYN_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.BALLWYN_PLANKS.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_planks", has(JMWCBlocks.BALLWYN_PLANKS)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.BALLWYN_LOG_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.BALLWYN_LOG.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_log", has(JMWCBlocks.BALLWYN_LOG)).save(recipeOutput);
+        doorBuilder(JMWCBlocks.BALLWYN_DOOR.get(), Ingredient.of(JMWCBlocks.BALLWYN_PLANKS.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_planks", has(JMWCBlocks.BALLWYN_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.BALLWYN_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.BALLWYN_PLANKS.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_planks", has(JMWCBlocks.BALLWYN_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.BALLWYN_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.BALLWYN_LOG.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_log", has(JMWCBlocks.BALLWYN_LOG)).save(recipeOutput);
+        pressurePlate(recipeOutput, JMWCBlocks.BALLWYN_PRESSUREPLATE.get(), JMWCBlocks.BALLWYN_PLANKS.get());
+        buttonBuilder(JMWCBlocks.BALLWYN_BUTTON.get(), Ingredient.of(JMWCBlocks.BALLWYN_PLANKS.get())).group("ballwyn")
+                .unlockedBy("has_ballwyn_planks", has(JMWCBlocks.BALLWYN_PLANKS)).save(recipeOutput);
+
         // BLACK ABORA
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.BLACK_ABORA_PLANKS.get(),4)
                 .requires(JMWCBlocks.BLACK_ABORA_LOG)

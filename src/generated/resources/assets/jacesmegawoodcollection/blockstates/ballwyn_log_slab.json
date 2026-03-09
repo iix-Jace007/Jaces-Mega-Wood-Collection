@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jacesmegawoodcollection:block/ballwyn_log_slab"
+    },
+    "type=double": {
+      "model": "jacesmegawoodcollection:block/ballwyn_log"
+    },
+    "type=top": {
+      "model": "jacesmegawoodcollection:block/ballwyn_log_slab_top"
+    }
+  }
+}

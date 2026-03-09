@@ -191,6 +191,35 @@ import java.util.Set;
             dropSelf(JMWCBlocks.AUDRAFLORA_OAK_BUTTON.get());
             dropSelf(JMWCBlocks.AUDRAFLORA_OAK_PRESSUREPLATE.get());
 
+            // BALLWYN
+            this.dropSelf(JMWCBlocks.BALLWYN_LOG.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_BALLWYN_LOG.get());
+            this.dropSelf(JMWCBlocks.BALLWYN_WOOD.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_BALLWYN_WOOD.get());
+            this.dropSelf(JMWCBlocks.BALLWYN_PLANKS.get());
+            this.dropSelf(JMWCBlocks.BALLWYN_SAPLING.get());
+            this.add(JMWCBlocks.BALLWYN_LEAVES.get(), block ->
+                    createLeavesDrops(block, JMWCBlocks.BALLWYN_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+            dropSelf(JMWCBlocks.BALLWYN_STAIRS.get());
+            dropSelf(JMWCBlocks.BALLWYN_LOG_STAIRS.get());
+            dropSelf(JMWCBlocks.STRIPPED_BALLWYN_LOG_STAIRS.get());
+            add(JMWCBlocks.BALLWYN_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.BALLWYN_SLAB.get()));
+            add(JMWCBlocks.BALLWYN_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.BALLWYN_LOG_SLAB.get()));
+            add(JMWCBlocks.STRIPPED_BALLWYN_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.STRIPPED_BALLWYN_LOG_SLAB.get()));
+            dropSelf(JMWCBlocks.BALLWYN_FENCE.get());
+            dropSelf(JMWCBlocks.BALLWYN_LOG_FENCE.get());
+            dropSelf(JMWCBlocks.BALLWYN_FENCE_GATE.get());
+            dropSelf(JMWCBlocks.BALLWYN_LOG_FENCE_GATE.get());
+            add(JMWCBlocks.BALLWYN_DOOR.get(),
+                    block -> createDoorTable(JMWCBlocks.BALLWYN_DOOR.get()));
+            dropSelf(JMWCBlocks.BALLWYN_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.BALLWYN_LOG_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.BALLWYN_BUTTON.get());
+            dropSelf(JMWCBlocks.BALLWYN_PRESSUREPLATE.get());
+
             // BLACK ABORA
             this.dropSelf(JMWCBlocks.BLACK_ABORA_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_BLACK_ABORA_LOG.get());

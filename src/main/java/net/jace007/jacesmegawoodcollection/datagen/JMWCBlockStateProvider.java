@@ -308,6 +308,54 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.AUDRAFLORA_OAK_LOG_TRAPDOOR, "_bottom");
 
+        // BALLWYN
+        logBlock(((RotatedPillarBlock) JMWCBlocks.BALLWYN_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.BALLWYN_WOOD.get()),
+                blockTexture(JMWCBlocks.BALLWYN_LOG.get()), blockTexture(JMWCBlocks.BALLWYN_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_BALLWYN_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_BALLWYN_WOOD.get()),
+                blockTexture(JMWCBlocks.STRIPPED_BALLWYN_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_BALLWYN_LOG.get()));
+        blockItem(JMWCBlocks.BALLWYN_LOG);
+        blockItem(JMWCBlocks.BALLWYN_WOOD);
+        blockItem(JMWCBlocks.STRIPPED_BALLWYN_LOG);
+        blockItem(JMWCBlocks.STRIPPED_BALLWYN_WOOD);
+        blockWithItem(JMWCBlocks.BALLWYN_PLANKS);
+        leavesBlock(JMWCBlocks.BALLWYN_LEAVES);
+        saplingBlock(JMWCBlocks.BALLWYN_SAPLING);
+        stairsBlock(JMWCBlocks.BALLWYN_STAIRS.get(), blockTexture(JMWCBlocks.BALLWYN_PLANKS.get()));
+        stairsBlock(JMWCBlocks.BALLWYN_LOG_STAIRS.get(), blockTexture(JMWCBlocks.BALLWYN_LOG.get()));
+        stairsBlock(JMWCBlocks.STRIPPED_BALLWYN_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_BALLWYN_LOG.get()));
+        slabBlock(JMWCBlocks.BALLWYN_SLAB.get(),
+                blockTexture(JMWCBlocks.BALLWYN_PLANKS.get()), blockTexture(JMWCBlocks.BALLWYN_PLANKS.get()));
+        slabBlock(JMWCBlocks.BALLWYN_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.BALLWYN_LOG.get()), blockTexture(JMWCBlocks.BALLWYN_LOG.get()));
+        slabBlock(JMWCBlocks.STRIPPED_BALLWYN_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.STRIPPED_BALLWYN_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_BALLWYN_LOG.get()));
+        buttonBlock(JMWCBlocks.BALLWYN_BUTTON.get(), blockTexture(JMWCBlocks.BALLWYN_PLANKS.get()));
+        pressurePlateBlock(JMWCBlocks.BALLWYN_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.BALLWYN_PLANKS.get()));
+        fenceBlock(JMWCBlocks.BALLWYN_FENCE.get(), blockTexture(JMWCBlocks.BALLWYN_PLANKS.get()));
+        fenceBlock(JMWCBlocks.BALLWYN_LOG_FENCE.get(), blockTexture(JMWCBlocks.BALLWYN_LOG.get()));
+        fenceGateBlock(JMWCBlocks.BALLWYN_FENCE_GATE.get(), blockTexture(JMWCBlocks.BALLWYN_PLANKS.get()));
+        fenceGateBlock(JMWCBlocks.BALLWYN_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.BALLWYN_LOG.get()));
+        doorBlockWithRenderType(JMWCBlocks.BALLWYN_DOOR.get(),
+                modLoc("block/ballwyn_door_bottom"), modLoc("block/ballwyn_door_top"), "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.BALLWYN_TRAPDOOR.get(),
+                modLoc("block/ballwyn_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.BALLWYN_LOG_TRAPDOOR.get(),
+                modLoc("block/ballwyn_log_trapdoor"), true, "cutout");
+        blockItem(JMWCBlocks.BALLWYN_STAIRS);
+        blockItem(JMWCBlocks.BALLWYN_LOG_STAIRS);
+        blockItem(JMWCBlocks.STRIPPED_BALLWYN_LOG_STAIRS);
+        blockItem(JMWCBlocks.BALLWYN_SLAB);
+        blockItem(JMWCBlocks.BALLWYN_LOG_SLAB);
+        blockItem(JMWCBlocks.STRIPPED_BALLWYN_LOG_SLAB);
+        blockItem(JMWCBlocks.BALLWYN_FENCE_GATE);
+        blockItem(JMWCBlocks.BALLWYN_LOG_FENCE_GATE);
+        blockItem(JMWCBlocks.BALLWYN_BUTTON);
+        blockItem(JMWCBlocks.BALLWYN_PRESSUREPLATE);
+        blockItem(JMWCBlocks.BALLWYN_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.BALLWYN_LOG_TRAPDOOR, "_bottom");
+
         // BLACK ABORA
         logBlock(((RotatedPillarBlock) JMWCBlocks.BLACK_ABORA_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.BLACK_ABORA_WOOD.get()),

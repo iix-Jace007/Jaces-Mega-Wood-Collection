@@ -20,9 +20,10 @@ public class JMWCTags {
         public static final TagKey<Block> ASPENTHINE_LOGS = createTag("aspenthine_logs");
         public static final TagKey<Block> AUBRYN_HOLLOW = createTag("aubryn_hollow");
         public static final TagKey<Block> AUBRYN_HOLLOW_LOGS = createTag("aubryn_hollow_logs");
-
         public static final TagKey<Block> AUDRAFLORA_OAK = createTag("audraflora_oak");
         public static final TagKey<Block> AUDRAFLORA_OAK_LOGS = createTag("audraflora_oak_logs");
+        public static final TagKey<Block> BALLWYN = createTag("ballwyn");
+        public static final TagKey<Block> BALLWYN_LOGS = createTag("ballwyn_logs");
         public static final TagKey<Block> BLACK_ABORA = createTag("black_abora");
         public static final TagKey<Block> BLACK_ABORA_LOGS = createTag("black_abora_logs");
         public static final TagKey<Block> CARAVAN_OLIVEWOOD = createTag("caravan_olivewood");
