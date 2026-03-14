@@ -1,6 +1,11 @@
 Change Log
 =======
-
+### Version 0.1.1
+* Added Burrenbark Wood Type
+    * Inspired By Aaron Burr, From Hamilton The Musical
+### Version 0.1.0
+* Added Balwyn Wood Type
+    * Inspired By Ballon Boy, From Five Nights at Freddy's Video Game Series
 ### Version 0.0.9
 * Added Aubryn Hollow Wood Type
     * Inspired By Abigail, From Stardew Valley
@@ -33,13 +38,6 @@ Change Log
 
 Upcoming Versions
 =======
-
-### Version 0.1.0
-* Added Balwyn Wood Type
-    * Inspired By Ballon Boy, From Five Nights at Freddy's Video Game Series
-### Version 0.1.1
-* Added Burrenbark Wood Type
-    * Inspired By Aaron Burr, From Hamilton The Musical
 ### Version 0.1.2
 * Added Cursed Petel Wood Type
     * Inspired By Alexia Bliss, A WWE Professional Wrestler 
