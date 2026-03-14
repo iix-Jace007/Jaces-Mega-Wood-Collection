@@ -39,7 +39,7 @@ Change Log
 Upcoming Versions
 =======
 ### Version 0.1.2
-* Added Cursed Petel Wood Type
+* Added Cursed Petal Wood Type
     * Inspired By Alexia Bliss, A WWE Professional Wrestler 
 ### Version 0.1.3
 * Added Diamond Fall Wood Type
@@ -48,7 +48,7 @@ Upcoming Versions
 * Added Dollhouse Hickory Wood Type
     * Inspired By Barbie
 ### Version 0.1.5
-* Added Dreamsprie Alder Wood Type
+* Added Dreamspire Alder Wood Type
     * Inspired By Aurora, From Disney's Animated Sleeping Beauty Movie 
 ### Version 0.1.6
 * Added Empress Ash Wood Type
