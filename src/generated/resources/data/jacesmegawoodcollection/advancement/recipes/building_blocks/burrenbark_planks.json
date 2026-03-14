@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_burrenbark_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jacesmegawoodcollection:burrenbark_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jacesmegawoodcollection:burrenbark_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_burrenbark_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jacesmegawoodcollection:burrenbark_planks"
+    ]
+  }
+}

@@ -404,6 +404,54 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.BLACK_ABORA_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.BLACK_ABORA_LOG_TRAPDOOR, "_bottom");
 
+        // BURRENBARK
+        logBlock(((RotatedPillarBlock) JMWCBlocks.BURRENBARK_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.BURRENBARK_WOOD.get()),
+                blockTexture(JMWCBlocks.BURRENBARK_LOG.get()), blockTexture(JMWCBlocks.BURRENBARK_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_BURRENBARK_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_BURRENBARK_WOOD.get()),
+                blockTexture(JMWCBlocks.STRIPPED_BURRENBARK_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_BURRENBARK_LOG.get()));
+        blockItem(JMWCBlocks.BURRENBARK_LOG);
+        blockItem(JMWCBlocks.BURRENBARK_WOOD);
+        blockItem(JMWCBlocks.STRIPPED_BURRENBARK_LOG);
+        blockItem(JMWCBlocks.STRIPPED_BURRENBARK_WOOD);
+        blockWithItem(JMWCBlocks.BURRENBARK_PLANKS);
+        leavesBlock(JMWCBlocks.BURRENBARK_LEAVES);
+        saplingBlock(JMWCBlocks.BURRENBARK_SAPLING);
+        stairsBlock(JMWCBlocks.BURRENBARK_STAIRS.get(), blockTexture(JMWCBlocks.BURRENBARK_PLANKS.get()));
+        stairsBlock(JMWCBlocks.BURRENBARK_LOG_STAIRS.get(), blockTexture(JMWCBlocks.BURRENBARK_LOG.get()));
+        stairsBlock(JMWCBlocks.STRIPPED_BURRENBARK_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_BURRENBARK_LOG.get()));
+        slabBlock(JMWCBlocks.BURRENBARK_SLAB.get(),
+                blockTexture(JMWCBlocks.BURRENBARK_PLANKS.get()), blockTexture(JMWCBlocks.BURRENBARK_PLANKS.get()));
+        slabBlock(JMWCBlocks.BURRENBARK_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.BURRENBARK_LOG.get()), blockTexture(JMWCBlocks.BURRENBARK_LOG.get()));
+        slabBlock(JMWCBlocks.STRIPPED_BURRENBARK_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.STRIPPED_BURRENBARK_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_BURRENBARK_LOG.get()));
+        buttonBlock(JMWCBlocks.BURRENBARK_BUTTON.get(), blockTexture(JMWCBlocks.BURRENBARK_PLANKS.get()));
+        pressurePlateBlock(JMWCBlocks.BURRENBARK_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.BURRENBARK_PLANKS.get()));
+        fenceBlock(JMWCBlocks.BURRENBARK_FENCE.get(), blockTexture(JMWCBlocks.BURRENBARK_PLANKS.get()));
+        fenceBlock(JMWCBlocks.BURRENBARK_LOG_FENCE.get(), blockTexture(JMWCBlocks.BURRENBARK_LOG.get()));
+        fenceGateBlock(JMWCBlocks.BURRENBARK_FENCE_GATE.get(), blockTexture(JMWCBlocks.BURRENBARK_PLANKS.get()));
+        fenceGateBlock(JMWCBlocks.BURRENBARK_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.BURRENBARK_LOG.get()));
+        doorBlockWithRenderType(JMWCBlocks.BURRENBARK_DOOR.get(),
+                modLoc("block/burrenbark_door_bottom"), modLoc("block/burrenbark_door_top"), "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.BURRENBARK_TRAPDOOR.get(),
+                modLoc("block/burrenbark_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.BURRENBARK_LOG_TRAPDOOR.get(),
+                modLoc("block/burrenbark_log_trapdoor"), true, "cutout");
+        blockItem(JMWCBlocks.BURRENBARK_STAIRS);
+        blockItem(JMWCBlocks.BURRENBARK_LOG_STAIRS);
+        blockItem(JMWCBlocks.STRIPPED_BURRENBARK_LOG_STAIRS);
+        blockItem(JMWCBlocks.BURRENBARK_SLAB);
+        blockItem(JMWCBlocks.BURRENBARK_LOG_SLAB);
+        blockItem(JMWCBlocks.STRIPPED_BURRENBARK_LOG_SLAB);
+        blockItem(JMWCBlocks.BURRENBARK_FENCE_GATE);
+        blockItem(JMWCBlocks.BURRENBARK_LOG_FENCE_GATE);
+        blockItem(JMWCBlocks.BURRENBARK_BUTTON);
+        blockItem(JMWCBlocks.BURRENBARK_PRESSUREPLATE);
+        blockItem(JMWCBlocks.BURRENBARK_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.BURRENBARK_LOG_TRAPDOOR, "_bottom");
+
         // CARAVAN OLIVEWOOD
         logBlock(((RotatedPillarBlock) JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get()));
         axisBlock(((RotatedPillarBlock) JMWCBlocks.CARAVAN_OLIVEWOOD_WOOD.get()),

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "burrenbark",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:burrenbark_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "jacesmegawoodcollection:burrenbark_door"
+  }
+}

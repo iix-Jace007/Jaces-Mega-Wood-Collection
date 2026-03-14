@@ -265,6 +265,37 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
         buttonBuilder(JMWCBlocks.BLACK_ABORA_BUTTON.get(), Ingredient.of(JMWCBlocks.BLACK_ABORA_PLANKS.get())).group("black_abora")
                 .unlockedBy("has_black_abora_planks", has(JMWCBlocks.BLACK_ABORA_PLANKS)).save(recipeOutput);
 
+        // BURRENBARK
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.BURRENBARK_PLANKS.get(),4)
+                .requires(JMWCBlocks.BURRENBARK_LOG)
+                .unlockedBy("has_burrenbark_log", has(JMWCBlocks.BURRENBARK_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.BURRENBARK_STAIRS.get(), Ingredient.of(JMWCBlocks.BURRENBARK_PLANKS)).group("burrenbark")
+                .unlockedBy("has_burrenbark_planks", has(JMWCBlocks.BURRENBARK_PLANKS)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.BURRENBARK_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.BURRENBARK_LOG)).group("burrenbark")
+                .unlockedBy("has_burrenbark_log", has(JMWCBlocks.BURRENBARK_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.STRIPPED_BURRENBARK_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.STRIPPED_BURRENBARK_LOG)).group("burrenbark")
+                .unlockedBy("has_stripped_burrenbark_log", has(JMWCBlocks.STRIPPED_BURRENBARK_LOG)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.BURRENBARK_SLAB.get(), JMWCBlocks.BURRENBARK_PLANKS);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.BURRENBARK_LOG_SLAB.get(), JMWCBlocks.BURRENBARK_LOG);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.STRIPPED_BURRENBARK_LOG_SLAB.get(), JMWCBlocks.STRIPPED_BURRENBARK_LOG);
+        fenceBuilder(JMWCBlocks.BURRENBARK_FENCE.get(), Ingredient.of(JMWCBlocks.BURRENBARK_PLANKS.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_planks", has(JMWCBlocks.BURRENBARK_PLANKS)).save(recipeOutput);
+        fenceBuilder(JMWCBlocks.BURRENBARK_LOG_FENCE.get(), Ingredient.of(JMWCBlocks.BURRENBARK_LOG.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_log", has(JMWCBlocks.BURRENBARK_LOG)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.BURRENBARK_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.BURRENBARK_PLANKS.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_planks", has(JMWCBlocks.BURRENBARK_PLANKS)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.BURRENBARK_LOG_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.BURRENBARK_LOG.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_log", has(JMWCBlocks.BURRENBARK_LOG)).save(recipeOutput);
+        doorBuilder(JMWCBlocks.BURRENBARK_DOOR.get(), Ingredient.of(JMWCBlocks.BURRENBARK_PLANKS.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_planks", has(JMWCBlocks.BURRENBARK_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.BURRENBARK_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.BURRENBARK_PLANKS.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_planks", has(JMWCBlocks.BURRENBARK_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.BURRENBARK_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.BURRENBARK_LOG.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_log", has(JMWCBlocks.BURRENBARK_LOG)).save(recipeOutput);
+        pressurePlate(recipeOutput, JMWCBlocks.BURRENBARK_PRESSUREPLATE.get(), JMWCBlocks.BURRENBARK_PLANKS.get());
+        buttonBuilder(JMWCBlocks.BURRENBARK_BUTTON.get(), Ingredient.of(JMWCBlocks.BURRENBARK_PLANKS.get())).group("burrenbark")
+                .unlockedBy("has_burrenbark_planks", has(JMWCBlocks.BURRENBARK_PLANKS)).save(recipeOutput);
+
         // CARAVAN OLIVEWOOD
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.CARAVAN_OLIVEWOOD_PLANKS.get(),4)
                 .requires(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG)

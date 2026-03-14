@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "burrenbark",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:burrenbark_log"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:burrenbark_log_stairs"
+  }
+}

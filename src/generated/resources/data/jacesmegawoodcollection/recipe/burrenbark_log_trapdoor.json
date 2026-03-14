@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "burrenbark",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:burrenbark_log"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "jacesmegawoodcollection:burrenbark_log_trapdoor"
+  }
+}

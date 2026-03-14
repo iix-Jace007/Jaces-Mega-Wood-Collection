@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jacesmegawoodcollection:block/burrenbark_slab"
+    },
+    "type=double": {
+      "model": "jacesmegawoodcollection:block/burrenbark_planks"
+    },
+    "type=top": {
+      "model": "jacesmegawoodcollection:block/burrenbark_slab_top"
+    }
+  }
+}

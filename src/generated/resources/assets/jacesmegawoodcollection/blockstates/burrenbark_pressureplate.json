@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/burrenbark_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/burrenbark_pressureplate_down"
+    }
+  }
+}

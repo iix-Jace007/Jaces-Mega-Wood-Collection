@@ -1,0 +1,26 @@
+{
+  "values": [
+    "jacesmegawoodcollection:burrenbark_log",
+    "jacesmegawoodcollection:stripped_burrenbark_log",
+    "jacesmegawoodcollection:burrenbark_wood",
+    "jacesmegawoodcollection:stripped_burrenbark_wood",
+    "jacesmegawoodcollection:burrenbark_planks",
+    "jacesmegawoodcollection:burrenbark_stairs",
+    "jacesmegawoodcollection:burrenbark_log_stairs",
+    "jacesmegawoodcollection:stripped_burrenbark_log_stairs",
+    "jacesmegawoodcollection:burrenbark_slab",
+    "jacesmegawoodcollection:burrenbark_log_slab",
+    "jacesmegawoodcollection:stripped_burrenbark_log_slab",
+    "jacesmegawoodcollection:burrenbark_fence",
+    "jacesmegawoodcollection:burrenbark_log_fence",
+    "jacesmegawoodcollection:burrenbark_fence_gate",
+    "jacesmegawoodcollection:burrenbark_log_fence_gate",
+    "jacesmegawoodcollection:burrenbark_door",
+    "jacesmegawoodcollection:burrenbark_trapdoor",
+    "jacesmegawoodcollection:burrenbark_log_trapdoor",
+    "jacesmegawoodcollection:burrenbark_button",
+    "jacesmegawoodcollection:burrenbark_pressureplate",
+    "jacesmegawoodcollection:burrenbark_leaves",
+    "jacesmegawoodcollection:burrenbark_sapling"
+  ]
+}

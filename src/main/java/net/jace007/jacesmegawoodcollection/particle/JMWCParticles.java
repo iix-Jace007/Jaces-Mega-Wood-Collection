@@ -29,6 +29,8 @@ public class JMWCParticles {
             PARTICLE_TYPES.register("ballwyn_leaves", () -> new SimpleParticleType(false));
     public static final Supplier<SimpleParticleType> BLACK_ABORA_LEAVES =
             PARTICLE_TYPES.register("black_abora_leaves", () -> new SimpleParticleType(false));
+    public static final Supplier<SimpleParticleType> BURRENBARK_LEAVES =
+            PARTICLE_TYPES.register("burrenbark_leaves", () -> new SimpleParticleType(false));
     public static final Supplier<SimpleParticleType> CARAVAN_OLIVEWOOD_LEAVES =
             PARTICLE_TYPES.register("caravan_olivewood_leaves", () -> new SimpleParticleType(false));
     public static final Supplier<SimpleParticleType> COPELAND_CEDAR_LEAVES =

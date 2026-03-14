@@ -249,6 +249,35 @@ import java.util.Set;
             dropSelf(JMWCBlocks.BLACK_ABORA_BUTTON.get());
             dropSelf(JMWCBlocks.BLACK_ABORA_PRESSUREPLATE.get());
 
+            // BURRENBARK
+            this.dropSelf(JMWCBlocks.BURRENBARK_LOG.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_BURRENBARK_LOG.get());
+            this.dropSelf(JMWCBlocks.BURRENBARK_WOOD.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_BURRENBARK_WOOD.get());
+            this.dropSelf(JMWCBlocks.BURRENBARK_PLANKS.get());
+            this.dropSelf(JMWCBlocks.BURRENBARK_SAPLING.get());
+            this.add(JMWCBlocks.BURRENBARK_LEAVES.get(), block ->
+                    createLeavesDrops(block, JMWCBlocks.BURRENBARK_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+            dropSelf(JMWCBlocks.BURRENBARK_STAIRS.get());
+            dropSelf(JMWCBlocks.BURRENBARK_LOG_STAIRS.get());
+            dropSelf(JMWCBlocks.STRIPPED_BURRENBARK_LOG_STAIRS.get());
+            add(JMWCBlocks.BURRENBARK_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.BURRENBARK_SLAB.get()));
+            add(JMWCBlocks.BURRENBARK_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.BURRENBARK_LOG_SLAB.get()));
+            add(JMWCBlocks.STRIPPED_BURRENBARK_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.STRIPPED_BURRENBARK_LOG_SLAB.get()));
+            dropSelf(JMWCBlocks.BURRENBARK_FENCE.get());
+            dropSelf(JMWCBlocks.BURRENBARK_LOG_FENCE.get());
+            dropSelf(JMWCBlocks.BURRENBARK_FENCE_GATE.get());
+            dropSelf(JMWCBlocks.BURRENBARK_LOG_FENCE_GATE.get());
+            add(JMWCBlocks.BURRENBARK_DOOR.get(),
+                    block -> createDoorTable(JMWCBlocks.BURRENBARK_DOOR.get()));
+            dropSelf(JMWCBlocks.BURRENBARK_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.BURRENBARK_LOG_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.BURRENBARK_BUTTON.get());
+            dropSelf(JMWCBlocks.BURRENBARK_PRESSUREPLATE.get());
+
             // CARAVAN OLIVEWOOD
             this.dropSelf(JMWCBlocks.CARAVAN_OLIVEWOOD_LOG.get());
             this.dropSelf(JMWCBlocks.STRIPPED_CARAVAN_OLIVEWOOD_LOG.get());

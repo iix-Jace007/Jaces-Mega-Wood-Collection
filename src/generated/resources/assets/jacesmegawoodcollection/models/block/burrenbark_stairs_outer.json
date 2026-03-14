@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/burrenbark_planks",
+    "side": "jacesmegawoodcollection:block/burrenbark_planks",
+    "top": "jacesmegawoodcollection:block/burrenbark_planks"
+  }
+}

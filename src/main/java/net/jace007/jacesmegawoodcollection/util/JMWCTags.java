@@ -26,6 +26,8 @@ public class JMWCTags {
         public static final TagKey<Block> BALLWYN_LOGS = createTag("ballwyn_logs");
         public static final TagKey<Block> BLACK_ABORA = createTag("black_abora");
         public static final TagKey<Block> BLACK_ABORA_LOGS = createTag("black_abora_logs");
+        public static final TagKey<Block> BURRENBARK = createTag("burrenbark");
+        public static final TagKey<Block> BURRENBARK_LOGS = createTag("burrenbark_logs");
         public static final TagKey<Block> CARAVAN_OLIVEWOOD = createTag("caravan_olivewood");
         public static final TagKey<Block> CARAVAN_OLIVEWOOD_LOGS = createTag("caravan_olivewood_logs");
         public static final TagKey<Block> COPELAND_CEDAR = createTag("copeland_cedar");

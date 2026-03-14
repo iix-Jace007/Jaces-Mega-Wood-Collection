@@ -434,6 +434,55 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> BLACK_ABORA_SAPLING = registerBlock("black_abora_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.BLACK_ABORA, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // BURRENBARK
+    public static final DeferredBlock<Block> BURRENBARK_LOG = registerBlock("burrenbark_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_BURRENBARK_LOG = registerBlock("stripped_burrenbark_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> BURRENBARK_WOOD = registerBlock("burrenbark_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_BURRENBARK_WOOD = registerBlock("stripped_burrenbark_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> BURRENBARK_PLANKS = registerBlock("burrenbark_planks",
+            () -> new JMWCPlanks(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> BURRENBARK_STAIRS = registerBlock("burrenbark_stairs",
+            () -> new StairBlock(JMWCBlocks.BURRENBARK_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> BURRENBARK_LOG_STAIRS = registerBlock("burrenbark_log_stairs",
+            () -> new StairBlock(JMWCBlocks.BURRENBARK_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> STRIPPED_BURRENBARK_LOG_STAIRS = registerBlock("stripped_burrenbark_log_stairs",
+            () -> new StairBlock(JMWCBlocks.STRIPPED_BURRENBARK_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> BURRENBARK_SLAB = registerBlock("burrenbark_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> BURRENBARK_LOG_SLAB = registerBlock("burrenbark_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> STRIPPED_BURRENBARK_LOG_SLAB = registerBlock("stripped_burrenbark_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceBlock> BURRENBARK_FENCE = registerBlock("burrenbark_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceBlock> BURRENBARK_LOG_FENCE = registerBlock("burrenbark_log_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceGateBlock> BURRENBARK_FENCE_GATE = registerBlock("burrenbark_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceGateBlock> BURRENBARK_LOG_FENCE_GATE = registerBlock("burrenbark_log_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<DoorBlock> BURRENBARK_DOOR = registerBlock("burrenbark_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR)));
+    public static final DeferredBlock<TrapDoorBlock> BURRENBARK_TRAPDOOR = registerBlock("burrenbark_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<TrapDoorBlock> BURRENBARK_LOG_TRAPDOOR = registerBlock("burrenbark_log_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<ButtonBlock> BURRENBARK_BUTTON = registerBlock("burrenbark_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 15, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> BURRENBARK_PRESSUREPLATE = registerBlock("burrenbark_pressureplate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+    public static final DeferredBlock<Block> BURRENBARK_LEAVES = registerBlock("burrenbark_leaves",
+            () -> new BurrenbarkLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> BURRENBARK_SAPLING = registerBlock("burrenbark_sapling",
+            () -> new SaplingBlock(JMWCTreeGrowers.BURRENBARK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
     // CARAVAN OLIVEWOOD
     public static final DeferredBlock<Block> CARAVAN_OLIVEWOOD_LOG = registerBlock("caravan_olivewood_log",
             () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
