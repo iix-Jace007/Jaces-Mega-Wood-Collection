@@ -32,7 +32,7 @@ public class BurrenbarkLeaves extends JMWCLeaves {
         double vz = (random.nextDouble() - 0.5) * 0.01;
 
         client.addParticle(
-                JMWCParticles.BLACK_ABORA_LEAVES.get(),
+                JMWCParticles.BURRENBARK_LEAVES.get(),
                 x, y, z,
                 vx, 0, vz
         );
