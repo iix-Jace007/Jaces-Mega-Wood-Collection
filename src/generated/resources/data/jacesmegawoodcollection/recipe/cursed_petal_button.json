@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "cursed_petal",
+  "ingredients": [
+    {
+      "item": "jacesmegawoodcollection:cursed_petal_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jacesmegawoodcollection:cursed_petal_button"
+  }
+}

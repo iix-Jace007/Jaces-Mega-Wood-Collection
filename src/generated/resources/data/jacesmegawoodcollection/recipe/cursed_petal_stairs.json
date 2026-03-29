@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cursed_petal",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:cursed_petal_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jacesmegawoodcollection:cursed_petal_stairs"
+  }
+}

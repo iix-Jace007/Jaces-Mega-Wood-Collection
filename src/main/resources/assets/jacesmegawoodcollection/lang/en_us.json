@@ -252,6 +252,29 @@
   "block.jacesmegawoodcollection.copeland_cedar_pressureplate": "Copeland Cedar Pressure Plate",
   "block.jacesmegawoodcollection.copeland_cedar_button": "Copeland Cedar Button",
   "block.jacesmegawoodcollection.copeland_cedar_leaves": "Copeland Cedar Leaves",
-  "block.jacesmegawoodcollection.copeland_cedar_sapling": "Copeland Cedar Sapling"
+  "block.jacesmegawoodcollection.copeland_cedar_sapling": "Copeland Cedar Sapling",
+
+  "block.jacesmegawoodcollection.cursed_petal_log": "Cursed Petal Log",
+  "block.jacesmegawoodcollection.cursed_petal_wood": "Cursed Petal Wood",
+  "block.jacesmegawoodcollection.stripped_cursed_petal_log": "Stripped Cursed Petal Log",
+  "block.jacesmegawoodcollection.stripped_cursed_petal_wood": "Stripped Cursed Petal Wood",
+  "block.jacesmegawoodcollection.cursed_petal_planks": "Cursed Petal Planks",
+  "block.jacesmegawoodcollection.cursed_petal_stairs": "Cursed Petal Stairs",
+  "block.jacesmegawoodcollection.cursed_petal_log_stairs": "Cursed Petal Log Stairs",
+  "block.jacesmegawoodcollection.stripped_cursed_petal_log_stairs": "Stripped Cursed Petal Log Stairs",
+  "block.jacesmegawoodcollection.cursed_petal_slab": "Cursed Petal Slab",
+  "block.jacesmegawoodcollection.cursed_petal_log_slab": "Cursed Petal Log Slab",
+  "block.jacesmegawoodcollection.stripped_cursed_petal_log_slab": "Stripped Cursed Petal Log Slab",
+  "block.jacesmegawoodcollection.cursed_petal_fence": "Cursed Petal Fence",
+  "block.jacesmegawoodcollection.cursed_petal_log_fence": "Cursed Petal Log Fence",
+  "block.jacesmegawoodcollection.cursed_petal_fence_gate": "Cursed Petal Fence Gate",
+  "block.jacesmegawoodcollection.cursed_petal_log_fence_gate": "Cursed Petal Log Fence Gate",
+  "block.jacesmegawoodcollection.cursed_petal_door": "Cursed Petal Door",
+  "block.jacesmegawoodcollection.cursed_petal_trapdoor": "Cursed Petal Trapdoor",
+  "block.jacesmegawoodcollection.cursed_petal_log_trapdoor": "Cursed Petal Log Trapdoor",
+  "block.jacesmegawoodcollection.cursed_petal_pressureplate": "Cursed Petal Pressure Plate",
+  "block.jacesmegawoodcollection.cursed_petal_button": "Cursed Petal Button",
+  "block.jacesmegawoodcollection.cursed_petal_leaves": "Cursed Petal Leaves",
+  "block.jacesmegawoodcollection.cursed_petal_sapling": "Cursed Petal Sapling"
 
 }

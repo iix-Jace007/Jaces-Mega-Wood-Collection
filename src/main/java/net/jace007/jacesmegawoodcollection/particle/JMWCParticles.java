@@ -35,6 +35,8 @@ public class JMWCParticles {
             PARTICLE_TYPES.register("caravan_olivewood_leaves", () -> new SimpleParticleType(false));
     public static final Supplier<SimpleParticleType> COPELAND_CEDAR_LEAVES =
             PARTICLE_TYPES.register("copeland_cedar_leaves", () -> new SimpleParticleType(false));
+    public static final Supplier<SimpleParticleType> CURSED_PETAL_LEAVES =
+            PARTICLE_TYPES.register("cursed_petal_leaves", () -> new SimpleParticleType(false));
 
     public static void register(IEventBus eventBus) {
         PARTICLE_TYPES.register(eventBus);

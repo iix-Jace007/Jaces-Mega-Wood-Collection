@@ -86,6 +86,7 @@ public class JacesMegaWoodCollection {
             event.registerSpriteSet(JMWCParticles.BURRENBARK_LEAVES.get(), BurrenbarkLeafParticles.Provider::new);
             event.registerSpriteSet(JMWCParticles.CARAVAN_OLIVEWOOD_LEAVES.get(), CaravanOlivewoodLeafParticles.Provider::new);
             event.registerSpriteSet(JMWCParticles.COPELAND_CEDAR_LEAVES.get(), CopelandCedarLeafParticles.Provider::new);
+            event.registerSpriteSet(JMWCParticles.CURSED_PETAL_LEAVES.get(), CursedPetalLeafParticles.Provider::new);
         }
     }
 }

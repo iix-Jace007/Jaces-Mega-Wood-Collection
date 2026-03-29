@@ -547,6 +547,54 @@ public class JMWCBlockStateProvider extends BlockStateProvider {
         blockItem(JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE);
         blockItem(JMWCBlocks.COPELAND_CEDAR_TRAPDOOR, "_bottom");
         blockItem(JMWCBlocks.COPELAND_CEDAR_LOG_TRAPDOOR, "_bottom");
+
+        // CURSED PETAL
+        logBlock(((RotatedPillarBlock) JMWCBlocks.CURSED_PETAL_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.CURSED_PETAL_WOOD.get()),
+                blockTexture(JMWCBlocks.CURSED_PETAL_LOG.get()), blockTexture(JMWCBlocks.CURSED_PETAL_LOG.get()));
+        logBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get()));
+        axisBlock(((RotatedPillarBlock) JMWCBlocks.STRIPPED_CURSED_PETAL_WOOD.get()),
+                blockTexture(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get()));
+        blockItem(JMWCBlocks.CURSED_PETAL_LOG);
+        blockItem(JMWCBlocks.CURSED_PETAL_WOOD);
+        blockItem(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG);
+        blockItem(JMWCBlocks.STRIPPED_CURSED_PETAL_WOOD);
+        blockWithItem(JMWCBlocks.CURSED_PETAL_PLANKS);
+        leavesBlock(JMWCBlocks.CURSED_PETAL_LEAVES);
+        saplingBlock(JMWCBlocks.CURSED_PETAL_SAPLING);
+        stairsBlock(JMWCBlocks.CURSED_PETAL_STAIRS.get(), blockTexture(JMWCBlocks.CURSED_PETAL_PLANKS.get()));
+        stairsBlock(JMWCBlocks.CURSED_PETAL_LOG_STAIRS.get(), blockTexture(JMWCBlocks.CURSED_PETAL_LOG.get()));
+        stairsBlock(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_STAIRS.get(), blockTexture(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get()));
+        slabBlock(JMWCBlocks.CURSED_PETAL_SLAB.get(),
+                blockTexture(JMWCBlocks.CURSED_PETAL_PLANKS.get()), blockTexture(JMWCBlocks.CURSED_PETAL_PLANKS.get()));
+        slabBlock(JMWCBlocks.CURSED_PETAL_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.CURSED_PETAL_LOG.get()), blockTexture(JMWCBlocks.CURSED_PETAL_LOG.get()));
+        slabBlock(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_SLAB.get(),
+                blockTexture(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get()), blockTexture(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get()));
+        buttonBlock(JMWCBlocks.CURSED_PETAL_BUTTON.get(), blockTexture(JMWCBlocks.CURSED_PETAL_PLANKS.get()));
+        pressurePlateBlock(JMWCBlocks.CURSED_PETAL_PRESSUREPLATE.get(), blockTexture(JMWCBlocks.CURSED_PETAL_PLANKS.get()));
+        fenceBlock(JMWCBlocks.CURSED_PETAL_FENCE.get(), blockTexture(JMWCBlocks.CURSED_PETAL_PLANKS.get()));
+        fenceBlock(JMWCBlocks.CURSED_PETAL_LOG_FENCE.get(), blockTexture(JMWCBlocks.CURSED_PETAL_LOG.get()));
+        fenceGateBlock(JMWCBlocks.CURSED_PETAL_FENCE_GATE.get(), blockTexture(JMWCBlocks.CURSED_PETAL_PLANKS.get()));
+        fenceGateBlock(JMWCBlocks.CURSED_PETAL_LOG_FENCE_GATE.get(), blockTexture(JMWCBlocks.CURSED_PETAL_LOG.get()));
+        doorBlockWithRenderType(JMWCBlocks.CURSED_PETAL_DOOR.get(),
+                modLoc("block/cursed_petal_door_bottom"), modLoc("block/cursed_petal_door_top"), "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.CURSED_PETAL_TRAPDOOR.get(),
+                modLoc("block/cursed_petal_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(JMWCBlocks.CURSED_PETAL_LOG_TRAPDOOR.get(),
+                modLoc("block/cursed_petal_log_trapdoor"), true, "cutout");
+        blockItem(JMWCBlocks.CURSED_PETAL_STAIRS);
+        blockItem(JMWCBlocks.CURSED_PETAL_LOG_STAIRS);
+        blockItem(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_STAIRS);
+        blockItem(JMWCBlocks.CURSED_PETAL_SLAB);
+        blockItem(JMWCBlocks.CURSED_PETAL_LOG_SLAB);
+        blockItem(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_SLAB);
+        blockItem(JMWCBlocks.CURSED_PETAL_FENCE_GATE);
+        blockItem(JMWCBlocks.CURSED_PETAL_LOG_FENCE_GATE);
+        blockItem(JMWCBlocks.CURSED_PETAL_BUTTON);
+        blockItem(JMWCBlocks.CURSED_PETAL_PRESSUREPLATE);
+        blockItem(JMWCBlocks.CURSED_PETAL_TRAPDOOR, "_bottom");
+        blockItem(JMWCBlocks.CURSED_PETAL_LOG_TRAPDOOR, "_bottom");
     }
 
     private void saplingBlock(DeferredBlock<Block> blockRegistryObject) {

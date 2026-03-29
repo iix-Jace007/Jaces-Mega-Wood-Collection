@@ -335,6 +335,35 @@ import java.util.Set;
             dropSelf(JMWCBlocks.COPELAND_CEDAR_LOG_TRAPDOOR.get());
             dropSelf(JMWCBlocks.COPELAND_CEDAR_BUTTON.get());
             dropSelf(JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE.get());
+
+            // CURSED PETAL
+            this.dropSelf(JMWCBlocks.CURSED_PETAL_LOG.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get());
+            this.dropSelf(JMWCBlocks.CURSED_PETAL_WOOD.get());
+            this.dropSelf(JMWCBlocks.STRIPPED_CURSED_PETAL_WOOD.get());
+            this.dropSelf(JMWCBlocks.CURSED_PETAL_PLANKS.get());
+            this.dropSelf(JMWCBlocks.CURSED_PETAL_SAPLING.get());
+            this.add(JMWCBlocks.CURSED_PETAL_LEAVES.get(), block ->
+                    createLeavesDrops(block, JMWCBlocks.CURSED_PETAL_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+            dropSelf(JMWCBlocks.CURSED_PETAL_STAIRS.get());
+            dropSelf(JMWCBlocks.CURSED_PETAL_LOG_STAIRS.get());
+            dropSelf(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_STAIRS.get());
+            add(JMWCBlocks.CURSED_PETAL_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.CURSED_PETAL_SLAB.get()));
+            add(JMWCBlocks.CURSED_PETAL_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.CURSED_PETAL_LOG_SLAB.get()));
+            add(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_SLAB.get(),
+                    block -> createSlabItemTable(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_SLAB.get()));
+            dropSelf(JMWCBlocks.CURSED_PETAL_FENCE.get());
+            dropSelf(JMWCBlocks.CURSED_PETAL_LOG_FENCE.get());
+            dropSelf(JMWCBlocks.CURSED_PETAL_FENCE_GATE.get());
+            dropSelf(JMWCBlocks.CURSED_PETAL_LOG_FENCE_GATE.get());
+            add(JMWCBlocks.CURSED_PETAL_DOOR.get(),
+                    block -> createDoorTable(JMWCBlocks.CURSED_PETAL_DOOR.get()));
+            dropSelf(JMWCBlocks.CURSED_PETAL_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.CURSED_PETAL_LOG_TRAPDOOR.get());
+            dropSelf(JMWCBlocks.CURSED_PETAL_BUTTON.get());
+            dropSelf(JMWCBlocks.CURSED_PETAL_PRESSUREPLATE.get());
         }
 
 

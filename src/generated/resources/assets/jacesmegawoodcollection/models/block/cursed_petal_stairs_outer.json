@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/cursed_petal_planks",
+    "side": "jacesmegawoodcollection:block/cursed_petal_planks",
+    "top": "jacesmegawoodcollection:block/cursed_petal_planks"
+  }
+}

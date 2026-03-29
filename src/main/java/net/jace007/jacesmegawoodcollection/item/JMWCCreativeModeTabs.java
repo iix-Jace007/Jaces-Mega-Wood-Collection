@@ -273,6 +273,29 @@ public class JMWCCreativeModeTabs {
                         output.accept(JMWCBlocks.COPELAND_CEDAR_LEAVES);
                         output.accept(JMWCBlocks.COPELAND_CEDAR_SAPLING);
 
+                        output.accept(JMWCBlocks.CURSED_PETAL_LOG);
+                        output.accept(JMWCBlocks.CURSED_PETAL_WOOD);
+                        output.accept(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG);
+                        output.accept(JMWCBlocks.STRIPPED_CURSED_PETAL_WOOD);
+                        output.accept(JMWCBlocks.CURSED_PETAL_PLANKS);
+                        output.accept(JMWCBlocks.CURSED_PETAL_STAIRS);
+                        output.accept(JMWCBlocks.CURSED_PETAL_LOG_STAIRS);
+                        output.accept(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_STAIRS);
+                        output.accept(JMWCBlocks.CURSED_PETAL_SLAB);
+                        output.accept(JMWCBlocks.CURSED_PETAL_LOG_SLAB);
+                        output.accept(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_SLAB);
+                        output.accept(JMWCBlocks.CURSED_PETAL_FENCE);
+                        output.accept(JMWCBlocks.CURSED_PETAL_LOG_FENCE);
+                        output.accept(JMWCBlocks.CURSED_PETAL_FENCE_GATE);
+                        output.accept(JMWCBlocks.CURSED_PETAL_LOG_FENCE_GATE);
+                        output.accept(JMWCBlocks.CURSED_PETAL_DOOR);
+                        output.accept(JMWCBlocks.CURSED_PETAL_TRAPDOOR);
+                        output.accept(JMWCBlocks.CURSED_PETAL_LOG_TRAPDOOR);
+                        output.accept(JMWCBlocks.CURSED_PETAL_PRESSUREPLATE);
+                        output.accept(JMWCBlocks.CURSED_PETAL_BUTTON);
+                        output.accept(JMWCBlocks.CURSED_PETAL_LEAVES);
+                        output.accept(JMWCBlocks.CURSED_PETAL_SAPLING);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

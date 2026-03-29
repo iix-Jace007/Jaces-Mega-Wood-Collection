@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jacesmegawoodcollection:block/cursed_petal_pressureplate"
+    },
+    "powered=true": {
+      "model": "jacesmegawoodcollection:block/cursed_petal_pressureplate_down"
+    }
+  }
+}

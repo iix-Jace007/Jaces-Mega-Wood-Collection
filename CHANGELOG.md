@@ -1,5 +1,8 @@
 Change Log
 =======
+### Version 0.1.2
+* Added Cursed Petal Wood Type
+  * Inspired By Alexia Bliss, A WWE Professional Wrestler 
 ### Version 0.1.1
 * Added Burrenbark Wood Type
     * Inspired By Aaron Burr, From Hamilton The Musical
@@ -38,9 +41,6 @@ Change Log
 
 Upcoming Versions
 =======
-### Version 0.1.2
-* Added Cursed Petal Wood Type
-    * Inspired By Alexia Bliss, A WWE Professional Wrestler 
 ### Version 0.1.3
 * Added Diamond Fall Wood Type
     * Inspired By Blue Diamond, From Cartoon Network's Steven Universe 

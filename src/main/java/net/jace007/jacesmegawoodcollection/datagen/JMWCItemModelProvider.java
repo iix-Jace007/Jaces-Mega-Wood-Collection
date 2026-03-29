@@ -95,6 +95,13 @@ public class JMWCItemModelProvider extends ItemModelProvider {
         fenceItem(JMWCBlocks.COPELAND_CEDAR_FENCE, JMWCBlocks.COPELAND_CEDAR_PLANKS);
         fenceItem(JMWCBlocks.COPELAND_CEDAR_LOG_FENCE, JMWCBlocks.COPELAND_CEDAR_LOG);
         saplingItem(JMWCBlocks.COPELAND_CEDAR_SAPLING);
+
+        // CURSED PETAL
+        buttonItem(JMWCBlocks.CURSED_PETAL_BUTTON, JMWCBlocks.CURSED_PETAL_PLANKS);
+        basicItem(JMWCBlocks.CURSED_PETAL_DOOR.asItem());
+        fenceItem(JMWCBlocks.CURSED_PETAL_FENCE, JMWCBlocks.CURSED_PETAL_PLANKS);
+        fenceItem(JMWCBlocks.CURSED_PETAL_LOG_FENCE, JMWCBlocks.CURSED_PETAL_LOG);
+        saplingItem(JMWCBlocks.CURSED_PETAL_SAPLING);
     }
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {
         return withExistingParent(item.getId().getPath(),

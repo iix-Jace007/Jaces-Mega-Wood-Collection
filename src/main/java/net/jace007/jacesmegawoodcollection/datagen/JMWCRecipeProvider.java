@@ -357,5 +357,36 @@ public class JMWCRecipeProvider extends RecipeProvider implements IConditionBuil
         pressurePlate(recipeOutput, JMWCBlocks.COPELAND_CEDAR_PRESSUREPLATE.get(), JMWCBlocks.COPELAND_CEDAR_PLANKS.get());
         buttonBuilder(JMWCBlocks.COPELAND_CEDAR_BUTTON.get(), Ingredient.of(JMWCBlocks.COPELAND_CEDAR_PLANKS.get())).group("copeland_cedar")
                 .unlockedBy("has_copeland_cedar_planks", has(JMWCBlocks.COPELAND_CEDAR_PLANKS)).save(recipeOutput);
+
+        // CURSED PETAL
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.CURSED_PETAL_PLANKS.get(),4)
+                .requires(JMWCBlocks.CURSED_PETAL_LOG)
+                .unlockedBy("has_cursed_petal_log", has(JMWCBlocks.CURSED_PETAL_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.CURSED_PETAL_STAIRS.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_PLANKS)).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_planks", has(JMWCBlocks.CURSED_PETAL_PLANKS)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.CURSED_PETAL_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_LOG)).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_log", has(JMWCBlocks.CURSED_PETAL_LOG)).save(recipeOutput);
+        stairBuilder(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_STAIRS.get(), Ingredient.of(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG)).group("cursed_petal")
+                .unlockedBy("has_stripped_cursed_petal_log", has(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.CURSED_PETAL_SLAB.get(), JMWCBlocks.CURSED_PETAL_PLANKS);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.CURSED_PETAL_LOG_SLAB.get(), JMWCBlocks.CURSED_PETAL_LOG);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, JMWCBlocks.STRIPPED_CURSED_PETAL_LOG_SLAB.get(), JMWCBlocks.STRIPPED_CURSED_PETAL_LOG);
+        fenceBuilder(JMWCBlocks.CURSED_PETAL_FENCE.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_PLANKS.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_planks", has(JMWCBlocks.CURSED_PETAL_PLANKS)).save(recipeOutput);
+        fenceBuilder(JMWCBlocks.CURSED_PETAL_LOG_FENCE.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_LOG.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_log", has(JMWCBlocks.CURSED_PETAL_LOG)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.CURSED_PETAL_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_PLANKS.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_planks", has(JMWCBlocks.CURSED_PETAL_PLANKS)).save(recipeOutput);
+        fenceGateBuilder(JMWCBlocks.CURSED_PETAL_LOG_FENCE_GATE.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_LOG.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_log", has(JMWCBlocks.CURSED_PETAL_LOG)).save(recipeOutput);
+        doorBuilder(JMWCBlocks.CURSED_PETAL_DOOR.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_PLANKS.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_planks", has(JMWCBlocks.CURSED_PETAL_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.CURSED_PETAL_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_PLANKS.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_planks", has(JMWCBlocks.CURSED_PETAL_PLANKS)).save(recipeOutput);
+        trapdoorBuilder(JMWCBlocks.CURSED_PETAL_LOG_TRAPDOOR.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_LOG.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_log", has(JMWCBlocks.CURSED_PETAL_LOG)).save(recipeOutput);
+        pressurePlate(recipeOutput, JMWCBlocks.CURSED_PETAL_PRESSUREPLATE.get(), JMWCBlocks.CURSED_PETAL_PLANKS.get());
+        buttonBuilder(JMWCBlocks.CURSED_PETAL_BUTTON.get(), Ingredient.of(JMWCBlocks.CURSED_PETAL_PLANKS.get())).group("cursed_petal")
+                .unlockedBy("has_cursed_petal_planks", has(JMWCBlocks.CURSED_PETAL_PLANKS)).save(recipeOutput);
     }
 }

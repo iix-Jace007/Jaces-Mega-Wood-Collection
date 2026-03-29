@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "cursed_petal",
+  "key": {
+    "#": {
+      "item": "jacesmegawoodcollection:cursed_petal_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "jacesmegawoodcollection:cursed_petal_door"
+  }
+}

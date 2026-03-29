@@ -121,6 +121,72 @@ public class JMWCFlammableRotatedPillarBlock extends RotatedPillarBlock {
             if(state.is(JMWCBlocks.COPELAND_CEDAR_WOOD)){
                 return JMWCBlocks.STRIPPED_COPELAND_CEDAR_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
+
+            // CURSED PETAL
+            if(state.is(JMWCBlocks.CURSED_PETAL_LOG)){
+                return JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+            if(state.is(JMWCBlocks.CURSED_PETAL_WOOD)){
+                return JMWCBlocks.STRIPPED_CURSED_PETAL_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+            }
+
+            // Diamondfall Flash
+
+            // Dollhouse Hickory
+
+            // Dreamspire Alder
+
+            // Empress Ash
+
+            // Flashfire Walnut
+
+            // Flashflux Maple
+
+            // Fracture Birch
+
+            // Glowgrain Aspen
+
+            // Goldflash Oak
+
+            // Huntress Pine
+
+            // Lone Wolf Walnut
+
+            // Lyrelm
+
+            // Marinth
+
+            // Moonclaw Ash
+
+            // Moonveil Aspen
+
+            // Oracle Elm
+
+            // Overdrive Ash
+
+            // Panama City Pine
+
+            // Phenombark
+
+            // Prismwood
+
+            // Redline Maple
+
+            // Starstruck Spruce
+
+            // Sugarthorn
+
+            // Techsprout Timber
+
+            // Thicket Elm
+
+            // Treetop Maple
+
+            // Tulgeywood
+
+            // Venomwood
+
+            // Vioak
         }
 
         return super.getToolModifiedState(state, context, itemAbility, simulate);

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "jacesmegawoodcollection:block/cursed_petal_planks"
+  }
+}

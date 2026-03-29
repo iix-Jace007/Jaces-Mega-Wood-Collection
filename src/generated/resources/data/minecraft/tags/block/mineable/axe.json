@@ -219,6 +219,26 @@
     "jacesmegawoodcollection:copeland_cedar_trapdoor",
     "jacesmegawoodcollection:copeland_cedar_log_trapdoor",
     "jacesmegawoodcollection:copeland_cedar_button",
-    "jacesmegawoodcollection:copeland_cedar_pressureplate"
+    "jacesmegawoodcollection:copeland_cedar_pressureplate",
+    "jacesmegawoodcollection:cursed_petal_log",
+    "jacesmegawoodcollection:stripped_cursed_petal_log",
+    "jacesmegawoodcollection:cursed_petal_wood",
+    "jacesmegawoodcollection:stripped_cursed_petal_wood",
+    "jacesmegawoodcollection:cursed_petal_planks",
+    "jacesmegawoodcollection:cursed_petal_stairs",
+    "jacesmegawoodcollection:cursed_petal_log_stairs",
+    "jacesmegawoodcollection:stripped_cursed_petal_log_stairs",
+    "jacesmegawoodcollection:cursed_petal_slab",
+    "jacesmegawoodcollection:cursed_petal_log_slab",
+    "jacesmegawoodcollection:stripped_cursed_petal_log_slab",
+    "jacesmegawoodcollection:cursed_petal_fence",
+    "jacesmegawoodcollection:cursed_petal_log_fence",
+    "jacesmegawoodcollection:cursed_petal_fence_gate",
+    "jacesmegawoodcollection:cursed_petal_log_fence_gate",
+    "jacesmegawoodcollection:cursed_petal_door",
+    "jacesmegawoodcollection:cursed_petal_trapdoor",
+    "jacesmegawoodcollection:cursed_petal_log_trapdoor",
+    "jacesmegawoodcollection:cursed_petal_button",
+    "jacesmegawoodcollection:cursed_petal_pressureplate"
   ]
 }

@@ -29,6 +29,7 @@ public class JMWCConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> BURRENBARK_KEY = registerKey("burrenbark");
     public static final ResourceKey<ConfiguredFeature<?, ?>> CARAVAN_OLIVEWOOD_KEY = registerKey("caravan_olivewood");
     public static final ResourceKey<ConfiguredFeature<?, ?>> COPELAND_CEDAR_KEY = registerKey("copeland_cedar");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CURSED_PETAL_KEY = registerKey("cursed_petal");
 
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
@@ -96,6 +97,12 @@ public class JMWCConfiguredFeatures {
                 BlockStateProvider.simple(JMWCBlocks.COPELAND_CEDAR_LOG.get()),
                     new StraightTrunkPlacer(3, 4, 2),
                 BlockStateProvider.simple(JMWCBlocks.COPELAND_CEDAR_LEAVES.get()),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
+        register(context, CURSED_PETAL_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(JMWCBlocks.CURSED_PETAL_LOG.get()),
+                    new StraightTrunkPlacer(3, 4, 2),
+                BlockStateProvider.simple(JMWCBlocks.CURSED_PETAL_LEAVES.get()),
                     new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(1), 3),
                     new TwoLayersFeatureSize(1, 0, 1)).build());
 

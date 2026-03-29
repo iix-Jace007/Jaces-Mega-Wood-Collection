@@ -29,5 +29,7 @@ public class JMWCTreeGrowers {
             Optional.empty(), Optional.of(JMWCConfiguredFeatures.CARAVAN_OLIVEWOOD_KEY), Optional.empty());
     public static final TreeGrower COPELAND_CEDAR = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":copeland_cedar",
             Optional.empty(), Optional.of(JMWCConfiguredFeatures.COPELAND_CEDAR_KEY), Optional.empty());
+    public static final TreeGrower CURSED_PETAL = new TreeGrower(JacesMegaWoodCollection.MOD_ID + ":cursed_petal",
+            Optional.empty(), Optional.of(JMWCConfiguredFeatures.CURSED_PETAL_KEY), Optional.empty());
 
 }

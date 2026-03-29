@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jacesmegawoodcollection:block/stripped_cursed_petal_log",
+    "side": "jacesmegawoodcollection:block/stripped_cursed_petal_log"
+  }
+}

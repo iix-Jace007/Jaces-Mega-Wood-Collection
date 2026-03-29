@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "jacesmegawoodcollection:block/cursed_petal_log",
+    "side": "jacesmegawoodcollection:block/cursed_petal_log",
+    "top": "jacesmegawoodcollection:block/cursed_petal_log"
+  }
+}

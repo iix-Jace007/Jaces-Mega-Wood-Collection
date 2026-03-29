@@ -1,4 +1,4 @@
-// 1.21	2026-03-14T16:30:16.5121214	Item Models: jacesmegawoodcollection
+// 1.21	2026-03-29T11:30:30.450472	Item Models: jacesmegawoodcollection
 026eb712289cb795ee08ab6c514f0f5357a66140 assets/jacesmegawoodcollection/models/item/agrabah_cedar_button.json
 663f33a52f3abc7df3e01ccc31a4c130544411b1 assets/jacesmegawoodcollection/models/item/agrabah_cedar_door.json
 42162aa6ec535e9d4249db23a4367b836a8b122e assets/jacesmegawoodcollection/models/item/agrabah_cedar_fence.json
@@ -54,3 +54,8 @@ f2cdb56cb81c45e249fcb06c0e51d6a81930d173 assets/jacesmegawoodcollection/models/i
 25e038e7828ea379de6070b0b3fb80c221489698 assets/jacesmegawoodcollection/models/item/copeland_cedar_fence.json
 5ccb3310499d6e317828ce9834aa170476083b2b assets/jacesmegawoodcollection/models/item/copeland_cedar_log_fence.json
 3baaf23faa07acb1555a791a1daef405c964e815 assets/jacesmegawoodcollection/models/item/copeland_cedar_sapling.json
+b7e38525f569cb8d059f6066bd23ac0556e2c489 assets/jacesmegawoodcollection/models/item/cursed_petal_button.json
+73abf0b400ee15312da8ebb3ff7a5b3e8aa6fd85 assets/jacesmegawoodcollection/models/item/cursed_petal_door.json
+96da606037935ecfa4add21480a3238beeecbe44 assets/jacesmegawoodcollection/models/item/cursed_petal_fence.json
+07d3bf895d59d7f73028518cdfe75b8272ee98b6 assets/jacesmegawoodcollection/models/item/cursed_petal_log_fence.json
+11813373747ee1e4628667d8728f51b7c82990f6 assets/jacesmegawoodcollection/models/item/cursed_petal_sapling.json

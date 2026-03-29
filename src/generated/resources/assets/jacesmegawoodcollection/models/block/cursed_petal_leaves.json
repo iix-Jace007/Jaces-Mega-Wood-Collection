@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "jacesmegawoodcollection:block/cursed_petal_leaves"
+  }
+}

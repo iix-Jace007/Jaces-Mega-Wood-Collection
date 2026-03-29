@@ -581,6 +581,113 @@ public class JMWCBlocks {
     public static final DeferredBlock<Block> COPELAND_CEDAR_SAPLING = registerBlock("copeland_cedar_sapling",
             () -> new SaplingBlock(JMWCTreeGrowers.COPELAND_CEDAR, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
 
+    // CURSED PETAL
+    public static final DeferredBlock<Block> CURSED_PETAL_LOG = registerBlock("cursed_petal_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_CURSED_PETAL_LOG = registerBlock("stripped_cursed_petal_log",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> CURSED_PETAL_WOOD = registerBlock("cursed_petal_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_CURSED_PETAL_WOOD = registerBlock("stripped_cursed_petal_wood",
+            () -> new JMWCFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)));
+    public static final DeferredBlock<Block> CURSED_PETAL_PLANKS = registerBlock("cursed_petal_planks",
+            () -> new JMWCPlanks(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> CURSED_PETAL_STAIRS = registerBlock("cursed_petal_stairs",
+            () -> new StairBlock(JMWCBlocks.CURSED_PETAL_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> CURSED_PETAL_LOG_STAIRS = registerBlock("cursed_petal_log_stairs",
+            () -> new StairBlock(JMWCBlocks.CURSED_PETAL_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<StairBlock> STRIPPED_CURSED_PETAL_LOG_STAIRS = registerBlock("stripped_cursed_petal_log_stairs",
+            () -> new StairBlock(JMWCBlocks.STRIPPED_CURSED_PETAL_LOG.get().defaultBlockState(),
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> CURSED_PETAL_SLAB = registerBlock("cursed_petal_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> CURSED_PETAL_LOG_SLAB = registerBlock("cursed_petal_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<SlabBlock> STRIPPED_CURSED_PETAL_LOG_SLAB = registerBlock("stripped_cursed_petal_log_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceBlock> CURSED_PETAL_FENCE = registerBlock("cursed_petal_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceBlock> CURSED_PETAL_LOG_FENCE = registerBlock("cursed_petal_log_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<FenceGateBlock> CURSED_PETAL_FENCE_GATE = registerBlock("cursed_petal_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceGateBlock> CURSED_PETAL_LOG_FENCE_GATE = registerBlock("cursed_petal_log_fence_gate",
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_FENCE_GATE)));
+    public static final DeferredBlock<DoorBlock> CURSED_PETAL_DOOR = registerBlock("cursed_petal_door",
+            () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_DOOR)));
+    public static final DeferredBlock<TrapDoorBlock> CURSED_PETAL_TRAPDOOR = registerBlock("cursed_petal_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<TrapDoorBlock> CURSED_PETAL_LOG_TRAPDOOR = registerBlock("cursed_petal_log_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_TRAPDOOR)));
+    public static final DeferredBlock<ButtonBlock> CURSED_PETAL_BUTTON = registerBlock("cursed_petal_button",
+            () -> new ButtonBlock(BlockSetType.OAK, 15, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> CURSED_PETAL_PRESSUREPLATE = registerBlock("cursed_petal_pressureplate",
+            () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+    public static final DeferredBlock<Block> CURSED_PETAL_LEAVES = registerBlock("cursed_petal_leaves",
+            () -> new CursedPetalLeaves(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> CURSED_PETAL_SAPLING = registerBlock("cursed_petal_sapling",
+            () -> new SaplingBlock(JMWCTreeGrowers.CURSED_PETAL, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+
+    // DIAMONDFALL ELM
+
+    // DOLLHOUSE HICKORY
+
+    // DREAMSPIRE ALDER
+
+    // EMPRESS ASH
+
+    // FLASHFIRE MAPLE
+
+    // FLASHFLUX WALNUT
+
+    // FRACTURE BIRCH
+
+    // GLOWGRAIN ASPEN
+
+    // GOLDENFLASH OAK
+
+    // HUNTRESS PINE
+
+    // LONE WOLF WALNUT
+
+    // LYRELM
+
+    // MARINTH OAK
+
+    // MOONCLAW ASH
+
+    // MOONVEIL ASPEN
+
+    // ORACLE ELM
+
+    // OVERDRIVE ASH
+
+    // PANAMA CITY PINE
+
+    // PHENOMBARK
+
+    // PRISMWOOD
+
+    // REDLINE MAPLE
+
+    // STARSTRUCK SPRUCE
+
+    // SUGARTHORN
+
+    // TECHSPROUT TIMBER
+
+    // THICKET ELM
+
+    // TREETOP MAPLE
+
+    // TULGEYWOOD
+
+    // VENMONWOOD
+
+    // VIOAK
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

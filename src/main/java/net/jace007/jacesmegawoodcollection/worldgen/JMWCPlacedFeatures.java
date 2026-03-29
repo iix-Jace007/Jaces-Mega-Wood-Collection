@@ -29,6 +29,7 @@ public class JMWCPlacedFeatures {
     public static final ResourceKey<PlacedFeature> BURRENBARK_PLACED_KEY = registerKey("burrenbark_placed");
     public static final ResourceKey<PlacedFeature> CARAVAN_OLIVEWOOD_PLACED_KEY = registerKey("caravan_olivewood_placed");
     public static final ResourceKey<PlacedFeature> COPELAND_CEDAR_PLACED_KEY = registerKey("copeland_cedar_placed");
+    public static final ResourceKey<PlacedFeature> CURSED_PETAL_PLACED_KEY = registerKey("cursed_petal_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -66,6 +67,9 @@ public class JMWCPlacedFeatures {
         register(context, COPELAND_CEDAR_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.COPELAND_CEDAR_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
                         JMWCBlocks.COPELAND_CEDAR_SAPLING.get()));
+        register(context, CURSED_PETAL_PLACED_KEY, configuredFeatures.getOrThrow(JMWCConfiguredFeatures.CURSED_PETAL_KEY),
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        JMWCBlocks.CURSED_PETAL_SAPLING.get()));
 
 
     }
