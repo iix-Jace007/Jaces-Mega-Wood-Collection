@@ -40,7 +40,7 @@ Change Log
 * Set up Basic mod code
 
 Upcoming Versions
-=======
+======= 
 ### Version 0.1.3
 * Added Diamond Fall Wood Type
     * Inspired By Blue Diamond, From Cartoon Network's Steven Universe 
