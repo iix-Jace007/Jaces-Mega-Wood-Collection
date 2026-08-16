@@ -76,7 +76,7 @@ Upcoming Versions
     * Inspired By Baron Corban, A WWE Professional Wrestler 
 ### Version 0.2.4
 * Added Lyrelm Wood Type
-    * Inspired By ???
+    * Inspired By Luna Lovegood, From Harry Potter
 ### Version 0.2.5
 * Added Marinth Oak Wood Type
     * Inspired By Ariel, From Disney's Animated Movie The Little Mermaid 
@@ -128,3 +128,30 @@ Upcoming Versions
 ### Version 0.4.1
 * Added Vioak Wood Type
   * Inspired By Amethyst, From Cartoon Network's Steven Universe 
+### Version 0.4.2
+* Added Belladonna Grove Wood Type
+  * Inspired By Bella Goth, From The Sims Games  
+### Version 0.4.3
+* Added Crumblethorn Wood Type
+  * Inspired By Agnes Crumplebottom, From The Sims Games 
+### Version 0.4.4
+* Added Pennyhurst Wood Type
+  * Inspired By Alfred Pennyworth, From DC Comics 
+### Version 0.4.5
+* Added Aurelia Grove Wood Type
+  * Inspired By Audrey Rose, From Disney's Decendence 
+### Version 0.4.6
+* Added Foxmere Wood Type
+  * Inspired By Alya C, From ML 
+### Version 0.4.7
+* Added Hoffergrove  Wood Type
+  * Inspired By Astrid Hofferson, From HTTYD
+### Version 0.4.8
+* Added Thunder Vale  Wood Type
+  * Inspired By Billy Batson, From DC Comics
+### Version 0.4.9
+* Added Coralhaven  Wood Type
+  * Inspired By Alena, From The Animated Little Mermaid
+### Version 0.5.0
+* Added Lycan Hollow  Wood Type
+  * Inspired By Aaron Lycan, From Aphmau's Mystreet and Minecraft Diries
