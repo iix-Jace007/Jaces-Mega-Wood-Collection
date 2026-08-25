@@ -144,14 +144,44 @@ Upcoming Versions
 * Added Foxmere Wood Type
   * Inspired By Alya C, From ML 
 ### Version 0.4.7
-* Added Hoffergrove  Wood Type
+* Added Hoffergrove Wood Type
   * Inspired By Astrid Hofferson, From HTTYD
 ### Version 0.4.8
-* Added Thunder Vale  Wood Type
+* Added Thunder Vale Wood Type
   * Inspired By Billy Batson, From DC Comics
 ### Version 0.4.9
-* Added Coralhaven  Wood Type
+* Added Coralhaven Wood Type
   * Inspired By Alena, From The Animated Little Mermaid
 ### Version 0.5.0
-* Added Lycan Hollow  Wood Type
+* Added Lycan Hollow Wood Type
   * Inspired By Aaron Lycan, From Aphmau's Mystreet and Minecraft Diries
+### Version 0.5.1
+* Added Aaron Mulberry Wood Type
+  * Inspired By Aaron Davis, From Sony's Spiderman: Into the Spiderverse
+### Version 0.5.2
+* Added Abby Cherry Wood Type
+  * Inspired By Abby, From The FNAF Movie
+### Version 0.5.3
+* Added Ace Blackwood Wood Type
+  * Inspired By Ace, From Batman Comics
+### Version 0.5.4
+* Added Adrian Sycamore Wood Type
+  * Inspired By Adrian Peterson, From The NFL
+### Version 0.5.5
+* Added Agatha Cypress Wood Type
+  * Inspired By Agatha Crumplebottom, From The Sims Games
+### Version 0.5.6
+* Added Ajay Alder Wood Type
+  * Inspired By Ajay Loner, From The Sims Games
+### Version 0.5.7
+* Added Albon Willow Wood Type
+  * Inspired By Alex Albon, From Formula One
+### Version 0.5.8
+* Added Aleister Ash Wood Type
+  * Inspired By Aleister Black, From WWE and AEW 
+### Version 0.5.9
+* Added Alex Redwood Wood Type
+  * Inspired By Alex, From Stardew Valley
+### Version 0.6.0
+* Added Alexander Hawthorn Wood Type
+  * Inspired By Alexander Hamilton, From Hamilton the Musical
